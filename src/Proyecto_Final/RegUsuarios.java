@@ -56,6 +56,8 @@ public class RegUsuarios extends javax.swing.JInternalFrame {
         jTextField12 = new javax.swing.JTextField();
         jTextField11 = new javax.swing.JTextField();
         jPanel3 = new javax.swing.JPanel();
+        jButton2 = new javax.swing.JButton();
+        jButton3 = new javax.swing.JButton();
         jScrollPane1 = new javax.swing.JScrollPane();
         jTable1 = new javax.swing.JTable();
 
@@ -122,6 +124,12 @@ public class RegUsuarios extends javax.swing.JInternalFrame {
 
         jPanel3.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
+        jButton2.setText("Realizar Venta");
+        jPanel3.add(jButton2, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 390, 340, 40));
+
+        jButton3.setText("Borrar Usuario");
+        jPanel3.add(jButton3, new org.netbeans.lib.awtextra.AbsoluteConstraints(420, 390, 300, 40));
+
         jTable1.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {
                 {null, null, null, null},
@@ -147,6 +155,8 @@ public class RegUsuarios extends javax.swing.JInternalFrame {
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JButton jButton1;
+    private javax.swing.JButton jButton2;
+    private javax.swing.JButton jButton3;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel10;
     private javax.swing.JLabel jLabel11;

@@ -20,8 +20,13 @@ public class JSteam extends javax.swing.JFrame {
     public JSteam() {
         initComponents();
         this.setLocationRelativeTo(null);
-    }
+       }
 
+    public Image getIconImage() {
+        Image retValue = Toolkit.getDefaultToolkit().getImage(ClassLoader.getSystemResource("imagenes/logo.png"));
+        return retValue;
+    }
+    
     /**
      * This method is called from within the constructor to initialize the form.
      * WARNING: Do NOT modify this code. The content of this method is always
@@ -35,12 +40,6 @@ public class JSteam extends javax.swing.JFrame {
         jPanel3 = new javax.swing.JPanel();
         jDialog2 = new javax.swing.JDialog();
         jDialog3 = new javax.swing.JDialog();
-        jDialog4 = new javax.swing.JDialog();
-        jDialog5 = new javax.swing.JDialog();
-        jDialog6 = new javax.swing.JDialog();
-        jDialog7 = new javax.swing.JDialog();
-        jDialog8 = new javax.swing.JDialog();
-        jDialog9 = new javax.swing.JDialog();
         jPanel1 = new javax.swing.JPanel();
         jLabel2 = new javax.swing.JLabel();
         jLabel3 = new javax.swing.JLabel();
@@ -67,6 +66,7 @@ public class JSteam extends javax.swing.JFrame {
         jDialog3.getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+        setIconImage(getIconImage());
         setResizable(false);
         getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
@@ -196,12 +196,6 @@ public class JSteam extends javax.swing.JFrame {
     private javax.swing.JDialog jDialog1;
     private javax.swing.JDialog jDialog2;
     private javax.swing.JDialog jDialog3;
-    private javax.swing.JDialog jDialog4;
-    private javax.swing.JDialog jDialog5;
-    private javax.swing.JDialog jDialog6;
-    private javax.swing.JDialog jDialog7;
-    private javax.swing.JDialog jDialog8;
-    private javax.swing.JDialog jDialog9;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel2;
     private javax.swing.JLabel jLabel3;
