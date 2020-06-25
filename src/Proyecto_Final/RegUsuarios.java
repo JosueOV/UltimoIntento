@@ -54,6 +54,7 @@ public class RegUsuarios extends javax.swing.JInternalFrame {
         jLabel12 = new javax.swing.JLabel();
         jLabel13 = new javax.swing.JLabel();
         jTextField12 = new javax.swing.JTextField();
+        jTextField11 = new javax.swing.JTextField();
         jPanel3 = new javax.swing.JPanel();
         jScrollPane1 = new javax.swing.JScrollPane();
         jTable1 = new javax.swing.JTable();
@@ -115,6 +116,7 @@ public class RegUsuarios extends javax.swing.JInternalFrame {
         jLabel13.setText("CONTRASEÑA");
         jPanel1.add(jLabel13, new org.netbeans.lib.awtextra.AbsoluteConstraints(530, 30, -1, -1));
         jPanel1.add(jTextField12, new org.netbeans.lib.awtextra.AbsoluteConstraints(480, 50, 230, -1));
+        jPanel1.add(jTextField11, new org.netbeans.lib.awtextra.AbsoluteConstraints(130, 50, 250, -1));
 
         jTabbedPane1.addTab("Registro Usuario", jPanel1);
 
@@ -165,6 +167,7 @@ public class RegUsuarios extends javax.swing.JInternalFrame {
     private javax.swing.JTable jTable1;
     private javax.swing.JTextField jTextField1;
     private javax.swing.JTextField jTextField10;
+    private javax.swing.JTextField jTextField11;
     private javax.swing.JTextField jTextField12;
     private javax.swing.JTextField jTextField2;
     private javax.swing.JTextField jTextField3;
