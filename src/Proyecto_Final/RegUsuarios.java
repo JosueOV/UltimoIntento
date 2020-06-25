@@ -112,7 +112,7 @@ public class RegUsuarios extends javax.swing.JInternalFrame {
 
         jLabel12.setText("USUARIO");
         jPanel1.add(jLabel12, new org.netbeans.lib.awtextra.AbsoluteConstraints(220, 30, -1, -1));
-        jPanel1.add(jTextField11, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 50, 250, -1));
+        jPanel1.add(jTextField11, new org.netbeans.lib.awtextra.AbsoluteConstraints(110, 50, 250, -1));
 
         jLabel13.setText("CONTRASEÑA");
         jPanel1.add(jLabel13, new org.netbeans.lib.awtextra.AbsoluteConstraints(530, 30, -1, -1));
