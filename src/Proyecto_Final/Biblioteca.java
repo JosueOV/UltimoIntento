@@ -7,17 +7,20 @@ package Proyecto_Final;
 
 /**
  *
- * @author Sammy Guergachi <sguergachi at gmail.com>
+ * @author Ya Sabes Quien Soy =D
  */
-public class BibliotecaJuegos extends javax.swing.JInternalFrame {
+public class Biblioteca extends javax.swing.JFrame {
 
     /**
-     * Creates new form BibliotecaJuegos
+     * Creates new form Biblioteca
      */
-    public BibliotecaJuegos() {
+    public Biblioteca() {
         initComponents();
+        setLocationRelativeTo(null);
     }
-
+    private Biblioteca getFrame(){
+    return this;
+}
     /**
      * This method is called from within the constructor to initialize the form.
      * WARNING: Do NOT modify this code. The content of this method is always
@@ -27,7 +30,7 @@ public class BibliotecaJuegos extends javax.swing.JInternalFrame {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
-        jDialog1 = new javax.swing.JDialog();
+        Halo = new javax.swing.JDialog();
         jPanel2 = new javax.swing.JPanel();
         jLabel2 = new javax.swing.JLabel();
         jLabel3 = new javax.swing.JLabel();
@@ -38,15 +41,13 @@ public class BibliotecaJuegos extends javax.swing.JInternalFrame {
         jTextPane1 = new javax.swing.JTextPane();
         jScrollPane3 = new javax.swing.JScrollPane();
         jTextArea2 = new javax.swing.JTextArea();
-        jButton16 = new javax.swing.JButton();
-        jButton17 = new javax.swing.JButton();
         jButton18 = new javax.swing.JButton();
-        jButton19 = new javax.swing.JButton();
         jLabel65 = new javax.swing.JLabel();
         jLabel66 = new javax.swing.JLabel();
         jLabel67 = new javax.swing.JLabel();
+        jLabel110 = new javax.swing.JLabel();
         jLabel4 = new javax.swing.JLabel();
-        jDialog2 = new javax.swing.JDialog();
+        HaloDos = new javax.swing.JDialog();
         jPanel3 = new javax.swing.JPanel();
         jLabel7 = new javax.swing.JLabel();
         jLabel8 = new javax.swing.JLabel();
@@ -56,15 +57,13 @@ public class BibliotecaJuegos extends javax.swing.JInternalFrame {
         jScrollPane5 = new javax.swing.JScrollPane();
         jTextPane3 = new javax.swing.JTextPane();
         jLabel10 = new javax.swing.JLabel();
-        jButton21 = new javax.swing.JButton();
         jLabel69 = new javax.swing.JLabel();
-        jButton22 = new javax.swing.JButton();
         jLabel70 = new javax.swing.JLabel();
         jButton24 = new javax.swing.JButton();
-        jButton23 = new javax.swing.JButton();
         jLabel71 = new javax.swing.JLabel();
+        jLabel111 = new javax.swing.JLabel();
         jLabel6 = new javax.swing.JLabel();
-        jDialog3 = new javax.swing.JDialog();
+        halotres = new javax.swing.JDialog();
         jPanel4 = new javax.swing.JPanel();
         jLabel12 = new javax.swing.JLabel();
         jLabel13 = new javax.swing.JLabel();
@@ -72,14 +71,12 @@ public class BibliotecaJuegos extends javax.swing.JInternalFrame {
         jScrollPane7 = new javax.swing.JScrollPane();
         jTextArea4 = new javax.swing.JTextArea();
         jLabel72 = new javax.swing.JLabel();
-        jButton25 = new javax.swing.JButton();
         jButton26 = new javax.swing.JButton();
         jLabel73 = new javax.swing.JLabel();
-        jButton27 = new javax.swing.JButton();
         jLabel74 = new javax.swing.JLabel();
-        jButton28 = new javax.swing.JButton();
+        jLabel113 = new javax.swing.JLabel();
         jLabel11 = new javax.swing.JLabel();
-        jDialog4 = new javax.swing.JDialog();
+        halocuatro = new javax.swing.JDialog();
         jPanel5 = new javax.swing.JPanel();
         jLabel16 = new javax.swing.JLabel();
         jLabel17 = new javax.swing.JLabel();
@@ -90,14 +87,12 @@ public class BibliotecaJuegos extends javax.swing.JInternalFrame {
         jScrollPane17 = new javax.swing.JScrollPane();
         jTextArea9 = new javax.swing.JTextArea();
         jLabel75 = new javax.swing.JLabel();
-        jButton29 = new javax.swing.JButton();
         jButton30 = new javax.swing.JButton();
         jLabel76 = new javax.swing.JLabel();
-        jButton31 = new javax.swing.JButton();
         jLabel77 = new javax.swing.JLabel();
-        jButton32 = new javax.swing.JButton();
+        jLabel114 = new javax.swing.JLabel();
         jLabel15 = new javax.swing.JLabel();
-        jDialog5 = new javax.swing.JDialog();
+        halocinco = new javax.swing.JDialog();
         jPanel6 = new javax.swing.JPanel();
         jLabel21 = new javax.swing.JLabel();
         jLabel22 = new javax.swing.JLabel();
@@ -106,15 +101,13 @@ public class BibliotecaJuegos extends javax.swing.JInternalFrame {
         jTextArea6 = new javax.swing.JTextArea();
         jScrollPane10 = new javax.swing.JScrollPane();
         jTextArea7 = new javax.swing.JTextArea();
-        jButton33 = new javax.swing.JButton();
         jLabel78 = new javax.swing.JLabel();
-        jButton34 = new javax.swing.JButton();
         jLabel79 = new javax.swing.JLabel();
-        jButton35 = new javax.swing.JButton();
         jLabel80 = new javax.swing.JLabel();
         jButton36 = new javax.swing.JButton();
+        jLabel115 = new javax.swing.JLabel();
         jLabel20 = new javax.swing.JLabel();
-        jDialog6 = new javax.swing.JDialog();
+        rsix = new javax.swing.JDialog();
         jPanel7 = new javax.swing.JPanel();
         jLabel26 = new javax.swing.JLabel();
         jLabel27 = new javax.swing.JLabel();
@@ -125,15 +118,13 @@ public class BibliotecaJuegos extends javax.swing.JInternalFrame {
         jTextPane5 = new javax.swing.JTextPane();
         jScrollPane13 = new javax.swing.JScrollPane();
         jTextPane6 = new javax.swing.JTextPane();
-        jButton37 = new javax.swing.JButton();
         jLabel81 = new javax.swing.JLabel();
-        jButton38 = new javax.swing.JButton();
         jLabel82 = new javax.swing.JLabel();
-        jButton39 = new javax.swing.JButton();
         jLabel83 = new javax.swing.JLabel();
         jButton40 = new javax.swing.JButton();
+        jLabel116 = new javax.swing.JLabel();
         jLabel25 = new javax.swing.JLabel();
-        jDialog7 = new javax.swing.JDialog();
+        rocket = new javax.swing.JDialog();
         jPanel8 = new javax.swing.JPanel();
         jLabel30 = new javax.swing.JLabel();
         jLabel31 = new javax.swing.JLabel();
@@ -143,15 +134,13 @@ public class BibliotecaJuegos extends javax.swing.JInternalFrame {
         jScrollPane15 = new javax.swing.JScrollPane();
         jTextPane8 = new javax.swing.JTextPane();
         jLabel33 = new javax.swing.JLabel();
-        jButton41 = new javax.swing.JButton();
         jLabel84 = new javax.swing.JLabel();
-        jButton42 = new javax.swing.JButton();
         jLabel85 = new javax.swing.JLabel();
-        jButton43 = new javax.swing.JButton();
         jLabel86 = new javax.swing.JLabel();
         jButton45 = new javax.swing.JButton();
+        jLabel117 = new javax.swing.JLabel();
         jLabel29 = new javax.swing.JLabel();
-        jDialog8 = new javax.swing.JDialog();
+        last = new javax.swing.JDialog();
         jPanel9 = new javax.swing.JPanel();
         jLabel35 = new javax.swing.JLabel();
         jLabel36 = new javax.swing.JLabel();
@@ -161,14 +150,12 @@ public class BibliotecaJuegos extends javax.swing.JInternalFrame {
         jLabel38 = new javax.swing.JLabel();
         jLabel39 = new javax.swing.JLabel();
         jLabel87 = new javax.swing.JLabel();
-        jButton44 = new javax.swing.JButton();
         jButton46 = new javax.swing.JButton();
-        jButton47 = new javax.swing.JButton();
         jLabel89 = new javax.swing.JLabel();
-        jButton48 = new javax.swing.JButton();
         jLabel88 = new javax.swing.JLabel();
+        jLabel118 = new javax.swing.JLabel();
         jLabel34 = new javax.swing.JLabel();
-        jDialog9 = new javax.swing.JDialog();
+        fifa = new javax.swing.JDialog();
         jPanel10 = new javax.swing.JPanel();
         jLabel43 = new javax.swing.JLabel();
         jLabel44 = new javax.swing.JLabel();
@@ -179,14 +166,12 @@ public class BibliotecaJuegos extends javax.swing.JInternalFrame {
         jTextArea11 = new javax.swing.JTextArea();
         jLabel46 = new javax.swing.JLabel();
         jLabel90 = new javax.swing.JLabel();
-        jButton49 = new javax.swing.JButton();
         jButton50 = new javax.swing.JButton();
         jLabel91 = new javax.swing.JLabel();
-        jButton51 = new javax.swing.JButton();
         jLabel92 = new javax.swing.JLabel();
-        jButton52 = new javax.swing.JButton();
+        jLabel119 = new javax.swing.JLabel();
         jLabel42 = new javax.swing.JLabel();
-        jDialog10 = new javax.swing.JDialog();
+        need = new javax.swing.JDialog();
         jPanel11 = new javax.swing.JPanel();
         jLabel48 = new javax.swing.JLabel();
         jLabel49 = new javax.swing.JLabel();
@@ -194,14 +179,12 @@ public class BibliotecaJuegos extends javax.swing.JInternalFrame {
         jScrollPane20 = new javax.swing.JScrollPane();
         jTextArea12 = new javax.swing.JTextArea();
         jLabel93 = new javax.swing.JLabel();
-        jButton53 = new javax.swing.JButton();
         jButton54 = new javax.swing.JButton();
         jLabel94 = new javax.swing.JLabel();
-        jButton55 = new javax.swing.JButton();
         jLabel95 = new javax.swing.JLabel();
-        jButton56 = new javax.swing.JButton();
+        jLabel120 = new javax.swing.JLabel();
         jLabel47 = new javax.swing.JLabel();
-        jDialog11 = new javax.swing.JDialog();
+        gtav = new javax.swing.JDialog();
         jPanel12 = new javax.swing.JPanel();
         jLabel52 = new javax.swing.JLabel();
         jLabel53 = new javax.swing.JLabel();
@@ -209,14 +192,12 @@ public class BibliotecaJuegos extends javax.swing.JInternalFrame {
         jScrollPane21 = new javax.swing.JScrollPane();
         jTextArea13 = new javax.swing.JTextArea();
         jLabel96 = new javax.swing.JLabel();
-        jButton57 = new javax.swing.JButton();
         jButton58 = new javax.swing.JButton();
         jLabel97 = new javax.swing.JLabel();
-        jButton59 = new javax.swing.JButton();
         jLabel98 = new javax.swing.JLabel();
-        jButton60 = new javax.swing.JButton();
+        jLabel121 = new javax.swing.JLabel();
         jLabel51 = new javax.swing.JLabel();
-        jDialog12 = new javax.swing.JDialog();
+        maicra = new javax.swing.JDialog();
         jPanel13 = new javax.swing.JPanel();
         jLabel56 = new javax.swing.JLabel();
         jLabel57 = new javax.swing.JLabel();
@@ -229,14 +210,12 @@ public class BibliotecaJuegos extends javax.swing.JInternalFrame {
         jTextPane9 = new javax.swing.JTextPane();
         jLabel59 = new javax.swing.JLabel();
         jLabel99 = new javax.swing.JLabel();
-        jButton61 = new javax.swing.JButton();
         jButton62 = new javax.swing.JButton();
         jLabel100 = new javax.swing.JLabel();
-        jButton63 = new javax.swing.JButton();
         jLabel101 = new javax.swing.JLabel();
-        jButton64 = new javax.swing.JButton();
+        jLabel122 = new javax.swing.JLabel();
         jLabel55 = new javax.swing.JLabel();
-        jDialog13 = new javax.swing.JDialog();
+        injustice = new javax.swing.JDialog();
         jPanel14 = new javax.swing.JPanel();
         jLabel61 = new javax.swing.JLabel();
         jLabel62 = new javax.swing.JLabel();
@@ -244,76 +223,79 @@ public class BibliotecaJuegos extends javax.swing.JInternalFrame {
         jScrollPane25 = new javax.swing.JScrollPane();
         jTextArea16 = new javax.swing.JTextArea();
         jLabel102 = new javax.swing.JLabel();
-        jButton65 = new javax.swing.JButton();
         jButton66 = new javax.swing.JButton();
         jLabel103 = new javax.swing.JLabel();
-        jButton67 = new javax.swing.JButton();
         jLabel104 = new javax.swing.JLabel();
-        jButton68 = new javax.swing.JButton();
+        jLabel123 = new javax.swing.JLabel();
         jLabel60 = new javax.swing.JLabel();
-        jDialog15 = new javax.swing.JDialog();
+        uno = new javax.swing.JDialog();
         jPanel16 = new javax.swing.JPanel();
         jScrollPane26 = new javax.swing.JScrollPane();
         jTextArea17 = new javax.swing.JTextArea();
-        jButton14 = new javax.swing.JButton();
+        jButton1 = new javax.swing.JButton();
         jLabel64 = new javax.swing.JLabel();
-        jDialog16 = new javax.swing.JDialog();
+        dos = new javax.swing.JDialog();
         jPanel15 = new javax.swing.JPanel();
         jScrollPane6 = new javax.swing.JScrollPane();
         jTextPane10 = new javax.swing.JTextPane();
         jButton15 = new javax.swing.JButton();
         jLabel24 = new javax.swing.JLabel();
-        jDialog17 = new javax.swing.JDialog();
+        tres = new javax.swing.JDialog();
         jPanel17 = new javax.swing.JPanel();
         jScrollPane27 = new javax.swing.JScrollPane();
         jTextArea3 = new javax.swing.JTextArea();
         jButton20 = new javax.swing.JButton();
         jLabel40 = new javax.swing.JLabel();
-        jDialog18 = new javax.swing.JDialog();
+        cuatro = new javax.swing.JDialog();
         jPanel18 = new javax.swing.JPanel();
         jScrollPane28 = new javax.swing.JScrollPane();
         jTextArea18 = new javax.swing.JTextArea();
         jButton69 = new javax.swing.JButton();
         jLabel41 = new javax.swing.JLabel();
-        jDialog19 = new javax.swing.JDialog();
+        cinco = new javax.swing.JDialog();
         jPanel19 = new javax.swing.JPanel();
         jScrollPane29 = new javax.swing.JScrollPane();
         jTextPane11 = new javax.swing.JTextPane();
         jButton70 = new javax.swing.JButton();
         jLabel68 = new javax.swing.JLabel();
-        jDialog20 = new javax.swing.JDialog();
+        seis = new javax.swing.JDialog();
         jPanel20 = new javax.swing.JPanel();
         jScrollPane30 = new javax.swing.JScrollPane();
         jTextArea19 = new javax.swing.JTextArea();
         jButton71 = new javax.swing.JButton();
         jLabel105 = new javax.swing.JLabel();
-        jDialog21 = new javax.swing.JDialog();
+        siete = new javax.swing.JDialog();
         jPanel21 = new javax.swing.JPanel();
         jScrollPane31 = new javax.swing.JScrollPane();
         jTextPane12 = new javax.swing.JTextPane();
         jButton72 = new javax.swing.JButton();
         jLabel106 = new javax.swing.JLabel();
-        jDialog22 = new javax.swing.JDialog();
+        ocho = new javax.swing.JDialog();
         jPanel22 = new javax.swing.JPanel();
         jScrollPane32 = new javax.swing.JScrollPane();
         jTextPane13 = new javax.swing.JTextPane();
         jButton73 = new javax.swing.JButton();
         jLabel107 = new javax.swing.JLabel();
-        jDialog23 = new javax.swing.JDialog();
+        nueve = new javax.swing.JDialog();
         jPanel23 = new javax.swing.JPanel();
         jScrollPane33 = new javax.swing.JScrollPane();
         jTextArea20 = new javax.swing.JTextArea();
         jButton74 = new javax.swing.JButton();
         jLabel108 = new javax.swing.JLabel();
-        jDialog24 = new javax.swing.JDialog();
+        diez = new javax.swing.JDialog();
         jPanel24 = new javax.swing.JPanel();
         jScrollPane34 = new javax.swing.JScrollPane();
         jTextPane14 = new javax.swing.JTextPane();
         jButton75 = new javax.swing.JButton();
         jLabel109 = new javax.swing.JLabel();
-        jPanel1 = new javax.swing.JPanel();
+        once = new javax.swing.JDialog();
+        jButton76 = new javax.swing.JButton();
+        doce = new javax.swing.JDialog();
+        jButton77 = new javax.swing.JButton();
+        trece = new javax.swing.JDialog();
+        jButton78 = new javax.swing.JButton();
         jToolBar1 = new javax.swing.JToolBar();
-        jButton1 = new javax.swing.JButton();
+        Halo1 = new javax.swing.JButton();
         jButton2 = new javax.swing.JButton();
         jButton3 = new javax.swing.JButton();
         jButton4 = new javax.swing.JButton();
@@ -327,10 +309,12 @@ public class BibliotecaJuegos extends javax.swing.JInternalFrame {
         jButton11 = new javax.swing.JButton();
         jButton12 = new javax.swing.JButton();
         jButton13 = new javax.swing.JButton();
+        jButton14 = new javax.swing.JButton();
         jLabel1 = new javax.swing.JLabel();
+        jButton16 = new javax.swing.JButton();
 
-        jDialog1.setResizable(false);
-        jDialog1.getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+        Halo.setResizable(false);
+        Halo.getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         jPanel2.setBackground(new java.awt.Color(227, 26, 35));
         jPanel2.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
@@ -373,44 +357,41 @@ public class BibliotecaJuegos extends javax.swing.JInternalFrame {
 
         jPanel2.add(jScrollPane3, new org.netbeans.lib.awtextra.AbsoluteConstraints(670, 230, 280, 140));
 
-        jButton16.setFont(new java.awt.Font("Comic Sans MS", 0, 12)); // NOI18N
-        jButton16.setText("Comprar");
-        jPanel2.add(jButton16, new org.netbeans.lib.awtextra.AbsoluteConstraints(740, 530, -1, -1));
-
-        jButton17.setFont(new java.awt.Font("Comic Sans MS", 0, 12)); // NOI18N
-        jButton17.setText("Comprar");
-        jPanel2.add(jButton17, new org.netbeans.lib.awtextra.AbsoluteConstraints(690, 410, -1, -1));
-
         jButton18.setFont(new java.awt.Font("Comic Sans MS", 0, 12)); // NOI18N
         jButton18.setText("Requisitos Sistema");
-        jPanel2.add(jButton18, new org.netbeans.lib.awtextra.AbsoluteConstraints(780, 410, -1, -1));
-
-        jButton19.setFont(new java.awt.Font("Comic Sans MS", 0, 12)); // NOI18N
-        jButton19.setText("Comprar");
-        jPanel2.add(jButton19, new org.netbeans.lib.awtextra.AbsoluteConstraints(740, 470, -1, -1));
+        jButton18.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton18ActionPerformed(evt);
+            }
+        });
+        jPanel2.add(jButton18, new org.netbeans.lib.awtextra.AbsoluteConstraints(810, 530, -1, -1));
 
         jLabel65.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
         jLabel65.setForeground(new java.awt.Color(255, 255, 255));
         jLabel65.setText("PlayStation");
-        jPanel2.add(jLabel65, new org.netbeans.lib.awtextra.AbsoluteConstraints(740, 500, -1, -1));
+        jPanel2.add(jLabel65, new org.netbeans.lib.awtextra.AbsoluteConstraints(620, 520, -1, -1));
 
         jLabel66.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
         jLabel66.setForeground(new java.awt.Color(255, 255, 255));
         jLabel66.setText("PC");
-        jPanel2.add(jLabel66, new org.netbeans.lib.awtextra.AbsoluteConstraints(760, 380, -1, -1));
+        jPanel2.add(jLabel66, new org.netbeans.lib.awtextra.AbsoluteConstraints(870, 490, -1, -1));
 
         jLabel67.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
         jLabel67.setForeground(new java.awt.Color(255, 255, 255));
         jLabel67.setText("XBOX");
-        jPanel2.add(jLabel67, new org.netbeans.lib.awtextra.AbsoluteConstraints(760, 440, -1, -1));
+        jPanel2.add(jLabel67, new org.netbeans.lib.awtextra.AbsoluteConstraints(620, 480, -1, -1));
+
+        jLabel110.setFont(new java.awt.Font("Dialog", 1, 24)); // NOI18N
+        jLabel110.setText("Disponible para:");
+        jPanel2.add(jLabel110, new org.netbeans.lib.awtextra.AbsoluteConstraints(620, 430, -1, -1));
 
         jLabel4.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/ROJO1B.jpg"))); // NOI18N
         jPanel2.add(jLabel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(4, 4, 960, 580));
 
-        jDialog1.getContentPane().add(jPanel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 960, 580));
+        Halo.getContentPane().add(jPanel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 960, 580));
 
-        jDialog2.setResizable(false);
-        jDialog2.getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+        HaloDos.setResizable(false);
+        HaloDos.getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         jPanel3.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
@@ -444,44 +425,41 @@ public class BibliotecaJuegos extends javax.swing.JInternalFrame {
         jLabel10.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/d.jpg"))); // NOI18N
         jPanel3.add(jLabel10, new org.netbeans.lib.awtextra.AbsoluteConstraints(620, 220, 300, -1));
 
-        jButton21.setFont(new java.awt.Font("Comic Sans MS", 0, 12)); // NOI18N
-        jButton21.setText("Comprar");
-        jPanel3.add(jButton21, new org.netbeans.lib.awtextra.AbsoluteConstraints(740, 530, -1, -1));
-
         jLabel69.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
         jLabel69.setForeground(new java.awt.Color(255, 255, 255));
         jLabel69.setText("PlayStation");
-        jPanel3.add(jLabel69, new org.netbeans.lib.awtextra.AbsoluteConstraints(740, 500, -1, -1));
-
-        jButton22.setFont(new java.awt.Font("Comic Sans MS", 0, 12)); // NOI18N
-        jButton22.setText("Comprar");
-        jPanel3.add(jButton22, new org.netbeans.lib.awtextra.AbsoluteConstraints(740, 470, -1, -1));
+        jPanel3.add(jLabel69, new org.netbeans.lib.awtextra.AbsoluteConstraints(570, 520, -1, -1));
 
         jLabel70.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
         jLabel70.setForeground(new java.awt.Color(255, 255, 255));
         jLabel70.setText("XBOX");
-        jPanel3.add(jLabel70, new org.netbeans.lib.awtextra.AbsoluteConstraints(760, 440, -1, -1));
+        jPanel3.add(jLabel70, new org.netbeans.lib.awtextra.AbsoluteConstraints(570, 480, -1, -1));
 
         jButton24.setFont(new java.awt.Font("Comic Sans MS", 0, 12)); // NOI18N
         jButton24.setText("Requisitos Sistema");
-        jPanel3.add(jButton24, new org.netbeans.lib.awtextra.AbsoluteConstraints(780, 410, -1, -1));
-
-        jButton23.setFont(new java.awt.Font("Comic Sans MS", 0, 12)); // NOI18N
-        jButton23.setText("Comprar");
-        jPanel3.add(jButton23, new org.netbeans.lib.awtextra.AbsoluteConstraints(690, 410, -1, -1));
+        jButton24.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton24ActionPerformed(evt);
+            }
+        });
+        jPanel3.add(jButton24, new org.netbeans.lib.awtextra.AbsoluteConstraints(800, 520, -1, -1));
 
         jLabel71.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
         jLabel71.setForeground(new java.awt.Color(255, 255, 255));
         jLabel71.setText("PC");
-        jPanel3.add(jLabel71, new org.netbeans.lib.awtextra.AbsoluteConstraints(640, 410, -1, -1));
+        jPanel3.add(jLabel71, new org.netbeans.lib.awtextra.AbsoluteConstraints(850, 480, -1, -1));
+
+        jLabel111.setFont(new java.awt.Font("Dialog", 1, 24)); // NOI18N
+        jLabel111.setText("Disponible para:");
+        jPanel3.add(jLabel111, new org.netbeans.lib.awtextra.AbsoluteConstraints(570, 430, -1, -1));
 
         jLabel6.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/ROJO1B.jpg"))); // NOI18N
         jPanel3.add(jLabel6, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 960, 580));
 
-        jDialog2.getContentPane().add(jPanel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 960, 580));
+        HaloDos.getContentPane().add(jPanel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 960, 580));
 
-        jDialog3.setResizable(false);
-        jDialog3.getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+        halotres.setResizable(false);
+        halotres.getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         jPanel4.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
@@ -503,46 +481,43 @@ public class BibliotecaJuegos extends javax.swing.JInternalFrame {
         jTextArea4.setToolTipText("");
         jScrollPane7.setViewportView(jTextArea4);
 
-        jPanel4.add(jScrollPane7, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 220, 920, 310));
+        jPanel4.add(jScrollPane7, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 220, 640, 310));
 
         jLabel72.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
         jLabel72.setForeground(new java.awt.Color(255, 255, 255));
         jLabel72.setText("PC");
-        jPanel4.add(jLabel72, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 540, -1, -1));
-
-        jButton25.setFont(new java.awt.Font("Comic Sans MS", 0, 12)); // NOI18N
-        jButton25.setText("Comprar");
-        jPanel4.add(jButton25, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 540, -1, -1));
+        jPanel4.add(jLabel72, new org.netbeans.lib.awtextra.AbsoluteConstraints(700, 510, -1, -1));
 
         jButton26.setFont(new java.awt.Font("Comic Sans MS", 0, 12)); // NOI18N
         jButton26.setText("Requisitos Sistema");
-        jPanel4.add(jButton26, new org.netbeans.lib.awtextra.AbsoluteConstraints(140, 540, -1, -1));
+        jButton26.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton26ActionPerformed(evt);
+            }
+        });
+        jPanel4.add(jButton26, new org.netbeans.lib.awtextra.AbsoluteConstraints(770, 500, -1, -1));
 
         jLabel73.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
         jLabel73.setForeground(new java.awt.Color(255, 255, 255));
         jLabel73.setText("XBOX");
-        jPanel4.add(jLabel73, new org.netbeans.lib.awtextra.AbsoluteConstraints(330, 540, -1, -1));
-
-        jButton27.setFont(new java.awt.Font("Comic Sans MS", 0, 12)); // NOI18N
-        jButton27.setText("Comprar");
-        jPanel4.add(jButton27, new org.netbeans.lib.awtextra.AbsoluteConstraints(380, 540, -1, -1));
+        jPanel4.add(jLabel73, new org.netbeans.lib.awtextra.AbsoluteConstraints(690, 420, -1, -1));
 
         jLabel74.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
         jLabel74.setForeground(new java.awt.Color(255, 255, 255));
         jLabel74.setText("PlayStation");
-        jPanel4.add(jLabel74, new org.netbeans.lib.awtextra.AbsoluteConstraints(540, 540, -1, -1));
+        jPanel4.add(jLabel74, new org.netbeans.lib.awtextra.AbsoluteConstraints(690, 460, -1, -1));
 
-        jButton28.setFont(new java.awt.Font("Comic Sans MS", 0, 12)); // NOI18N
-        jButton28.setText("Comprar");
-        jPanel4.add(jButton28, new org.netbeans.lib.awtextra.AbsoluteConstraints(640, 540, -1, -1));
+        jLabel113.setFont(new java.awt.Font("Dialog", 1, 24)); // NOI18N
+        jLabel113.setText("Disponible para:");
+        jPanel4.add(jLabel113, new org.netbeans.lib.awtextra.AbsoluteConstraints(680, 370, -1, -1));
 
         jLabel11.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/ROJO1B.jpg"))); // NOI18N
         jPanel4.add(jLabel11, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 960, 580));
 
-        jDialog3.getContentPane().add(jPanel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 960, 580));
+        halotres.getContentPane().add(jPanel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 960, 580));
 
-        jDialog4.setResizable(false);
-        jDialog4.getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+        halocuatro.setResizable(false);
+        halocuatro.getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         jPanel5.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
@@ -585,42 +560,39 @@ public class BibliotecaJuegos extends javax.swing.JInternalFrame {
         jLabel75.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
         jLabel75.setForeground(new java.awt.Color(255, 255, 255));
         jLabel75.setText("PC");
-        jPanel5.add(jLabel75, new org.netbeans.lib.awtextra.AbsoluteConstraints(670, 410, -1, -1));
-
-        jButton29.setFont(new java.awt.Font("Comic Sans MS", 0, 12)); // NOI18N
-        jButton29.setText("Comprar");
-        jPanel5.add(jButton29, new org.netbeans.lib.awtextra.AbsoluteConstraints(720, 410, -1, -1));
+        jPanel5.add(jLabel75, new org.netbeans.lib.awtextra.AbsoluteConstraints(670, 530, -1, -1));
 
         jButton30.setFont(new java.awt.Font("Comic Sans MS", 0, 12)); // NOI18N
         jButton30.setText("Requisitos Sistema");
-        jPanel5.add(jButton30, new org.netbeans.lib.awtextra.AbsoluteConstraints(810, 410, -1, -1));
+        jButton30.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton30ActionPerformed(evt);
+            }
+        });
+        jPanel5.add(jButton30, new org.netbeans.lib.awtextra.AbsoluteConstraints(780, 520, -1, -1));
 
         jLabel76.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
         jLabel76.setForeground(new java.awt.Color(255, 255, 255));
         jLabel76.setText("XBOX");
-        jPanel5.add(jLabel76, new org.netbeans.lib.awtextra.AbsoluteConstraints(790, 440, -1, -1));
-
-        jButton31.setFont(new java.awt.Font("Comic Sans MS", 0, 12)); // NOI18N
-        jButton31.setText("Comprar");
-        jPanel5.add(jButton31, new org.netbeans.lib.awtextra.AbsoluteConstraints(770, 470, -1, -1));
+        jPanel5.add(jLabel76, new org.netbeans.lib.awtextra.AbsoluteConstraints(670, 450, -1, -1));
 
         jLabel77.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
         jLabel77.setForeground(new java.awt.Color(255, 255, 255));
         jLabel77.setText("PlayStation");
-        jPanel5.add(jLabel77, new org.netbeans.lib.awtextra.AbsoluteConstraints(770, 500, -1, -1));
+        jPanel5.add(jLabel77, new org.netbeans.lib.awtextra.AbsoluteConstraints(670, 490, -1, -1));
 
-        jButton32.setFont(new java.awt.Font("Comic Sans MS", 0, 12)); // NOI18N
-        jButton32.setText("Comprar");
-        jPanel5.add(jButton32, new org.netbeans.lib.awtextra.AbsoluteConstraints(770, 530, -1, -1));
+        jLabel114.setFont(new java.awt.Font("Dialog", 1, 24)); // NOI18N
+        jLabel114.setText("Disponible para:");
+        jPanel5.add(jLabel114, new org.netbeans.lib.awtextra.AbsoluteConstraints(670, 400, -1, -1));
 
         jLabel15.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/ROJO1B.jpg"))); // NOI18N
         jLabel15.setText("jLabel15");
-        jPanel5.add(jLabel15, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 960, 580));
+        jPanel5.add(jLabel15, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 0, 960, 580));
 
-        jDialog4.getContentPane().add(jPanel5, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 960, 580));
+        halocuatro.getContentPane().add(jPanel5, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 960, 580));
 
-        jDialog5.setResizable(false);
-        jDialog5.getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+        halocinco.setResizable(false);
+        halocinco.getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         jPanel6.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
@@ -655,44 +627,41 @@ public class BibliotecaJuegos extends javax.swing.JInternalFrame {
 
         jPanel6.add(jScrollPane10, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 380, 460, 120));
 
-        jButton33.setFont(new java.awt.Font("Comic Sans MS", 0, 12)); // NOI18N
-        jButton33.setText("Comprar");
-        jPanel6.add(jButton33, new org.netbeans.lib.awtextra.AbsoluteConstraints(680, 520, -1, -1));
-
         jLabel78.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
         jLabel78.setForeground(new java.awt.Color(255, 255, 255));
         jLabel78.setText("PlayStation");
-        jPanel6.add(jLabel78, new org.netbeans.lib.awtextra.AbsoluteConstraints(680, 490, -1, -1));
-
-        jButton34.setFont(new java.awt.Font("Comic Sans MS", 0, 12)); // NOI18N
-        jButton34.setText("Comprar");
-        jPanel6.add(jButton34, new org.netbeans.lib.awtextra.AbsoluteConstraints(680, 460, -1, -1));
+        jPanel6.add(jLabel78, new org.netbeans.lib.awtextra.AbsoluteConstraints(550, 470, -1, -1));
 
         jLabel79.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
         jLabel79.setForeground(new java.awt.Color(255, 255, 255));
         jLabel79.setText("XBOX");
-        jPanel6.add(jLabel79, new org.netbeans.lib.awtextra.AbsoluteConstraints(700, 430, -1, -1));
-
-        jButton35.setFont(new java.awt.Font("Comic Sans MS", 0, 12)); // NOI18N
-        jButton35.setText("Comprar");
-        jPanel6.add(jButton35, new org.netbeans.lib.awtextra.AbsoluteConstraints(630, 400, -1, -1));
+        jPanel6.add(jLabel79, new org.netbeans.lib.awtextra.AbsoluteConstraints(550, 430, -1, -1));
 
         jLabel80.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
         jLabel80.setForeground(new java.awt.Color(255, 255, 255));
         jLabel80.setText("PC");
-        jPanel6.add(jLabel80, new org.netbeans.lib.awtextra.AbsoluteConstraints(580, 400, -1, -1));
+        jPanel6.add(jLabel80, new org.netbeans.lib.awtextra.AbsoluteConstraints(550, 510, -1, -1));
 
         jButton36.setFont(new java.awt.Font("Comic Sans MS", 0, 12)); // NOI18N
         jButton36.setText("Requisitos Sistema");
-        jPanel6.add(jButton36, new org.netbeans.lib.awtextra.AbsoluteConstraints(720, 400, -1, -1));
+        jButton36.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton36ActionPerformed(evt);
+            }
+        });
+        jPanel6.add(jButton36, new org.netbeans.lib.awtextra.AbsoluteConstraints(640, 510, -1, -1));
+
+        jLabel115.setFont(new java.awt.Font("Dialog", 1, 24)); // NOI18N
+        jLabel115.setText("Disponible para:");
+        jPanel6.add(jLabel115, new org.netbeans.lib.awtextra.AbsoluteConstraints(550, 380, -1, -1));
 
         jLabel20.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/ROJO1B.jpg"))); // NOI18N
         jPanel6.add(jLabel20, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 960, 580));
 
-        jDialog5.getContentPane().add(jPanel6, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 960, 580));
+        halocinco.getContentPane().add(jPanel6, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 960, 580));
 
-        jDialog6.setResizable(false);
-        jDialog6.getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+        rsix.setResizable(false);
+        rsix.getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         jPanel7.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
@@ -735,44 +704,41 @@ public class BibliotecaJuegos extends javax.swing.JInternalFrame {
 
         jPanel7.add(jScrollPane13, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 410, 610, 140));
 
-        jButton37.setFont(new java.awt.Font("Comic Sans MS", 0, 12)); // NOI18N
-        jButton37.setText("Comprar");
-        jPanel7.add(jButton37, new org.netbeans.lib.awtextra.AbsoluteConstraints(760, 540, -1, -1));
-
         jLabel81.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
         jLabel81.setForeground(new java.awt.Color(255, 255, 255));
         jLabel81.setText("PlayStation");
-        jPanel7.add(jLabel81, new org.netbeans.lib.awtextra.AbsoluteConstraints(760, 510, -1, -1));
-
-        jButton38.setFont(new java.awt.Font("Comic Sans MS", 0, 12)); // NOI18N
-        jButton38.setText("Comprar");
-        jPanel7.add(jButton38, new org.netbeans.lib.awtextra.AbsoluteConstraints(760, 480, -1, -1));
+        jPanel7.add(jLabel81, new org.netbeans.lib.awtextra.AbsoluteConstraints(660, 480, -1, -1));
 
         jLabel82.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
         jLabel82.setForeground(new java.awt.Color(255, 255, 255));
         jLabel82.setText("XBOX");
-        jPanel7.add(jLabel82, new org.netbeans.lib.awtextra.AbsoluteConstraints(780, 450, -1, -1));
-
-        jButton39.setFont(new java.awt.Font("Comic Sans MS", 0, 12)); // NOI18N
-        jButton39.setText("Comprar");
-        jPanel7.add(jButton39, new org.netbeans.lib.awtextra.AbsoluteConstraints(710, 420, -1, -1));
+        jPanel7.add(jLabel82, new org.netbeans.lib.awtextra.AbsoluteConstraints(660, 450, -1, -1));
 
         jLabel83.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
         jLabel83.setForeground(new java.awt.Color(255, 255, 255));
         jLabel83.setText("PC");
-        jPanel7.add(jLabel83, new org.netbeans.lib.awtextra.AbsoluteConstraints(660, 420, -1, -1));
+        jPanel7.add(jLabel83, new org.netbeans.lib.awtextra.AbsoluteConstraints(660, 510, -1, -1));
 
         jButton40.setFont(new java.awt.Font("Comic Sans MS", 0, 12)); // NOI18N
         jButton40.setText("Requisitos Sistema");
-        jPanel7.add(jButton40, new org.netbeans.lib.awtextra.AbsoluteConstraints(800, 420, -1, -1));
+        jButton40.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton40ActionPerformed(evt);
+            }
+        });
+        jPanel7.add(jButton40, new org.netbeans.lib.awtextra.AbsoluteConstraints(750, 510, -1, -1));
+
+        jLabel116.setFont(new java.awt.Font("Dialog", 1, 24)); // NOI18N
+        jLabel116.setText("Disponible para:");
+        jPanel7.add(jLabel116, new org.netbeans.lib.awtextra.AbsoluteConstraints(640, 410, -1, -1));
 
         jLabel25.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/ROJO1B.jpg"))); // NOI18N
         jPanel7.add(jLabel25, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 960, 580));
 
-        jDialog6.getContentPane().add(jPanel7, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 960, 580));
+        rsix.getContentPane().add(jPanel7, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 960, 580));
 
-        jDialog7.setResizable(false);
-        jDialog7.getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+        rocket.setResizable(false);
+        rocket.getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         jPanel8.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
@@ -808,44 +774,41 @@ public class BibliotecaJuegos extends javax.swing.JInternalFrame {
         jLabel33.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/R5.jpg"))); // NOI18N
         jPanel8.add(jLabel33, new org.netbeans.lib.awtextra.AbsoluteConstraints(230, 390, 300, 140));
 
-        jButton41.setFont(new java.awt.Font("Comic Sans MS", 0, 12)); // NOI18N
-        jButton41.setText("Comprar");
-        jPanel8.add(jButton41, new org.netbeans.lib.awtextra.AbsoluteConstraints(710, 530, -1, -1));
-
         jLabel84.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
         jLabel84.setForeground(new java.awt.Color(255, 255, 255));
         jLabel84.setText("PlayStation");
-        jPanel8.add(jLabel84, new org.netbeans.lib.awtextra.AbsoluteConstraints(710, 500, -1, -1));
-
-        jButton42.setFont(new java.awt.Font("Comic Sans MS", 0, 12)); // NOI18N
-        jButton42.setText("Comprar");
-        jPanel8.add(jButton42, new org.netbeans.lib.awtextra.AbsoluteConstraints(710, 470, -1, -1));
+        jPanel8.add(jLabel84, new org.netbeans.lib.awtextra.AbsoluteConstraints(590, 470, -1, -1));
 
         jLabel85.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
         jLabel85.setForeground(new java.awt.Color(255, 255, 255));
         jLabel85.setText("XBOX");
-        jPanel8.add(jLabel85, new org.netbeans.lib.awtextra.AbsoluteConstraints(730, 440, -1, -1));
-
-        jButton43.setFont(new java.awt.Font("Comic Sans MS", 0, 12)); // NOI18N
-        jButton43.setText("Comprar");
-        jPanel8.add(jButton43, new org.netbeans.lib.awtextra.AbsoluteConstraints(660, 410, -1, -1));
+        jPanel8.add(jLabel85, new org.netbeans.lib.awtextra.AbsoluteConstraints(590, 430, -1, -1));
 
         jLabel86.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
         jLabel86.setForeground(new java.awt.Color(255, 255, 255));
         jLabel86.setText("PC");
-        jPanel8.add(jLabel86, new org.netbeans.lib.awtextra.AbsoluteConstraints(610, 410, -1, -1));
+        jPanel8.add(jLabel86, new org.netbeans.lib.awtextra.AbsoluteConstraints(590, 510, -1, -1));
 
         jButton45.setFont(new java.awt.Font("Comic Sans MS", 0, 12)); // NOI18N
         jButton45.setText("Requisitos Sistema");
-        jPanel8.add(jButton45, new org.netbeans.lib.awtextra.AbsoluteConstraints(760, 410, -1, -1));
+        jButton45.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton45ActionPerformed(evt);
+            }
+        });
+        jPanel8.add(jButton45, new org.netbeans.lib.awtextra.AbsoluteConstraints(690, 500, -1, -1));
+
+        jLabel117.setFont(new java.awt.Font("Dialog", 1, 24)); // NOI18N
+        jLabel117.setText("Disponible para:");
+        jPanel8.add(jLabel117, new org.netbeans.lib.awtextra.AbsoluteConstraints(570, 390, -1, -1));
 
         jLabel29.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/ROJO1B.jpg"))); // NOI18N
         jPanel8.add(jLabel29, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 960, 580));
 
-        jDialog7.getContentPane().add(jPanel8, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 960, 580));
+        rocket.getContentPane().add(jPanel8, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 960, 580));
 
-        jDialog8.setResizable(false);
-        jDialog8.getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+        last.setResizable(false);
+        last.getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         jPanel9.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
@@ -878,41 +841,38 @@ public class BibliotecaJuegos extends javax.swing.JInternalFrame {
         jLabel87.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
         jLabel87.setForeground(new java.awt.Color(255, 255, 255));
         jLabel87.setText("PC");
-        jPanel9.add(jLabel87, new org.netbeans.lib.awtextra.AbsoluteConstraints(770, 340, -1, -1));
-
-        jButton44.setFont(new java.awt.Font("Comic Sans MS", 0, 12)); // NOI18N
-        jButton44.setText("Comprar");
-        jPanel9.add(jButton44, new org.netbeans.lib.awtextra.AbsoluteConstraints(690, 380, -1, -1));
+        jPanel9.add(jLabel87, new org.netbeans.lib.awtextra.AbsoluteConstraints(650, 500, -1, -1));
 
         jButton46.setFont(new java.awt.Font("Comic Sans MS", 0, 12)); // NOI18N
         jButton46.setText("Requisitos Sistema");
-        jPanel9.add(jButton46, new org.netbeans.lib.awtextra.AbsoluteConstraints(790, 380, -1, -1));
-
-        jButton47.setFont(new java.awt.Font("Comic Sans MS", 0, 12)); // NOI18N
-        jButton47.setText("Comprar");
-        jPanel9.add(jButton47, new org.netbeans.lib.awtextra.AbsoluteConstraints(740, 440, -1, -1));
+        jButton46.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton46ActionPerformed(evt);
+            }
+        });
+        jPanel9.add(jButton46, new org.netbeans.lib.awtextra.AbsoluteConstraints(710, 490, -1, -1));
 
         jLabel89.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
         jLabel89.setForeground(new java.awt.Color(255, 255, 255));
         jLabel89.setText("PlayStation");
-        jPanel9.add(jLabel89, new org.netbeans.lib.awtextra.AbsoluteConstraints(740, 470, -1, -1));
-
-        jButton48.setFont(new java.awt.Font("Comic Sans MS", 0, 12)); // NOI18N
-        jButton48.setText("Comprar");
-        jPanel9.add(jButton48, new org.netbeans.lib.awtextra.AbsoluteConstraints(740, 500, -1, -1));
+        jPanel9.add(jLabel89, new org.netbeans.lib.awtextra.AbsoluteConstraints(650, 450, -1, -1));
 
         jLabel88.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
         jLabel88.setForeground(new java.awt.Color(255, 255, 255));
         jLabel88.setText("XBOX");
-        jPanel9.add(jLabel88, new org.netbeans.lib.awtextra.AbsoluteConstraints(760, 410, -1, -1));
+        jPanel9.add(jLabel88, new org.netbeans.lib.awtextra.AbsoluteConstraints(650, 410, -1, -1));
+
+        jLabel118.setFont(new java.awt.Font("Dialog", 1, 24)); // NOI18N
+        jLabel118.setText("Disponible para:");
+        jPanel9.add(jLabel118, new org.netbeans.lib.awtextra.AbsoluteConstraints(640, 360, -1, -1));
 
         jLabel34.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/ROJO1B.jpg"))); // NOI18N
         jPanel9.add(jLabel34, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 960, 580));
 
-        jDialog8.getContentPane().add(jPanel9, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 960, 580));
+        last.getContentPane().add(jPanel9, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 960, 580));
 
-        jDialog9.setResizable(false);
-        jDialog9.getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+        fifa.setResizable(false);
+        fifa.getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         jPanel10.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
@@ -953,41 +913,38 @@ public class BibliotecaJuegos extends javax.swing.JInternalFrame {
         jLabel90.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
         jLabel90.setForeground(new java.awt.Color(255, 255, 255));
         jLabel90.setText("PC");
-        jPanel10.add(jLabel90, new org.netbeans.lib.awtextra.AbsoluteConstraints(640, 420, -1, -1));
-
-        jButton49.setFont(new java.awt.Font("Comic Sans MS", 0, 12)); // NOI18N
-        jButton49.setText("Comprar");
-        jPanel10.add(jButton49, new org.netbeans.lib.awtextra.AbsoluteConstraints(690, 420, -1, -1));
+        jPanel10.add(jLabel90, new org.netbeans.lib.awtextra.AbsoluteConstraints(630, 520, -1, -1));
 
         jButton50.setFont(new java.awt.Font("Comic Sans MS", 0, 12)); // NOI18N
         jButton50.setText("Requisitos Sistema");
-        jPanel10.add(jButton50, new org.netbeans.lib.awtextra.AbsoluteConstraints(790, 420, -1, -1));
+        jButton50.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton50ActionPerformed(evt);
+            }
+        });
+        jPanel10.add(jButton50, new org.netbeans.lib.awtextra.AbsoluteConstraints(690, 520, -1, -1));
 
         jLabel91.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
         jLabel91.setForeground(new java.awt.Color(255, 255, 255));
         jLabel91.setText("XBOX");
-        jPanel10.add(jLabel91, new org.netbeans.lib.awtextra.AbsoluteConstraints(760, 450, -1, -1));
-
-        jButton51.setFont(new java.awt.Font("Comic Sans MS", 0, 12)); // NOI18N
-        jButton51.setText("Comprar");
-        jPanel10.add(jButton51, new org.netbeans.lib.awtextra.AbsoluteConstraints(740, 480, -1, -1));
+        jPanel10.add(jLabel91, new org.netbeans.lib.awtextra.AbsoluteConstraints(630, 460, -1, -1));
 
         jLabel92.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
         jLabel92.setForeground(new java.awt.Color(255, 255, 255));
         jLabel92.setText("PlayStation");
-        jPanel10.add(jLabel92, new org.netbeans.lib.awtextra.AbsoluteConstraints(740, 510, -1, -1));
+        jPanel10.add(jLabel92, new org.netbeans.lib.awtextra.AbsoluteConstraints(630, 490, -1, -1));
 
-        jButton52.setFont(new java.awt.Font("Comic Sans MS", 0, 12)); // NOI18N
-        jButton52.setText("Comprar");
-        jPanel10.add(jButton52, new org.netbeans.lib.awtextra.AbsoluteConstraints(740, 540, -1, -1));
+        jLabel119.setFont(new java.awt.Font("Dialog", 1, 24)); // NOI18N
+        jLabel119.setText("Disponible para:");
+        jPanel10.add(jLabel119, new org.netbeans.lib.awtextra.AbsoluteConstraints(620, 420, -1, -1));
 
         jLabel42.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/ROJO1B.jpg"))); // NOI18N
         jPanel10.add(jLabel42, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 960, 580));
 
-        jDialog9.getContentPane().add(jPanel10, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 960, 580));
+        fifa.getContentPane().add(jPanel10, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 960, 580));
 
-        jDialog10.setResizable(false);
-        jDialog10.getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+        need.setResizable(false);
+        need.getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         jPanel11.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
@@ -1016,41 +973,38 @@ public class BibliotecaJuegos extends javax.swing.JInternalFrame {
         jLabel93.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
         jLabel93.setForeground(new java.awt.Color(255, 255, 255));
         jLabel93.setText("PC");
-        jPanel11.add(jLabel93, new org.netbeans.lib.awtextra.AbsoluteConstraints(730, 290, -1, -1));
-
-        jButton53.setFont(new java.awt.Font("Comic Sans MS", 0, 12)); // NOI18N
-        jButton53.setText("Comprar");
-        jPanel11.add(jButton53, new org.netbeans.lib.awtextra.AbsoluteConstraints(630, 330, -1, -1));
+        jPanel11.add(jLabel93, new org.netbeans.lib.awtextra.AbsoluteConstraints(590, 470, -1, -1));
 
         jButton54.setFont(new java.awt.Font("Comic Sans MS", 0, 12)); // NOI18N
         jButton54.setText("Requisitos Sistema");
-        jPanel11.add(jButton54, new org.netbeans.lib.awtextra.AbsoluteConstraints(730, 330, -1, -1));
+        jButton54.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton54ActionPerformed(evt);
+            }
+        });
+        jPanel11.add(jButton54, new org.netbeans.lib.awtextra.AbsoluteConstraints(650, 470, -1, -1));
 
         jLabel94.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
         jLabel94.setForeground(new java.awt.Color(255, 255, 255));
         jLabel94.setText("XBOX");
-        jPanel11.add(jLabel94, new org.netbeans.lib.awtextra.AbsoluteConstraints(700, 360, -1, -1));
-
-        jButton55.setFont(new java.awt.Font("Comic Sans MS", 0, 12)); // NOI18N
-        jButton55.setText("Comprar");
-        jPanel11.add(jButton55, new org.netbeans.lib.awtextra.AbsoluteConstraints(680, 390, -1, -1));
+        jPanel11.add(jLabel94, new org.netbeans.lib.awtextra.AbsoluteConstraints(590, 430, -1, -1));
 
         jLabel95.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
         jLabel95.setForeground(new java.awt.Color(255, 255, 255));
         jLabel95.setText("PlayStation");
-        jPanel11.add(jLabel95, new org.netbeans.lib.awtextra.AbsoluteConstraints(680, 420, -1, -1));
+        jPanel11.add(jLabel95, new org.netbeans.lib.awtextra.AbsoluteConstraints(590, 390, -1, -1));
 
-        jButton56.setFont(new java.awt.Font("Comic Sans MS", 0, 12)); // NOI18N
-        jButton56.setText("Comprar");
-        jPanel11.add(jButton56, new org.netbeans.lib.awtextra.AbsoluteConstraints(680, 450, -1, -1));
+        jLabel120.setFont(new java.awt.Font("Dialog", 1, 24)); // NOI18N
+        jLabel120.setText("Disponible para:");
+        jPanel11.add(jLabel120, new org.netbeans.lib.awtextra.AbsoluteConstraints(570, 350, -1, -1));
 
         jLabel47.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/ROJO1B.jpg"))); // NOI18N
         jPanel11.add(jLabel47, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 910, 580));
 
-        jDialog10.getContentPane().add(jPanel11, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 900, 580));
+        need.getContentPane().add(jPanel11, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 900, 580));
 
-        jDialog11.setResizable(false);
-        jDialog11.getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+        gtav.setResizable(false);
+        gtav.getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         jPanel12.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
@@ -1077,41 +1031,38 @@ public class BibliotecaJuegos extends javax.swing.JInternalFrame {
         jLabel96.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
         jLabel96.setForeground(new java.awt.Color(255, 255, 255));
         jLabel96.setText("PC");
-        jPanel12.add(jLabel96, new org.netbeans.lib.awtextra.AbsoluteConstraints(90, 470, -1, -1));
-
-        jButton57.setFont(new java.awt.Font("Comic Sans MS", 0, 12)); // NOI18N
-        jButton57.setText("Comprar");
-        jPanel12.add(jButton57, new org.netbeans.lib.awtextra.AbsoluteConstraints(180, 440, -1, -1));
+        jPanel12.add(jLabel96, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 520, -1, -1));
 
         jButton58.setFont(new java.awt.Font("Comic Sans MS", 0, 12)); // NOI18N
         jButton58.setText("Requisitos Sistema");
-        jPanel12.add(jButton58, new org.netbeans.lib.awtextra.AbsoluteConstraints(150, 500, -1, -1));
+        jButton58.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton58ActionPerformed(evt);
+            }
+        });
+        jPanel12.add(jButton58, new org.netbeans.lib.awtextra.AbsoluteConstraints(90, 510, -1, -1));
 
         jLabel97.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
         jLabel97.setForeground(new java.awt.Color(255, 255, 255));
         jLabel97.setText("XBOX");
-        jPanel12.add(jLabel97, new org.netbeans.lib.awtextra.AbsoluteConstraints(460, 430, -1, -1));
-
-        jButton59.setFont(new java.awt.Font("Comic Sans MS", 0, 12)); // NOI18N
-        jButton59.setText("Comprar");
-        jPanel12.add(jButton59, new org.netbeans.lib.awtextra.AbsoluteConstraints(440, 470, -1, -1));
+        jPanel12.add(jLabel97, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 480, -1, -1));
 
         jLabel98.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
         jLabel98.setForeground(new java.awt.Color(255, 255, 255));
         jLabel98.setText("PlayStation");
-        jPanel12.add(jLabel98, new org.netbeans.lib.awtextra.AbsoluteConstraints(680, 430, -1, -1));
+        jPanel12.add(jLabel98, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 440, -1, -1));
 
-        jButton60.setFont(new java.awt.Font("Comic Sans MS", 0, 12)); // NOI18N
-        jButton60.setText("Comprar");
-        jPanel12.add(jButton60, new org.netbeans.lib.awtextra.AbsoluteConstraints(690, 460, -1, -1));
+        jLabel121.setFont(new java.awt.Font("Dialog", 1, 24)); // NOI18N
+        jLabel121.setText("Disponible para:");
+        jPanel12.add(jLabel121, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 400, -1, -1));
 
         jLabel51.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/ROJO1B.jpg"))); // NOI18N
         jPanel12.add(jLabel51, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 960, 580));
 
-        jDialog11.getContentPane().add(jPanel12, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 960, 580));
+        gtav.getContentPane().add(jPanel12, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 960, 580));
 
-        jDialog12.setResizable(false);
-        jDialog12.getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+        maicra.setResizable(false);
+        maicra.getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         jPanel13.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
@@ -1162,41 +1113,38 @@ public class BibliotecaJuegos extends javax.swing.JInternalFrame {
         jLabel99.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
         jLabel99.setForeground(new java.awt.Color(255, 255, 255));
         jLabel99.setText("PC");
-        jPanel13.add(jLabel99, new org.netbeans.lib.awtextra.AbsoluteConstraints(660, 410, -1, -1));
-
-        jButton61.setFont(new java.awt.Font("Comic Sans MS", 0, 12)); // NOI18N
-        jButton61.setText("Comprar");
-        jPanel13.add(jButton61, new org.netbeans.lib.awtextra.AbsoluteConstraints(710, 410, -1, -1));
+        jPanel13.add(jLabel99, new org.netbeans.lib.awtextra.AbsoluteConstraints(720, 520, -1, -1));
 
         jButton62.setFont(new java.awt.Font("Comic Sans MS", 0, 12)); // NOI18N
         jButton62.setText("Requisitos Sistema");
-        jPanel13.add(jButton62, new org.netbeans.lib.awtextra.AbsoluteConstraints(810, 410, -1, -1));
+        jButton62.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton62ActionPerformed(evt);
+            }
+        });
+        jPanel13.add(jButton62, new org.netbeans.lib.awtextra.AbsoluteConstraints(800, 510, -1, -1));
 
         jLabel100.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
         jLabel100.setForeground(new java.awt.Color(255, 255, 255));
         jLabel100.setText("XBOX");
-        jPanel13.add(jLabel100, new org.netbeans.lib.awtextra.AbsoluteConstraints(780, 440, -1, -1));
-
-        jButton63.setFont(new java.awt.Font("Comic Sans MS", 0, 12)); // NOI18N
-        jButton63.setText("Comprar");
-        jPanel13.add(jButton63, new org.netbeans.lib.awtextra.AbsoluteConstraints(760, 470, -1, -1));
+        jPanel13.add(jLabel100, new org.netbeans.lib.awtextra.AbsoluteConstraints(720, 440, -1, -1));
 
         jLabel101.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
         jLabel101.setForeground(new java.awt.Color(255, 255, 255));
         jLabel101.setText("PlayStation");
-        jPanel13.add(jLabel101, new org.netbeans.lib.awtextra.AbsoluteConstraints(760, 500, -1, -1));
+        jPanel13.add(jLabel101, new org.netbeans.lib.awtextra.AbsoluteConstraints(720, 480, -1, -1));
 
-        jButton64.setFont(new java.awt.Font("Comic Sans MS", 0, 12)); // NOI18N
-        jButton64.setText("Comprar");
-        jPanel13.add(jButton64, new org.netbeans.lib.awtextra.AbsoluteConstraints(760, 530, -1, -1));
+        jLabel122.setFont(new java.awt.Font("Dialog", 1, 24)); // NOI18N
+        jLabel122.setText("Disponible para:");
+        jPanel13.add(jLabel122, new org.netbeans.lib.awtextra.AbsoluteConstraints(690, 400, -1, -1));
 
         jLabel55.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/ROJO1B.jpg"))); // NOI18N
         jPanel13.add(jLabel55, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 960, 580));
 
-        jDialog12.getContentPane().add(jPanel13, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 960, 580));
+        maicra.getContentPane().add(jPanel13, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 960, 580));
 
-        jDialog13.setResizable(false);
-        jDialog13.getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+        injustice.setResizable(false);
+        injustice.getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         jPanel14.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
@@ -1226,40 +1174,37 @@ public class BibliotecaJuegos extends javax.swing.JInternalFrame {
         jLabel102.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
         jLabel102.setForeground(new java.awt.Color(255, 255, 255));
         jLabel102.setText("PC");
-        jPanel14.add(jLabel102, new org.netbeans.lib.awtextra.AbsoluteConstraints(90, 490, 40, 20));
-
-        jButton65.setFont(new java.awt.Font("Comic Sans MS", 0, 12)); // NOI18N
-        jButton65.setText("Comprar");
-        jPanel14.add(jButton65, new org.netbeans.lib.awtextra.AbsoluteConstraints(190, 460, -1, -1));
+        jPanel14.add(jLabel102, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 540, 40, 20));
 
         jButton66.setFont(new java.awt.Font("Comic Sans MS", 0, 12)); // NOI18N
         jButton66.setText("Requisitos Sistema");
-        jPanel14.add(jButton66, new org.netbeans.lib.awtextra.AbsoluteConstraints(170, 520, -1, -1));
+        jButton66.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton66ActionPerformed(evt);
+            }
+        });
+        jPanel14.add(jButton66, new org.netbeans.lib.awtextra.AbsoluteConstraints(80, 530, -1, -1));
 
         jLabel103.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
         jLabel103.setForeground(new java.awt.Color(255, 255, 255));
         jLabel103.setText("XBOX");
-        jPanel14.add(jLabel103, new org.netbeans.lib.awtextra.AbsoluteConstraints(480, 460, -1, -1));
-
-        jButton67.setFont(new java.awt.Font("Comic Sans MS", 0, 12)); // NOI18N
-        jButton67.setText("Comprar");
-        jPanel14.add(jButton67, new org.netbeans.lib.awtextra.AbsoluteConstraints(460, 500, -1, -1));
+        jPanel14.add(jLabel103, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 490, -1, -1));
 
         jLabel104.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
         jLabel104.setForeground(new java.awt.Color(255, 255, 255));
         jLabel104.setText("PlayStation");
-        jPanel14.add(jLabel104, new org.netbeans.lib.awtextra.AbsoluteConstraints(660, 470, -1, -1));
+        jPanel14.add(jLabel104, new org.netbeans.lib.awtextra.AbsoluteConstraints(110, 490, -1, -1));
 
-        jButton68.setFont(new java.awt.Font("Comic Sans MS", 0, 12)); // NOI18N
-        jButton68.setText("Comprar");
-        jPanel14.add(jButton68, new org.netbeans.lib.awtextra.AbsoluteConstraints(660, 510, -1, -1));
+        jLabel123.setFont(new java.awt.Font("Dialog", 1, 24)); // NOI18N
+        jLabel123.setText("Disponible para:");
+        jPanel14.add(jLabel123, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 450, -1, -1));
 
         jLabel60.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/ROJO1B.jpg"))); // NOI18N
         jPanel14.add(jLabel60, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 960, 580));
 
-        jDialog13.getContentPane().add(jPanel14, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 960, 580));
+        injustice.getContentPane().add(jPanel14, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 960, 580));
 
-        jDialog15.getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+        uno.getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         jPanel16.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
@@ -1274,17 +1219,20 @@ public class BibliotecaJuegos extends javax.swing.JInternalFrame {
 
         jPanel16.add(jScrollPane26, new org.netbeans.lib.awtextra.AbsoluteConstraints(150, 40, 390, 160));
 
-        jButton14.setBackground(new java.awt.Color(119, 150, 5));
-        jButton14.setFont(new java.awt.Font("Sitka Small", 0, 11)); // NOI18N
-        jButton14.setText("Regresar a Biblioteca");
-        jPanel16.add(jButton14, new org.netbeans.lib.awtextra.AbsoluteConstraints(250, 280, 180, 40));
+        jButton1.setText("Regresar a la biblioteca");
+        jButton1.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton1ActionPerformed(evt);
+            }
+        });
+        jPanel16.add(jButton1, new org.netbeans.lib.awtextra.AbsoluteConstraints(260, 300, -1, -1));
 
         jLabel64.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/requi.jpg"))); // NOI18N
         jPanel16.add(jLabel64, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 710, 400));
 
-        jDialog15.getContentPane().add(jPanel16, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 710, 400));
+        uno.getContentPane().add(jPanel16, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 710, 400));
 
-        jDialog16.getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+        dos.getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         jPanel15.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
@@ -1299,14 +1247,19 @@ public class BibliotecaJuegos extends javax.swing.JInternalFrame {
         jButton15.setBackground(new java.awt.Color(119, 150, 5));
         jButton15.setFont(new java.awt.Font("Sitka Small", 0, 11)); // NOI18N
         jButton15.setText("Regresar a Biblioteca");
+        jButton15.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton15ActionPerformed(evt);
+            }
+        });
         jPanel15.add(jButton15, new org.netbeans.lib.awtextra.AbsoluteConstraints(260, 270, 180, 40));
 
         jLabel24.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/requi.jpg"))); // NOI18N
         jPanel15.add(jLabel24, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 710, 400));
 
-        jDialog16.getContentPane().add(jPanel15, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 710, 400));
+        dos.getContentPane().add(jPanel15, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 710, 400));
 
-        jDialog17.getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+        tres.getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         jPanel17.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
@@ -1324,14 +1277,19 @@ public class BibliotecaJuegos extends javax.swing.JInternalFrame {
         jButton20.setBackground(new java.awt.Color(119, 150, 5));
         jButton20.setFont(new java.awt.Font("Sitka Small", 0, 11)); // NOI18N
         jButton20.setText("Regresar a Biblioteca");
+        jButton20.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton20ActionPerformed(evt);
+            }
+        });
         jPanel17.add(jButton20, new org.netbeans.lib.awtextra.AbsoluteConstraints(480, 180, 180, 40));
 
         jLabel40.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/requi.jpg"))); // NOI18N
         jPanel17.add(jLabel40, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 710, 400));
 
-        jDialog17.getContentPane().add(jPanel17, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 710, 400));
+        tres.getContentPane().add(jPanel17, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 710, 400));
 
-        jDialog18.getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+        cuatro.getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         jPanel18.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
@@ -1347,14 +1305,19 @@ public class BibliotecaJuegos extends javax.swing.JInternalFrame {
         jButton69.setBackground(new java.awt.Color(119, 150, 5));
         jButton69.setFont(new java.awt.Font("Sitka Small", 0, 11)); // NOI18N
         jButton69.setText("Regresar a Biblioteca");
+        jButton69.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton69ActionPerformed(evt);
+            }
+        });
         jPanel18.add(jButton69, new org.netbeans.lib.awtextra.AbsoluteConstraints(250, 340, 180, 40));
 
         jLabel41.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/requi.jpg"))); // NOI18N
         jPanel18.add(jLabel41, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 710, 400));
 
-        jDialog18.getContentPane().add(jPanel18, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 710, 400));
+        cuatro.getContentPane().add(jPanel18, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 710, 400));
 
-        jDialog19.getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+        cinco.getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         jPanel19.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
@@ -1371,15 +1334,19 @@ public class BibliotecaJuegos extends javax.swing.JInternalFrame {
         jButton70.setBackground(new java.awt.Color(119, 150, 5));
         jButton70.setFont(new java.awt.Font("Sitka Small", 0, 11)); // NOI18N
         jButton70.setText("Regresar a Biblioteca");
+        jButton70.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton70ActionPerformed(evt);
+            }
+        });
         jPanel19.add(jButton70, new org.netbeans.lib.awtextra.AbsoluteConstraints(480, 200, 180, 40));
 
         jLabel68.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/requi.jpg"))); // NOI18N
         jPanel19.add(jLabel68, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 710, 400));
 
-        jDialog19.getContentPane().add(jPanel19, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 710, 400));
+        cinco.getContentPane().add(jPanel19, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 710, 400));
 
-        jDialog20.setPreferredSize(new java.awt.Dimension(710, 400));
-        jDialog20.getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+        seis.getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         jPanel20.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
@@ -1398,14 +1365,19 @@ public class BibliotecaJuegos extends javax.swing.JInternalFrame {
         jButton71.setBackground(new java.awt.Color(119, 150, 5));
         jButton71.setFont(new java.awt.Font("Sitka Small", 0, 11)); // NOI18N
         jButton71.setText("Regresar a Biblioteca");
+        jButton71.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton71ActionPerformed(evt);
+            }
+        });
         jPanel20.add(jButton71, new org.netbeans.lib.awtextra.AbsoluteConstraints(500, 190, 180, 40));
 
         jLabel105.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/requi.jpg"))); // NOI18N
         jPanel20.add(jLabel105, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 700, 400));
 
-        jDialog20.getContentPane().add(jPanel20, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 700, 400));
+        seis.getContentPane().add(jPanel20, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 700, 400));
 
-        jDialog21.getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+        siete.getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         jPanel21.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
@@ -1421,15 +1393,20 @@ public class BibliotecaJuegos extends javax.swing.JInternalFrame {
         jButton72.setBackground(new java.awt.Color(119, 150, 5));
         jButton72.setFont(new java.awt.Font("Sitka Small", 0, 11)); // NOI18N
         jButton72.setText("Regresar a Biblioteca");
+        jButton72.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton72ActionPerformed(evt);
+            }
+        });
         jPanel21.add(jButton72, new org.netbeans.lib.awtextra.AbsoluteConstraints(510, 190, 180, 40));
 
         jLabel106.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/requi.jpg"))); // NOI18N
         jLabel106.setToolTipText("");
         jPanel21.add(jLabel106, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 710, 400));
 
-        jDialog21.getContentPane().add(jPanel21, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 710, 400));
+        siete.getContentPane().add(jPanel21, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 710, 400));
 
-        jDialog22.getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+        ocho.getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         jPanel22.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
@@ -1445,14 +1422,19 @@ public class BibliotecaJuegos extends javax.swing.JInternalFrame {
         jButton73.setBackground(new java.awt.Color(119, 150, 5));
         jButton73.setFont(new java.awt.Font("Sitka Small", 0, 11)); // NOI18N
         jButton73.setText("Regresar a Biblioteca");
+        jButton73.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton73ActionPerformed(evt);
+            }
+        });
         jPanel22.add(jButton73, new org.netbeans.lib.awtextra.AbsoluteConstraints(510, 190, 180, 40));
 
         jLabel107.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/requi.jpg"))); // NOI18N
         jPanel22.add(jLabel107, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 710, 400));
 
-        jDialog22.getContentPane().add(jPanel22, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 710, 400));
+        ocho.getContentPane().add(jPanel22, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 710, 400));
 
-        jDialog23.getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+        nueve.getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         jPanel23.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
@@ -1472,14 +1454,19 @@ public class BibliotecaJuegos extends javax.swing.JInternalFrame {
         jButton74.setBackground(new java.awt.Color(119, 150, 5));
         jButton74.setFont(new java.awt.Font("Sitka Small", 0, 11)); // NOI18N
         jButton74.setText("Regresar a Biblioteca");
+        jButton74.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton74ActionPerformed(evt);
+            }
+        });
         jPanel23.add(jButton74, new org.netbeans.lib.awtextra.AbsoluteConstraints(490, 190, 180, 40));
 
         jLabel108.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/requi.jpg"))); // NOI18N
         jPanel23.add(jLabel108, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 710, 400));
 
-        jDialog23.getContentPane().add(jPanel23, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 710, 400));
+        nueve.getContentPane().add(jPanel23, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 710, 400));
 
-        jDialog24.getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+        diez.getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         jPanel24.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
@@ -1495,27 +1482,116 @@ public class BibliotecaJuegos extends javax.swing.JInternalFrame {
         jButton75.setBackground(new java.awt.Color(119, 150, 5));
         jButton75.setFont(new java.awt.Font("Sitka Small", 0, 11)); // NOI18N
         jButton75.setText("Regresar a Biblioteca");
+        jButton75.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton75ActionPerformed(evt);
+            }
+        });
         jPanel24.add(jButton75, new org.netbeans.lib.awtextra.AbsoluteConstraints(480, 190, 180, 40));
 
         jLabel109.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/requi.jpg"))); // NOI18N
         jPanel24.add(jLabel109, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 710, 400));
 
-        jDialog24.getContentPane().add(jPanel24, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 710, 400));
+        diez.getContentPane().add(jPanel24, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 710, 400));
 
-        jPanel1.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+        jButton76.setBackground(new java.awt.Color(119, 150, 5));
+        jButton76.setFont(new java.awt.Font("Sitka Small", 0, 11)); // NOI18N
+        jButton76.setText("Regresar a Biblioteca");
+        jButton76.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton76ActionPerformed(evt);
+            }
+        });
+
+        javax.swing.GroupLayout onceLayout = new javax.swing.GroupLayout(once.getContentPane());
+        once.getContentPane().setLayout(onceLayout);
+        onceLayout.setHorizontalGroup(
+            onceLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, onceLayout.createSequentialGroup()
+                .addContainerGap(221, Short.MAX_VALUE)
+                .addComponent(jButton76)
+                .addGap(32, 32, 32))
+        );
+        onceLayout.setVerticalGroup(
+            onceLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, onceLayout.createSequentialGroup()
+                .addContainerGap(208, Short.MAX_VALUE)
+                .addComponent(jButton76)
+                .addGap(62, 62, 62))
+        );
+
+        jButton77.setBackground(new java.awt.Color(119, 150, 5));
+        jButton77.setFont(new java.awt.Font("Sitka Small", 0, 11)); // NOI18N
+        jButton77.setText("Regresar a Biblioteca");
+        jButton77.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton77ActionPerformed(evt);
+            }
+        });
+
+        javax.swing.GroupLayout doceLayout = new javax.swing.GroupLayout(doce.getContentPane());
+        doce.getContentPane().setLayout(doceLayout);
+        doceLayout.setHorizontalGroup(
+            doceLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, doceLayout.createSequentialGroup()
+                .addContainerGap(219, Short.MAX_VALUE)
+                .addComponent(jButton77)
+                .addGap(34, 34, 34))
+        );
+        doceLayout.setVerticalGroup(
+            doceLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, doceLayout.createSequentialGroup()
+                .addContainerGap(208, Short.MAX_VALUE)
+                .addComponent(jButton77)
+                .addGap(62, 62, 62))
+        );
+
+        jButton78.setBackground(new java.awt.Color(119, 150, 5));
+        jButton78.setFont(new java.awt.Font("Sitka Small", 0, 11)); // NOI18N
+        jButton78.setText("Regresar a Biblioteca");
+        jButton78.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton78ActionPerformed(evt);
+            }
+        });
+
+        javax.swing.GroupLayout treceLayout = new javax.swing.GroupLayout(trece.getContentPane());
+        trece.getContentPane().setLayout(treceLayout);
+        treceLayout.setHorizontalGroup(
+            treceLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, treceLayout.createSequentialGroup()
+                .addContainerGap(226, Short.MAX_VALUE)
+                .addComponent(jButton78)
+                .addGap(27, 27, 27))
+        );
+        treceLayout.setVerticalGroup(
+            treceLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, treceLayout.createSequentialGroup()
+                .addContainerGap(239, Short.MAX_VALUE)
+                .addComponent(jButton78)
+                .addGap(31, 31, 31))
+        );
+
+        setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+        getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         jToolBar1.setBackground(new java.awt.Color(0, 0, 0));
         jToolBar1.setRollover(true);
 
-        jButton1.setBackground(new java.awt.Color(0, 0, 0));
-        jButton1.setFont(new java.awt.Font("Comic Sans MS", 3, 12)); // NOI18N
-        jButton1.setForeground(new java.awt.Color(255, 255, 255));
-        jButton1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/halo1s.png"))); // NOI18N
-        jButton1.setText("Halo 1");
-        jButton1.setFocusable(false);
-        jButton1.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
-        jButton1.setVerticalTextPosition(javax.swing.SwingConstants.BOTTOM);
-        jToolBar1.add(jButton1);
+        Halo1.setBackground(new java.awt.Color(0, 0, 0));
+        Halo1.setFont(new java.awt.Font("Comic Sans MS", 3, 12)); // NOI18N
+        Halo1.setForeground(new java.awt.Color(255, 255, 255));
+        Halo1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/halo1s.png"))); // NOI18N
+        Halo1.setText("Halo 1");
+        Halo1.setFocusable(false);
+        Halo1.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
+        Halo1.setVerticalTextPosition(javax.swing.SwingConstants.BOTTOM);
+        Halo1.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                Halo1ActionPerformed(evt);
+            }
+        });
+        jToolBar1.add(Halo1);
 
         jButton2.setBackground(new java.awt.Color(0, 0, 0));
         jButton2.setFont(new java.awt.Font("Comic Sans MS", 3, 12)); // NOI18N
@@ -1525,6 +1601,11 @@ public class BibliotecaJuegos extends javax.swing.JInternalFrame {
         jButton2.setFocusable(false);
         jButton2.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
         jButton2.setVerticalTextPosition(javax.swing.SwingConstants.BOTTOM);
+        jButton2.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton2ActionPerformed(evt);
+            }
+        });
         jToolBar1.add(jButton2);
 
         jButton3.setBackground(new java.awt.Color(0, 0, 0));
@@ -1535,6 +1616,11 @@ public class BibliotecaJuegos extends javax.swing.JInternalFrame {
         jButton3.setFocusable(false);
         jButton3.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
         jButton3.setVerticalTextPosition(javax.swing.SwingConstants.BOTTOM);
+        jButton3.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton3ActionPerformed(evt);
+            }
+        });
         jToolBar1.add(jButton3);
 
         jButton4.setBackground(new java.awt.Color(0, 0, 0));
@@ -1545,6 +1631,11 @@ public class BibliotecaJuegos extends javax.swing.JInternalFrame {
         jButton4.setFocusable(false);
         jButton4.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
         jButton4.setVerticalTextPosition(javax.swing.SwingConstants.BOTTOM);
+        jButton4.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton4ActionPerformed(evt);
+            }
+        });
         jToolBar1.add(jButton4);
 
         jButton5.setBackground(new java.awt.Color(0, 0, 0));
@@ -1555,6 +1646,11 @@ public class BibliotecaJuegos extends javax.swing.JInternalFrame {
         jButton5.setFocusable(false);
         jButton5.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
         jButton5.setVerticalTextPosition(javax.swing.SwingConstants.BOTTOM);
+        jButton5.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton5ActionPerformed(evt);
+            }
+        });
         jToolBar1.add(jButton5);
 
         jButton6.setBackground(new java.awt.Color(0, 0, 0));
@@ -1565,6 +1661,11 @@ public class BibliotecaJuegos extends javax.swing.JInternalFrame {
         jButton6.setFocusable(false);
         jButton6.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
         jButton6.setVerticalTextPosition(javax.swing.SwingConstants.BOTTOM);
+        jButton6.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton6ActionPerformed(evt);
+            }
+        });
         jToolBar1.add(jButton6);
 
         jButton7.setBackground(new java.awt.Color(0, 0, 0));
@@ -1575,9 +1676,14 @@ public class BibliotecaJuegos extends javax.swing.JInternalFrame {
         jButton7.setFocusable(false);
         jButton7.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
         jButton7.setVerticalTextPosition(javax.swing.SwingConstants.BOTTOM);
+        jButton7.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton7ActionPerformed(evt);
+            }
+        });
         jToolBar1.add(jButton7);
 
-        jPanel1.add(jToolBar1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 1090, 170));
+        getContentPane().add(jToolBar1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 1090, 170));
 
         jToolBar2.setBackground(new java.awt.Color(0, 0, 0));
         jToolBar2.setRollover(true);
@@ -1590,6 +1696,11 @@ public class BibliotecaJuegos extends javax.swing.JInternalFrame {
         jButton8.setFocusable(false);
         jButton8.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
         jButton8.setVerticalTextPosition(javax.swing.SwingConstants.BOTTOM);
+        jButton8.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton8ActionPerformed(evt);
+            }
+        });
         jToolBar2.add(jButton8);
 
         jButton9.setBackground(new java.awt.Color(0, 0, 0));
@@ -1600,6 +1711,11 @@ public class BibliotecaJuegos extends javax.swing.JInternalFrame {
         jButton9.setFocusable(false);
         jButton9.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
         jButton9.setVerticalTextPosition(javax.swing.SwingConstants.BOTTOM);
+        jButton9.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton9ActionPerformed(evt);
+            }
+        });
         jToolBar2.add(jButton9);
 
         jButton10.setBackground(new java.awt.Color(0, 0, 0));
@@ -1610,6 +1726,11 @@ public class BibliotecaJuegos extends javax.swing.JInternalFrame {
         jButton10.setFocusable(false);
         jButton10.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
         jButton10.setVerticalTextPosition(javax.swing.SwingConstants.BOTTOM);
+        jButton10.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton10ActionPerformed(evt);
+            }
+        });
         jToolBar2.add(jButton10);
 
         jButton11.setBackground(new java.awt.Color(0, 0, 0));
@@ -1620,6 +1741,11 @@ public class BibliotecaJuegos extends javax.swing.JInternalFrame {
         jButton11.setFocusable(false);
         jButton11.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
         jButton11.setVerticalTextPosition(javax.swing.SwingConstants.BOTTOM);
+        jButton11.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton11ActionPerformed(evt);
+            }
+        });
         jToolBar2.add(jButton11);
 
         jButton12.setBackground(new java.awt.Color(0, 0, 0));
@@ -1630,6 +1756,11 @@ public class BibliotecaJuegos extends javax.swing.JInternalFrame {
         jButton12.setFocusable(false);
         jButton12.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
         jButton12.setVerticalTextPosition(javax.swing.SwingConstants.BOTTOM);
+        jButton12.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton12ActionPerformed(evt);
+            }
+        });
         jToolBar2.add(jButton12);
 
         jButton13.setBackground(new java.awt.Color(0, 0, 0));
@@ -1640,31 +1771,323 @@ public class BibliotecaJuegos extends javax.swing.JInternalFrame {
         jButton13.setFocusable(false);
         jButton13.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
         jButton13.setVerticalTextPosition(javax.swing.SwingConstants.BOTTOM);
+        jButton13.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton13ActionPerformed(evt);
+            }
+        });
         jToolBar2.add(jButton13);
 
-        jPanel1.add(jToolBar2, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 382, 1090, 170));
+        getContentPane().add(jToolBar2, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 382, 1090, 170));
 
-        jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/stea.jpeg"))); // NOI18N
-        jPanel1.add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 1090, 550));
+        jButton14.setText("Regresar a Steam");
+        jButton14.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton14ActionPerformed(evt);
+            }
+        });
+        getContentPane().add(jButton14, new org.netbeans.lib.awtextra.AbsoluteConstraints(370, 260, -1, -1));
 
-        javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
-        getContentPane().setLayout(layout);
-        layout.setHorizontalGroup(
-            layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(layout.createSequentialGroup()
-                .addComponent(jPanel1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(0, 0, Short.MAX_VALUE))
-        );
-        layout.setVerticalGroup(
-            layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(jPanel1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-        );
+        jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/1366_2000 (1).jpg"))); // NOI18N
+        getContentPane().add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(6, 176, 1090, -1));
+
+        jButton16.setText("jButton16");
+        getContentPane().add(jButton16, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 200, -1, -1));
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
 
+    private void jButton18ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton18ActionPerformed
+        uno.setSize(710, 400);
+        uno.setVisible(true);
+        this.dispose();
+    }//GEN-LAST:event_jButton18ActionPerformed
+
+    private void jButton24ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton24ActionPerformed
+        dos.setSize(710, 400);
+        dos.setVisible(true);
+        this.dispose();
+    }//GEN-LAST:event_jButton24ActionPerformed
+
+    private void jButton26ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton26ActionPerformed
+        tres.setSize(710, 400);
+        tres.setVisible(true);
+        this.dispose();
+    }//GEN-LAST:event_jButton26ActionPerformed
+
+    private void jButton30ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton30ActionPerformed
+        cuatro.setSize(710, 400);
+        cuatro.setVisible(true);
+        this.dispose();
+    }//GEN-LAST:event_jButton30ActionPerformed
+
+    private void jButton36ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton36ActionPerformed
+        cinco.setSize(710, 400);
+        cinco.setVisible(true);
+        this.dispose();
+    }//GEN-LAST:event_jButton36ActionPerformed
+
+    private void jButton40ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton40ActionPerformed
+        seis.setSize(710, 400);
+        seis.setVisible(true);
+        this.dispose();
+    }//GEN-LAST:event_jButton40ActionPerformed
+
+    private void jButton45ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton45ActionPerformed
+        siete.setSize(710, 400);
+        siete.setVisible(true);
+        this.dispose();
+    }//GEN-LAST:event_jButton45ActionPerformed
+
+    private void jButton46ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton46ActionPerformed
+        ocho.setSize(710, 400);
+        ocho.setVisible(true);
+        this.dispose();
+    }//GEN-LAST:event_jButton46ActionPerformed
+
+    private void jButton50ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton50ActionPerformed
+        nueve.setSize(710, 400);
+        nueve.setVisible(true);
+        this.dispose();
+    }//GEN-LAST:event_jButton50ActionPerformed
+
+    private void jButton54ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton54ActionPerformed
+        diez.setSize(710, 400);
+        diez.setVisible(true);
+        this.dispose();
+    }//GEN-LAST:event_jButton54ActionPerformed
+
+    private void jButton58ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton58ActionPerformed
+        once.setSize(710, 400);
+        once.setVisible(true);
+        this.dispose();
+    }//GEN-LAST:event_jButton58ActionPerformed
+
+    private void jButton62ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton62ActionPerformed
+        doce.setSize(710, 400);
+        doce.setVisible(true);
+        this.dispose();
+    }//GEN-LAST:event_jButton62ActionPerformed
+
+    private void jButton66ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton66ActionPerformed
+        trece.setSize(710, 400);
+        trece.setVisible(true);
+        this.dispose();
+    }//GEN-LAST:event_jButton66ActionPerformed
+
+    private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
+    Biblioteca s = new Biblioteca();
+        s.show();
+        this.dispose();
+    }//GEN-LAST:event_jButton1ActionPerformed
+
+    private void Halo1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Halo1ActionPerformed
+        Halo.setSize(960, 605);
+        Halo.setVisible(true);
+        this.dispose();
+
+    }//GEN-LAST:event_Halo1ActionPerformed
+
+    private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2ActionPerformed
+        HaloDos.setSize(960, 605);
+        HaloDos.setVisible(true);
+        this.dispose();
+    }//GEN-LAST:event_jButton2ActionPerformed
+
+    private void jButton3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton3ActionPerformed
+        halotres.setSize(960,605);
+        halotres.setVisible(true);
+        this.dispose();
+    }//GEN-LAST:event_jButton3ActionPerformed
+
+    private void jButton4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton4ActionPerformed
+        halocuatro.setSize(960, 605);
+        halocuatro.setVisible(true);
+        this.dispose();
+    }//GEN-LAST:event_jButton4ActionPerformed
+
+    private void jButton5ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton5ActionPerformed
+        halocinco.setSize(960, 605);
+        halocinco.setVisible(true);
+        this.dispose();
+    }//GEN-LAST:event_jButton5ActionPerformed
+
+    private void jButton6ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton6ActionPerformed
+        rsix.setSize(960, 605);
+        rsix.setVisible(true);
+        this.dispose();
+    }//GEN-LAST:event_jButton6ActionPerformed
+
+    private void jButton7ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton7ActionPerformed
+        rocket.setSize(960, 605);
+        rocket.setVisible(true);
+        this.dispose();
+    }//GEN-LAST:event_jButton7ActionPerformed
+
+    private void jButton8ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton8ActionPerformed
+        last.setSize(960, 605);
+        last.setVisible(true);
+        this.dispose();
+    }//GEN-LAST:event_jButton8ActionPerformed
+
+    private void jButton9ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton9ActionPerformed
+        fifa.setSize(960, 605);
+        fifa.setVisible(true);
+        this.dispose();
+    }//GEN-LAST:event_jButton9ActionPerformed
+
+    private void jButton10ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton10ActionPerformed
+        need.setSize(960, 605);
+        need.setVisible(true);
+        this.dispose();
+    }//GEN-LAST:event_jButton10ActionPerformed
+
+    private void jButton11ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton11ActionPerformed
+        gtav.setSize(960, 605);
+        gtav.setVisible(true);
+        this.dispose();
+    }//GEN-LAST:event_jButton11ActionPerformed
+
+    private void jButton12ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton12ActionPerformed
+        maicra.setSize(960, 605);
+        maicra.setVisible(true);
+        this.dispose();
+    }//GEN-LAST:event_jButton12ActionPerformed
+
+    private void jButton13ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton13ActionPerformed
+        injustice.setSize(960, 605);
+        injustice.setVisible(true);
+        this.dispose();
+    }//GEN-LAST:event_jButton13ActionPerformed
+
+    private void jButton15ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton15ActionPerformed
+        Biblioteca s = new Biblioteca();
+        s.show();
+        this.dispose();
+    }//GEN-LAST:event_jButton15ActionPerformed
+
+    private void jButton20ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton20ActionPerformed
+       Biblioteca s = new Biblioteca();
+       s.show();
+       this.dispose();
+    }//GEN-LAST:event_jButton20ActionPerformed
+
+    private void jButton69ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton69ActionPerformed
+        Biblioteca s = new Biblioteca();
+        s.show();
+        this.dispose();
+    }//GEN-LAST:event_jButton69ActionPerformed
+
+    private void jButton70ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton70ActionPerformed
+       Biblioteca s = new Biblioteca();
+        s.show();
+        this.dispose();
+    }//GEN-LAST:event_jButton70ActionPerformed
+
+    private void jButton71ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton71ActionPerformed
+       Biblioteca s = new Biblioteca();
+        s.show();
+        this.dispose();
+    }//GEN-LAST:event_jButton71ActionPerformed
+
+    private void jButton72ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton72ActionPerformed
+       Biblioteca s = new Biblioteca();
+        s.show();
+        this.dispose();
+    }//GEN-LAST:event_jButton72ActionPerformed
+
+    private void jButton73ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton73ActionPerformed
+       Biblioteca s = new Biblioteca();
+        s.show();
+        this.dispose();
+    }//GEN-LAST:event_jButton73ActionPerformed
+
+    private void jButton74ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton74ActionPerformed
+        Biblioteca s = new Biblioteca();
+        s.show();
+        this.dispose();
+    }//GEN-LAST:event_jButton74ActionPerformed
+
+    private void jButton75ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton75ActionPerformed
+        Biblioteca s = new Biblioteca();
+        s.show();
+        this.dispose();
+    }//GEN-LAST:event_jButton75ActionPerformed
+
+    private void jButton76ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton76ActionPerformed
+        Biblioteca s = new Biblioteca();
+        s.show();
+        this.dispose();
+    }//GEN-LAST:event_jButton76ActionPerformed
+
+    private void jButton77ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton77ActionPerformed
+       Biblioteca s = new Biblioteca();
+        s.show();
+        this.dispose();
+    }//GEN-LAST:event_jButton77ActionPerformed
+
+    private void jButton78ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton78ActionPerformed
+       Biblioteca s = new Biblioteca();
+        s.show();
+        this.dispose();
+    }//GEN-LAST:event_jButton78ActionPerformed
+
+    private void jButton14ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton14ActionPerformed
+        CJuegos s = new CJuegos();
+        s.show();
+        this.dispose();
+    }//GEN-LAST:event_jButton14ActionPerformed
+
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String args[]) {
+        /* Set the Nimbus look and feel */
+        //<editor-fold defaultstate="collapsed" desc=" Look and feel setting code (optional) ">
+        /* If Nimbus (introduced in Java SE 6) is not available, stay with the default look and feel.
+         * For details see http://download.oracle.com/javase/tutorial/uiswing/lookandfeel/plaf.html 
+         */
+        try {
+            for (javax.swing.UIManager.LookAndFeelInfo info : javax.swing.UIManager.getInstalledLookAndFeels()) {
+                if ("Nimbus".equals(info.getName())) {
+                    javax.swing.UIManager.setLookAndFeel(info.getClassName());
+                    break;
+                }
+            }
+        } catch (ClassNotFoundException ex) {
+            java.util.logging.Logger.getLogger(Biblioteca.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+        } catch (InstantiationException ex) {
+            java.util.logging.Logger.getLogger(Biblioteca.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+        } catch (IllegalAccessException ex) {
+            java.util.logging.Logger.getLogger(Biblioteca.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+        } catch (javax.swing.UnsupportedLookAndFeelException ex) {
+            java.util.logging.Logger.getLogger(Biblioteca.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+        }
+        //</editor-fold>
+
+        /* Create and display the form */
+        java.awt.EventQueue.invokeLater(new Runnable() {
+            public void run() {
+                new Biblioteca().setVisible(true);
+            }
+        });
+    }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
+    private javax.swing.JDialog Halo;
+    private javax.swing.JButton Halo1;
+    private javax.swing.JDialog HaloDos;
+    private javax.swing.JDialog cinco;
+    private javax.swing.JDialog cuatro;
+    private javax.swing.JDialog diez;
+    private javax.swing.JDialog doce;
+    private javax.swing.JDialog dos;
+    private javax.swing.JDialog fifa;
+    private javax.swing.JDialog gtav;
+    private javax.swing.JDialog halocinco;
+    private javax.swing.JDialog halocuatro;
+    private javax.swing.JDialog halotres;
+    private javax.swing.JDialog injustice;
     private javax.swing.JButton jButton1;
     private javax.swing.JButton jButton10;
     private javax.swing.JButton jButton11;
@@ -1673,63 +2096,25 @@ public class BibliotecaJuegos extends javax.swing.JInternalFrame {
     private javax.swing.JButton jButton14;
     private javax.swing.JButton jButton15;
     private javax.swing.JButton jButton16;
-    private javax.swing.JButton jButton17;
     private javax.swing.JButton jButton18;
-    private javax.swing.JButton jButton19;
     private javax.swing.JButton jButton2;
     private javax.swing.JButton jButton20;
-    private javax.swing.JButton jButton21;
-    private javax.swing.JButton jButton22;
-    private javax.swing.JButton jButton23;
     private javax.swing.JButton jButton24;
-    private javax.swing.JButton jButton25;
     private javax.swing.JButton jButton26;
-    private javax.swing.JButton jButton27;
-    private javax.swing.JButton jButton28;
-    private javax.swing.JButton jButton29;
     private javax.swing.JButton jButton3;
     private javax.swing.JButton jButton30;
-    private javax.swing.JButton jButton31;
-    private javax.swing.JButton jButton32;
-    private javax.swing.JButton jButton33;
-    private javax.swing.JButton jButton34;
-    private javax.swing.JButton jButton35;
     private javax.swing.JButton jButton36;
-    private javax.swing.JButton jButton37;
-    private javax.swing.JButton jButton38;
-    private javax.swing.JButton jButton39;
     private javax.swing.JButton jButton4;
     private javax.swing.JButton jButton40;
-    private javax.swing.JButton jButton41;
-    private javax.swing.JButton jButton42;
-    private javax.swing.JButton jButton43;
-    private javax.swing.JButton jButton44;
     private javax.swing.JButton jButton45;
     private javax.swing.JButton jButton46;
-    private javax.swing.JButton jButton47;
-    private javax.swing.JButton jButton48;
-    private javax.swing.JButton jButton49;
     private javax.swing.JButton jButton5;
     private javax.swing.JButton jButton50;
-    private javax.swing.JButton jButton51;
-    private javax.swing.JButton jButton52;
-    private javax.swing.JButton jButton53;
     private javax.swing.JButton jButton54;
-    private javax.swing.JButton jButton55;
-    private javax.swing.JButton jButton56;
-    private javax.swing.JButton jButton57;
     private javax.swing.JButton jButton58;
-    private javax.swing.JButton jButton59;
     private javax.swing.JButton jButton6;
-    private javax.swing.JButton jButton60;
-    private javax.swing.JButton jButton61;
     private javax.swing.JButton jButton62;
-    private javax.swing.JButton jButton63;
-    private javax.swing.JButton jButton64;
-    private javax.swing.JButton jButton65;
     private javax.swing.JButton jButton66;
-    private javax.swing.JButton jButton67;
-    private javax.swing.JButton jButton68;
     private javax.swing.JButton jButton69;
     private javax.swing.JButton jButton7;
     private javax.swing.JButton jButton70;
@@ -1738,31 +2123,11 @@ public class BibliotecaJuegos extends javax.swing.JInternalFrame {
     private javax.swing.JButton jButton73;
     private javax.swing.JButton jButton74;
     private javax.swing.JButton jButton75;
+    private javax.swing.JButton jButton76;
+    private javax.swing.JButton jButton77;
+    private javax.swing.JButton jButton78;
     private javax.swing.JButton jButton8;
     private javax.swing.JButton jButton9;
-    private javax.swing.JDialog jDialog1;
-    private javax.swing.JDialog jDialog10;
-    private javax.swing.JDialog jDialog11;
-    private javax.swing.JDialog jDialog12;
-    private javax.swing.JDialog jDialog13;
-    private javax.swing.JDialog jDialog15;
-    private javax.swing.JDialog jDialog16;
-    private javax.swing.JDialog jDialog17;
-    private javax.swing.JDialog jDialog18;
-    private javax.swing.JDialog jDialog19;
-    private javax.swing.JDialog jDialog2;
-    private javax.swing.JDialog jDialog20;
-    private javax.swing.JDialog jDialog21;
-    private javax.swing.JDialog jDialog22;
-    private javax.swing.JDialog jDialog23;
-    private javax.swing.JDialog jDialog24;
-    private javax.swing.JDialog jDialog3;
-    private javax.swing.JDialog jDialog4;
-    private javax.swing.JDialog jDialog5;
-    private javax.swing.JDialog jDialog6;
-    private javax.swing.JDialog jDialog7;
-    private javax.swing.JDialog jDialog8;
-    private javax.swing.JDialog jDialog9;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel10;
     private javax.swing.JLabel jLabel100;
@@ -1776,7 +2141,20 @@ public class BibliotecaJuegos extends javax.swing.JInternalFrame {
     private javax.swing.JLabel jLabel108;
     private javax.swing.JLabel jLabel109;
     private javax.swing.JLabel jLabel11;
+    private javax.swing.JLabel jLabel110;
+    private javax.swing.JLabel jLabel111;
+    private javax.swing.JLabel jLabel113;
+    private javax.swing.JLabel jLabel114;
+    private javax.swing.JLabel jLabel115;
+    private javax.swing.JLabel jLabel116;
+    private javax.swing.JLabel jLabel117;
+    private javax.swing.JLabel jLabel118;
+    private javax.swing.JLabel jLabel119;
     private javax.swing.JLabel jLabel12;
+    private javax.swing.JLabel jLabel120;
+    private javax.swing.JLabel jLabel121;
+    private javax.swing.JLabel jLabel122;
+    private javax.swing.JLabel jLabel123;
     private javax.swing.JLabel jLabel13;
     private javax.swing.JLabel jLabel14;
     private javax.swing.JLabel jLabel15;
@@ -1872,7 +2250,6 @@ public class BibliotecaJuegos extends javax.swing.JInternalFrame {
     private javax.swing.JLabel jLabel97;
     private javax.swing.JLabel jLabel98;
     private javax.swing.JLabel jLabel99;
-    private javax.swing.JPanel jPanel1;
     private javax.swing.JPanel jPanel10;
     private javax.swing.JPanel jPanel11;
     private javax.swing.JPanel jPanel12;
@@ -1966,5 +2343,18 @@ public class BibliotecaJuegos extends javax.swing.JInternalFrame {
     private javax.swing.JTextPane jTextPane9;
     private javax.swing.JToolBar jToolBar1;
     private javax.swing.JToolBar jToolBar2;
+    private javax.swing.JDialog last;
+    private javax.swing.JDialog maicra;
+    private javax.swing.JDialog need;
+    private javax.swing.JDialog nueve;
+    private javax.swing.JDialog ocho;
+    private javax.swing.JDialog once;
+    private javax.swing.JDialog rocket;
+    private javax.swing.JDialog rsix;
+    private javax.swing.JDialog seis;
+    private javax.swing.JDialog siete;
+    private javax.swing.JDialog trece;
+    private javax.swing.JDialog tres;
+    private javax.swing.JDialog uno;
     // End of variables declaration//GEN-END:variables
 }

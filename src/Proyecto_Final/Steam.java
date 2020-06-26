@@ -15,6 +15,7 @@ public class Steam {
 
 
     public static void main(String[] args) {
+        Frm_menu.main(args);
         Scanner leer = new Scanner(System.in);  
         leer.useDelimiter("\n");
         BufferedReader leer1 = new BufferedReader(new InputStreamReader(System.in));
