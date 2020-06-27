@@ -5,6 +5,9 @@
  */
 package Proyecto_Final;
 
+import javax.swing.ImageIcon;
+import javax.swing.JOptionPane;
+
 /**
  *
  * @author Ya Sabes Quien Soy =D
@@ -17,6 +20,7 @@ public class Menu extends javax.swing.JFrame {
     public Menu() {
         initComponents();
          setLocationRelativeTo(null);
+         setIconImage(new ImageIcon(getClass().getResource("/Imagenes/STEAMLOGO1.png")).getImage());
     }
 
     /**
@@ -28,6 +32,7 @@ public class Menu extends javax.swing.JFrame {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
+        jButton7 = new javax.swing.JButton();
         jLabel1 = new javax.swing.JLabel();
         btnJuegos = new javax.swing.JButton();
         btnConsolas = new javax.swing.JButton();
@@ -35,101 +40,137 @@ public class Menu extends javax.swing.JFrame {
         btnComponentes = new javax.swing.JButton();
         btnUsuarios = new javax.swing.JButton();
         btnVentas = new javax.swing.JButton();
-        jButton7 = new javax.swing.JButton();
+        jLabel3 = new javax.swing.JLabel();
+        jLabel4 = new javax.swing.JLabel();
+        jLabel5 = new javax.swing.JLabel();
+        jLabel6 = new javax.swing.JLabel();
+        jLabel7 = new javax.swing.JLabel();
+        jLabel8 = new javax.swing.JLabel();
+        jLabel9 = new javax.swing.JLabel();
+        jLabel10 = new javax.swing.JLabel();
+        jButton1 = new javax.swing.JButton();
+        jLabel2 = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+        setTitle("STEAM");
+        getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+        getContentPane().add(jButton7, new org.netbeans.lib.awtextra.AbsoluteConstraints(6, 6, -1, -1));
 
         jLabel1.setFont(new java.awt.Font("Dialog", 1, 36)); // NOI18N
         jLabel1.setText("Bienvenido!");
+        getContentPane().add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(17, 18, -1, -1));
 
-        btnJuegos.setText("Juegos");
+        btnJuegos.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/RJUEGOS.jpg"))); // NOI18N
+        btnJuegos.setBorder(javax.swing.BorderFactory.createMatteBorder(1, 1, 1, 1, new java.awt.Color(23, 42, 65)));
+        btnJuegos.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
+        btnJuegos.setVerticalTextPosition(javax.swing.SwingConstants.BOTTOM);
         btnJuegos.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 btnJuegosActionPerformed(evt);
             }
         });
+        getContentPane().add(btnJuegos, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 120, 130, 140));
 
-        btnConsolas.setText("Consolas");
+        btnConsolas.setForeground(new java.awt.Color(0, 0, 255));
+        btnConsolas.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/RCONSOLAS.jpg"))); // NOI18N
+        btnConsolas.setBorder(javax.swing.BorderFactory.createMatteBorder(1, 1, 1, 1, new java.awt.Color(23, 42, 65)));
+        btnConsolas.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
         btnConsolas.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 btnConsolasActionPerformed(evt);
             }
         });
+        getContentPane().add(btnConsolas, new org.netbeans.lib.awtextra.AbsoluteConstraints(180, 120, 130, 140));
 
-        btnComple.setText("Complementos");
+        btnComple.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/RCOMPLEMENTOS.jpg"))); // NOI18N
+        btnComple.setBorder(javax.swing.BorderFactory.createMatteBorder(1, 1, 1, 1, new java.awt.Color(23, 42, 65)));
         btnComple.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 btnCompleActionPerformed(evt);
             }
         });
+        getContentPane().add(btnComple, new org.netbeans.lib.awtextra.AbsoluteConstraints(500, 120, 130, 140));
 
-        btnComponentes.setText("Accesorios");
+        btnComponentes.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/RHARDWARE.jpg"))); // NOI18N
+        btnComponentes.setBorder(javax.swing.BorderFactory.createMatteBorder(1, 1, 1, 1, new java.awt.Color(23, 42, 65)));
+        btnComponentes.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
         btnComponentes.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 btnComponentesActionPerformed(evt);
             }
         });
+        getContentPane().add(btnComponentes, new org.netbeans.lib.awtextra.AbsoluteConstraints(340, 120, 130, 140));
 
-        btnUsuarios.setText("Usuarios");
+        btnUsuarios.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/usuario_1.jpg"))); // NOI18N
+        btnUsuarios.setBorder(javax.swing.BorderFactory.createMatteBorder(1, 1, 1, 1, new java.awt.Color(23, 42, 65)));
         btnUsuarios.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 btnUsuariosActionPerformed(evt);
             }
         });
+        getContentPane().add(btnUsuarios, new org.netbeans.lib.awtextra.AbsoluteConstraints(190, 360, 120, 140));
 
-        btnVentas.setText("$");
+        btnVentas.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/dinero.jpg"))); // NOI18N
+        btnVentas.setBorder(javax.swing.BorderFactory.createMatteBorder(1, 1, 1, 1, new java.awt.Color(23, 42, 65)));
         btnVentas.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 btnVentasActionPerformed(evt);
             }
         });
+        getContentPane().add(btnVentas, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 360, 130, 140));
 
-        javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
-        getContentPane().setLayout(layout);
-        layout.setHorizontalGroup(
-            layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(layout.createSequentialGroup()
-                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(layout.createSequentialGroup()
-                        .addContainerGap()
-                        .addComponent(btnJuegos)
-                        .addGap(36, 36, 36)
-                        .addComponent(btnConsolas)
-                        .addGap(36, 36, 36)
-                        .addComponent(btnComple)
-                        .addGap(51, 51, 51)
-                        .addComponent(btnComponentes)
-                        .addGap(47, 47, 47)
-                        .addComponent(btnUsuarios))
-                    .addGroup(layout.createSequentialGroup()
-                        .addGap(17, 17, 17)
-                        .addComponent(jLabel1))
-                    .addGroup(layout.createSequentialGroup()
-                        .addContainerGap()
-                        .addComponent(jButton7))
-                    .addGroup(layout.createSequentialGroup()
-                        .addGap(21, 21, 21)
-                        .addComponent(btnVentas)))
-                .addContainerGap(51, Short.MAX_VALUE))
-        );
-        layout.setVerticalGroup(
-            layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(layout.createSequentialGroup()
-                .addContainerGap()
-                .addComponent(jButton7)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(jLabel1)
-                .addGap(18, 18, 18)
-                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(btnJuegos)
-                    .addComponent(btnConsolas)
-                    .addComponent(btnComple)
-                    .addComponent(btnComponentes)
-                    .addComponent(btnUsuarios))
-                .addGap(33, 33, 33)
-                .addComponent(btnVentas)
-                .addContainerGap(89, Short.MAX_VALUE))
-        );
+        jLabel3.setFont(new java.awt.Font("Segoe UI", 0, 24)); // NOI18N
+        jLabel3.setForeground(new java.awt.Color(153, 255, 153));
+        jLabel3.setText("JUEGOS");
+        getContentPane().add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 260, -1, -1));
+
+        jLabel4.setFont(new java.awt.Font("Segoe UI", 0, 18)); // NOI18N
+        jLabel4.setText("¿Qué registrarás?");
+        getContentPane().add(jLabel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 70, -1, -1));
+
+        jLabel5.setFont(new java.awt.Font("Segoe UI", 0, 24)); // NOI18N
+        jLabel5.setForeground(new java.awt.Color(153, 255, 153));
+        jLabel5.setText("   CONSOLAS");
+        jLabel5.setToolTipText("");
+        jLabel5.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
+        jLabel5.setHorizontalTextPosition(javax.swing.SwingConstants.RIGHT);
+        getContentPane().add(jLabel5, new org.netbeans.lib.awtextra.AbsoluteConstraints(160, 260, 150, -1));
+
+        jLabel6.setFont(new java.awt.Font("Segoe UI", 0, 18)); // NOI18N
+        jLabel6.setText("Información sobre...");
+        getContentPane().add(jLabel6, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 320, -1, -1));
+
+        jLabel7.setFont(new java.awt.Font("Segoe UI", 0, 24)); // NOI18N
+        jLabel7.setForeground(new java.awt.Color(153, 255, 153));
+        jLabel7.setText("HARDWARE");
+        getContentPane().add(jLabel7, new org.netbeans.lib.awtextra.AbsoluteConstraints(340, 260, -1, -1));
+
+        jLabel8.setFont(new java.awt.Font("Segoe UI", 0, 24)); // NOI18N
+        jLabel8.setForeground(new java.awt.Color(153, 255, 153));
+        jLabel8.setText("COMPLEM...");
+        getContentPane().add(jLabel8, new org.netbeans.lib.awtextra.AbsoluteConstraints(500, 260, -1, -1));
+
+        jLabel9.setFont(new java.awt.Font("Segoe UI", 0, 24)); // NOI18N
+        jLabel9.setForeground(new java.awt.Color(153, 255, 153));
+        jLabel9.setText("VENTAS");
+        getContentPane().add(jLabel9, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 500, -1, -1));
+
+        jLabel10.setFont(new java.awt.Font("Segoe UI", 0, 24)); // NOI18N
+        jLabel10.setForeground(new java.awt.Color(153, 255, 153));
+        jLabel10.setText("USUARIOS");
+        getContentPane().add(jLabel10, new org.netbeans.lib.awtextra.AbsoluteConstraints(190, 500, -1, -1));
+
+        jButton1.setText("SALIR DEL PROGRAMA");
+        jButton1.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton1ActionPerformed(evt);
+            }
+        });
+        getContentPane().add(jButton1, new org.netbeans.lib.awtextra.AbsoluteConstraints(490, 520, -1, -1));
+
+        jLabel2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/FondoAzul.png"))); // NOI18N
+        jLabel2.setText("jLabel2");
+        getContentPane().add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 650, 560));
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
@@ -169,6 +210,12 @@ public class Menu extends javax.swing.JFrame {
       s.show();
       this.dispose();
     }//GEN-LAST:event_btnVentasActionPerformed
+
+    private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
+        this.dispose();
+        JOptionPane.showMessageDialog(this, "GRACIAS POR USAR EL PROGRAMA =D","STEAM",JOptionPane.PLAIN_MESSAGE);
+        setIconImage(new ImageIcon(getClass().getResource("/Imagenes/STEAMLOGO1.png")).getImage());
+    }//GEN-LAST:event_jButton1ActionPerformed
 
     /**
      * @param args the command line arguments
@@ -212,7 +259,17 @@ public class Menu extends javax.swing.JFrame {
     private javax.swing.JButton btnJuegos;
     private javax.swing.JButton btnUsuarios;
     private javax.swing.JButton btnVentas;
+    private javax.swing.JButton jButton1;
     private javax.swing.JButton jButton7;
     private javax.swing.JLabel jLabel1;
+    private javax.swing.JLabel jLabel10;
+    private javax.swing.JLabel jLabel2;
+    private javax.swing.JLabel jLabel3;
+    private javax.swing.JLabel jLabel4;
+    private javax.swing.JLabel jLabel5;
+    private javax.swing.JLabel jLabel6;
+    private javax.swing.JLabel jLabel7;
+    private javax.swing.JLabel jLabel8;
+    private javax.swing.JLabel jLabel9;
     // End of variables declaration//GEN-END:variables
 }

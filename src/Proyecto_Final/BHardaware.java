@@ -5,22 +5,23 @@
  */
 package Proyecto_Final;
 
+import javax.swing.ImageIcon;
+
 /**
  *
  * @author Ya Sabes Quien Soy =D
  */
-public class Biblioteca extends javax.swing.JFrame {
+public class BHardaware extends javax.swing.JFrame {
 
     /**
-     * Creates new form Biblioteca
+     * Creates new form BHardaware
      */
-    public Biblioteca() {
+    public BHardaware() {
         initComponents();
         setLocationRelativeTo(null);
+        setIconImage(new ImageIcon(getClass().getResource("/Imagenes/STEAMLOGO1.png")).getImage());
     }
-    private Biblioteca getFrame(){
-    return this;
-}
+
     /**
      * This method is called from within the constructor to initialize the form.
      * WARNING: Do NOT modify this code. The content of this method is always
@@ -232,13 +233,13 @@ public class Biblioteca extends javax.swing.JFrame {
         jPanel16 = new javax.swing.JPanel();
         jScrollPane26 = new javax.swing.JScrollPane();
         jTextArea17 = new javax.swing.JTextArea();
-        jButton1 = new javax.swing.JButton();
+        jButton15 = new javax.swing.JButton();
         jLabel64 = new javax.swing.JLabel();
         dos = new javax.swing.JDialog();
         jPanel15 = new javax.swing.JPanel();
         jScrollPane6 = new javax.swing.JScrollPane();
         jTextPane10 = new javax.swing.JTextPane();
-        jButton15 = new javax.swing.JButton();
+        jButton16 = new javax.swing.JButton();
         jLabel24 = new javax.swing.JLabel();
         tres = new javax.swing.JDialog();
         jPanel17 = new javax.swing.JPanel();
@@ -296,22 +297,18 @@ public class Biblioteca extends javax.swing.JFrame {
         jButton78 = new javax.swing.JButton();
         jToolBar1 = new javax.swing.JToolBar();
         Halo1 = new javax.swing.JButton();
-        jButton2 = new javax.swing.JButton();
         jButton3 = new javax.swing.JButton();
+        jButton2 = new javax.swing.JButton();
         jButton4 = new javax.swing.JButton();
         jButton5 = new javax.swing.JButton();
         jButton6 = new javax.swing.JButton();
-        jButton7 = new javax.swing.JButton();
+        jButton14 = new javax.swing.JButton();
         jToolBar2 = new javax.swing.JToolBar();
         jButton8 = new javax.swing.JButton();
-        jButton9 = new javax.swing.JButton();
-        jButton10 = new javax.swing.JButton();
         jButton11 = new javax.swing.JButton();
-        jButton12 = new javax.swing.JButton();
-        jButton13 = new javax.swing.JButton();
-        jButton14 = new javax.swing.JButton();
+        jButton10 = new javax.swing.JButton();
+        jButton9 = new javax.swing.JButton();
         jLabel1 = new javax.swing.JLabel();
-        jButton16 = new javax.swing.JButton();
 
         Halo.setResizable(false);
         Halo.getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
@@ -1219,13 +1216,13 @@ public class Biblioteca extends javax.swing.JFrame {
 
         jPanel16.add(jScrollPane26, new org.netbeans.lib.awtextra.AbsoluteConstraints(150, 40, 390, 160));
 
-        jButton1.setText("Regresar a la biblioteca");
-        jButton1.addActionListener(new java.awt.event.ActionListener() {
+        jButton15.setText("Regresar a la biblioteca");
+        jButton15.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton1ActionPerformed(evt);
+                jButton15ActionPerformed(evt);
             }
         });
-        jPanel16.add(jButton1, new org.netbeans.lib.awtextra.AbsoluteConstraints(260, 300, -1, -1));
+        jPanel16.add(jButton15, new org.netbeans.lib.awtextra.AbsoluteConstraints(260, 300, -1, -1));
 
         jLabel64.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/requi.jpg"))); // NOI18N
         jPanel16.add(jLabel64, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 710, 400));
@@ -1244,15 +1241,15 @@ public class Biblioteca extends javax.swing.JFrame {
 
         jPanel15.add(jScrollPane6, new org.netbeans.lib.awtextra.AbsoluteConstraints(160, 40, 360, 180));
 
-        jButton15.setBackground(new java.awt.Color(119, 150, 5));
-        jButton15.setFont(new java.awt.Font("Sitka Small", 0, 11)); // NOI18N
-        jButton15.setText("Regresar a Biblioteca");
-        jButton15.addActionListener(new java.awt.event.ActionListener() {
+        jButton16.setBackground(new java.awt.Color(119, 150, 5));
+        jButton16.setFont(new java.awt.Font("Sitka Small", 0, 11)); // NOI18N
+        jButton16.setText("Regresar a Biblioteca");
+        jButton16.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton15ActionPerformed(evt);
+                jButton16ActionPerformed(evt);
             }
         });
-        jPanel15.add(jButton15, new org.netbeans.lib.awtextra.AbsoluteConstraints(260, 270, 180, 40));
+        jPanel15.add(jButton16, new org.netbeans.lib.awtextra.AbsoluteConstraints(260, 270, 180, 40));
 
         jLabel24.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/requi.jpg"))); // NOI18N
         jPanel15.add(jLabel24, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 710, 400));
@@ -1573,16 +1570,17 @@ public class Biblioteca extends javax.swing.JFrame {
         );
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+        setTitle("STEAM");
         getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        jToolBar1.setBackground(new java.awt.Color(0, 0, 0));
+        jToolBar1.setBackground(new java.awt.Color(8, 25, 75));
         jToolBar1.setRollover(true);
 
         Halo1.setBackground(new java.awt.Color(0, 0, 0));
         Halo1.setFont(new java.awt.Font("Comic Sans MS", 3, 12)); // NOI18N
-        Halo1.setForeground(new java.awt.Color(255, 255, 255));
-        Halo1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/halo1s.png"))); // NOI18N
-        Halo1.setText("Halo 1");
+        Halo1.setForeground(new java.awt.Color(0, 0, 0));
+        Halo1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/A3_1.jpg"))); // NOI18N
+        Halo1.setText("MOUSE G - G502");
         Halo1.setFocusable(false);
         Halo1.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
         Halo1.setVerticalTextPosition(javax.swing.SwingConstants.BOTTOM);
@@ -1593,26 +1591,11 @@ public class Biblioteca extends javax.swing.JFrame {
         });
         jToolBar1.add(Halo1);
 
-        jButton2.setBackground(new java.awt.Color(0, 0, 0));
-        jButton2.setFont(new java.awt.Font("Comic Sans MS", 3, 12)); // NOI18N
-        jButton2.setForeground(new java.awt.Color(255, 255, 255));
-        jButton2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/halo2_1.jpg"))); // NOI18N
-        jButton2.setText("Halo 2");
-        jButton2.setFocusable(false);
-        jButton2.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
-        jButton2.setVerticalTextPosition(javax.swing.SwingConstants.BOTTOM);
-        jButton2.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton2ActionPerformed(evt);
-            }
-        });
-        jToolBar1.add(jButton2);
-
         jButton3.setBackground(new java.awt.Color(0, 0, 0));
         jButton3.setFont(new java.awt.Font("Comic Sans MS", 3, 12)); // NOI18N
-        jButton3.setForeground(new java.awt.Color(255, 255, 255));
-        jButton3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/halo3.jpg"))); // NOI18N
-        jButton3.setText("Halo Reach");
+        jButton3.setForeground(new java.awt.Color(0, 0, 0));
+        jButton3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/A4.png"))); // NOI18N
+        jButton3.setText("Zeshlla Juego de Mouse con Teclado");
         jButton3.setFocusable(false);
         jButton3.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
         jButton3.setVerticalTextPosition(javax.swing.SwingConstants.BOTTOM);
@@ -1623,11 +1606,26 @@ public class Biblioteca extends javax.swing.JFrame {
         });
         jToolBar1.add(jButton3);
 
+        jButton2.setBackground(new java.awt.Color(0, 0, 0));
+        jButton2.setFont(new java.awt.Font("Comic Sans MS", 3, 12)); // NOI18N
+        jButton2.setForeground(new java.awt.Color(0, 0, 0));
+        jButton2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/A1_1.jpg"))); // NOI18N
+        jButton2.setText("Mouse Gamer Razer");
+        jButton2.setFocusable(false);
+        jButton2.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
+        jButton2.setVerticalTextPosition(javax.swing.SwingConstants.BOTTOM);
+        jButton2.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton2ActionPerformed(evt);
+            }
+        });
+        jToolBar1.add(jButton2);
+
         jButton4.setBackground(new java.awt.Color(0, 0, 0));
         jButton4.setFont(new java.awt.Font("Comic Sans MS", 3, 12)); // NOI18N
-        jButton4.setForeground(new java.awt.Color(255, 255, 255));
-        jButton4.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/halo4.jpg"))); // NOI18N
-        jButton4.setText("Halo 4");
+        jButton4.setForeground(new java.awt.Color(0, 0, 0));
+        jButton4.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/A5.jpg"))); // NOI18N
+        jButton4.setText("Corsair Elgato Stream Deck");
         jButton4.setFocusable(false);
         jButton4.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
         jButton4.setVerticalTextPosition(javax.swing.SwingConstants.BOTTOM);
@@ -1640,9 +1638,9 @@ public class Biblioteca extends javax.swing.JFrame {
 
         jButton5.setBackground(new java.awt.Color(0, 0, 0));
         jButton5.setFont(new java.awt.Font("Comic Sans MS", 3, 12)); // NOI18N
-        jButton5.setForeground(new java.awt.Color(255, 255, 255));
-        jButton5.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/halo5.jpg"))); // NOI18N
-        jButton5.setText("Halo 5");
+        jButton5.setForeground(new java.awt.Color(0, 0, 0));
+        jButton5.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/A6 (1).jpg"))); // NOI18N
+        jButton5.setText("Kit Mouse Gamer Logitech G502");
         jButton5.setFocusable(false);
         jButton5.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
         jButton5.setVerticalTextPosition(javax.swing.SwingConstants.BOTTOM);
@@ -1653,46 +1651,38 @@ public class Biblioteca extends javax.swing.JFrame {
         });
         jToolBar1.add(jButton5);
 
-        jButton6.setBackground(new java.awt.Color(0, 0, 0));
-        jButton6.setFont(new java.awt.Font("Comic Sans MS", 3, 12)); // NOI18N
+        getContentPane().add(jToolBar1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 980, 220));
+
+        jButton6.setBackground(new java.awt.Color(54, 52, 53));
+        jButton6.setFont(new java.awt.Font("Segoe UI", 0, 18)); // NOI18N
         jButton6.setForeground(new java.awt.Color(255, 255, 255));
-        jButton6.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/r6.jpg"))); // NOI18N
-        jButton6.setText("Rainbow Siege");
-        jButton6.setFocusable(false);
-        jButton6.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
-        jButton6.setVerticalTextPosition(javax.swing.SwingConstants.BOTTOM);
+        jButton6.setText("Comprar");
         jButton6.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton6ActionPerformed(evt);
             }
         });
-        jToolBar1.add(jButton6);
+        getContentPane().add(jButton6, new org.netbeans.lib.awtextra.AbsoluteConstraints(860, 400, -1, -1));
 
-        jButton7.setBackground(new java.awt.Color(0, 0, 0));
-        jButton7.setFont(new java.awt.Font("Comic Sans MS", 3, 12)); // NOI18N
-        jButton7.setForeground(new java.awt.Color(255, 255, 255));
-        jButton7.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/rocket_1.jpg"))); // NOI18N
-        jButton7.setText("Rocket League");
-        jButton7.setFocusable(false);
-        jButton7.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
-        jButton7.setVerticalTextPosition(javax.swing.SwingConstants.BOTTOM);
-        jButton7.addActionListener(new java.awt.event.ActionListener() {
+        jButton14.setBackground(new java.awt.Color(54, 52, 53));
+        jButton14.setFont(new java.awt.Font("Segoe UI", 0, 18)); // NOI18N
+        jButton14.setForeground(new java.awt.Color(255, 255, 255));
+        jButton14.setText("Regresar a Steam");
+        jButton14.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton7ActionPerformed(evt);
+                jButton14ActionPerformed(evt);
             }
         });
-        jToolBar1.add(jButton7);
+        getContentPane().add(jButton14, new org.netbeans.lib.awtextra.AbsoluteConstraints(800, 240, -1, -1));
 
-        getContentPane().add(jToolBar1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 1090, 170));
-
-        jToolBar2.setBackground(new java.awt.Color(0, 0, 0));
+        jToolBar2.setBackground(new java.awt.Color(21, 74, 126));
         jToolBar2.setRollover(true);
 
         jButton8.setBackground(new java.awt.Color(0, 0, 0));
         jButton8.setFont(new java.awt.Font("Comic Sans MS", 3, 12)); // NOI18N
-        jButton8.setForeground(new java.awt.Color(255, 255, 255));
-        jButton8.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/last.jpg"))); // NOI18N
-        jButton8.setText("The last of us");
+        jButton8.setForeground(new java.awt.Color(0, 0, 0));
+        jButton8.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/A7 (1).jpg"))); // NOI18N
+        jButton8.setText("ABKONCORE Teclado 100% mecánico K595");
         jButton8.setFocusable(false);
         jButton8.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
         jButton8.setVerticalTextPosition(javax.swing.SwingConstants.BOTTOM);
@@ -1703,41 +1693,11 @@ public class Biblioteca extends javax.swing.JFrame {
         });
         jToolBar2.add(jButton8);
 
-        jButton9.setBackground(new java.awt.Color(0, 0, 0));
-        jButton9.setFont(new java.awt.Font("Comic Sans MS", 3, 12)); // NOI18N
-        jButton9.setForeground(new java.awt.Color(255, 255, 255));
-        jButton9.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/fifa.jpg"))); // NOI18N
-        jButton9.setText("Fifa 20");
-        jButton9.setFocusable(false);
-        jButton9.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
-        jButton9.setVerticalTextPosition(javax.swing.SwingConstants.BOTTOM);
-        jButton9.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton9ActionPerformed(evt);
-            }
-        });
-        jToolBar2.add(jButton9);
-
-        jButton10.setBackground(new java.awt.Color(0, 0, 0));
-        jButton10.setFont(new java.awt.Font("Comic Sans MS", 3, 12)); // NOI18N
-        jButton10.setForeground(new java.awt.Color(255, 255, 255));
-        jButton10.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/Need-For-Speed-Heat-2019-1.jpg"))); // NOI18N
-        jButton10.setText("Need For Speed Heat");
-        jButton10.setFocusable(false);
-        jButton10.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
-        jButton10.setVerticalTextPosition(javax.swing.SwingConstants.BOTTOM);
-        jButton10.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton10ActionPerformed(evt);
-            }
-        });
-        jToolBar2.add(jButton10);
-
         jButton11.setBackground(new java.awt.Color(0, 0, 0));
         jButton11.setFont(new java.awt.Font("Comic Sans MS", 3, 12)); // NOI18N
-        jButton11.setForeground(new java.awt.Color(255, 255, 255));
-        jButton11.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/GTAV-PC.jpg"))); // NOI18N
-        jButton11.setText("GTAV");
+        jButton11.setForeground(new java.awt.Color(0, 0, 0));
+        jButton11.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/A10.jpg"))); // NOI18N
+        jButton11.setText("HyperX Cloud Alpha - Audífonos Gamer");
         jButton11.setFocusable(false);
         jButton11.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
         jButton11.setVerticalTextPosition(javax.swing.SwingConstants.BOTTOM);
@@ -1748,54 +1708,103 @@ public class Biblioteca extends javax.swing.JFrame {
         });
         jToolBar2.add(jButton11);
 
-        jButton12.setBackground(new java.awt.Color(0, 0, 0));
-        jButton12.setFont(new java.awt.Font("Comic Sans MS", 3, 12)); // NOI18N
-        jButton12.setForeground(new java.awt.Color(255, 255, 255));
-        jButton12.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/Minecraft.jpg"))); // NOI18N
-        jButton12.setText("Minecraft");
-        jButton12.setFocusable(false);
-        jButton12.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
-        jButton12.setVerticalTextPosition(javax.swing.SwingConstants.BOTTOM);
-        jButton12.addActionListener(new java.awt.event.ActionListener() {
+        jButton10.setBackground(new java.awt.Color(0, 0, 0));
+        jButton10.setFont(new java.awt.Font("Comic Sans MS", 3, 12)); // NOI18N
+        jButton10.setForeground(new java.awt.Color(0, 0, 0));
+        jButton10.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/A9.png"))); // NOI18N
+        jButton10.setText("Monitor Gamer OMEN 27\" Negro");
+        jButton10.setFocusable(false);
+        jButton10.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
+        jButton10.setVerticalTextPosition(javax.swing.SwingConstants.BOTTOM);
+        jButton10.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton12ActionPerformed(evt);
+                jButton10ActionPerformed(evt);
             }
         });
-        jToolBar2.add(jButton12);
+        jToolBar2.add(jButton10);
 
-        jButton13.setBackground(new java.awt.Color(0, 0, 0));
-        jButton13.setFont(new java.awt.Font("Comic Sans MS", 3, 12)); // NOI18N
-        jButton13.setForeground(new java.awt.Color(255, 255, 255));
-        jButton13.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/injustice-2-legendary-portada.jpg"))); // NOI18N
-        jButton13.setText("Injustice 2");
-        jButton13.setFocusable(false);
-        jButton13.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
-        jButton13.setVerticalTextPosition(javax.swing.SwingConstants.BOTTOM);
-        jButton13.addActionListener(new java.awt.event.ActionListener() {
+        jButton9.setBackground(new java.awt.Color(0, 0, 0));
+        jButton9.setFont(new java.awt.Font("Comic Sans MS", 3, 12)); // NOI18N
+        jButton9.setForeground(new java.awt.Color(0, 0, 0));
+        jButton9.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/A8.jpg"))); // NOI18N
+        jButton9.setText("Monitor Gamer Alienware AW2518HF");
+        jButton9.setFocusable(false);
+        jButton9.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
+        jButton9.setVerticalTextPosition(javax.swing.SwingConstants.BOTTOM);
+        jButton9.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton13ActionPerformed(evt);
+                jButton9ActionPerformed(evt);
             }
         });
-        jToolBar2.add(jButton13);
+        jToolBar2.add(jButton9);
 
-        getContentPane().add(jToolBar2, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 382, 1090, 170));
+        getContentPane().add(jToolBar2, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 440, 980, 210));
 
-        jButton14.setText("Regresar a Steam");
-        jButton14.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton14ActionPerformed(evt);
-            }
-        });
-        getContentPane().add(jButton14, new org.netbeans.lib.awtextra.AbsoluteConstraints(370, 260, -1, -1));
-
-        jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/1366_2000 (1).jpg"))); // NOI18N
-        getContentPane().add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(6, 176, 1090, -1));
-
-        jButton16.setText("jButton16");
-        getContentPane().add(jButton16, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 200, -1, -1));
+        jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/steam-wallpapers-30778-510619 (2).jpg"))); // NOI18N
+        getContentPane().add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 980, 650));
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
+
+    private void Halo1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Halo1ActionPerformed
+        Halo.setSize(960, 605);
+        Halo.setVisible(true);
+        this.dispose();
+    }//GEN-LAST:event_Halo1ActionPerformed
+
+    private void jButton3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton3ActionPerformed
+        halotres.setSize(960,605);
+        halotres.setVisible(true);
+        this.dispose();
+    }//GEN-LAST:event_jButton3ActionPerformed
+
+    private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2ActionPerformed
+        HaloDos.setSize(960, 605);
+        HaloDos.setVisible(true);
+        this.dispose();
+    }//GEN-LAST:event_jButton2ActionPerformed
+
+    private void jButton4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton4ActionPerformed
+        halocuatro.setSize(960, 605);
+        halocuatro.setVisible(true);
+        this.dispose();
+    }//GEN-LAST:event_jButton4ActionPerformed
+
+    private void jButton5ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton5ActionPerformed
+        halocinco.setSize(960, 605);
+        halocinco.setVisible(true);
+        this.dispose();
+    }//GEN-LAST:event_jButton5ActionPerformed
+
+    private void jButton14ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton14ActionPerformed
+        CJuegos s = new CJuegos();
+        s.show();
+        this.dispose();
+    }//GEN-LAST:event_jButton14ActionPerformed
+
+    private void jButton8ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton8ActionPerformed
+        last.setSize(960, 605);
+        last.setVisible(true);
+        this.dispose();
+    }//GEN-LAST:event_jButton8ActionPerformed
+
+    private void jButton9ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton9ActionPerformed
+        fifa.setSize(960, 605);
+        fifa.setVisible(true);
+        this.dispose();
+    }//GEN-LAST:event_jButton9ActionPerformed
+
+    private void jButton11ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton11ActionPerformed
+        gtav.setSize(960, 605);
+        gtav.setVisible(true);
+        this.dispose();
+    }//GEN-LAST:event_jButton11ActionPerformed
+
+    private void jButton10ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton10ActionPerformed
+        need.setSize(960, 605);
+        need.setVisible(true);
+        this.dispose();
+    }//GEN-LAST:event_jButton10ActionPerformed
 
     private void jButton18ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton18ActionPerformed
         uno.setSize(710, 400);
@@ -1875,168 +1884,89 @@ public class Biblioteca extends javax.swing.JFrame {
         this.dispose();
     }//GEN-LAST:event_jButton66ActionPerformed
 
-    private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
-    Biblioteca s = new Biblioteca();
-        s.show();
-        this.dispose();
-    }//GEN-LAST:event_jButton1ActionPerformed
-
-    private void Halo1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Halo1ActionPerformed
-        Halo.setSize(960, 605);
-        Halo.setVisible(true);
-        this.dispose();
-
-    }//GEN-LAST:event_Halo1ActionPerformed
-
-    private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2ActionPerformed
-        HaloDos.setSize(960, 605);
-        HaloDos.setVisible(true);
-        this.dispose();
-    }//GEN-LAST:event_jButton2ActionPerformed
-
-    private void jButton3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton3ActionPerformed
-        halotres.setSize(960,605);
-        halotres.setVisible(true);
-        this.dispose();
-    }//GEN-LAST:event_jButton3ActionPerformed
-
-    private void jButton4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton4ActionPerformed
-        halocuatro.setSize(960, 605);
-        halocuatro.setVisible(true);
-        this.dispose();
-    }//GEN-LAST:event_jButton4ActionPerformed
-
-    private void jButton5ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton5ActionPerformed
-        halocinco.setSize(960, 605);
-        halocinco.setVisible(true);
-        this.dispose();
-    }//GEN-LAST:event_jButton5ActionPerformed
-
-    private void jButton6ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton6ActionPerformed
-        rsix.setSize(960, 605);
-        rsix.setVisible(true);
-        this.dispose();
-    }//GEN-LAST:event_jButton6ActionPerformed
-
-    private void jButton7ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton7ActionPerformed
-        rocket.setSize(960, 605);
-        rocket.setVisible(true);
-        this.dispose();
-    }//GEN-LAST:event_jButton7ActionPerformed
-
-    private void jButton8ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton8ActionPerformed
-        last.setSize(960, 605);
-        last.setVisible(true);
-        this.dispose();
-    }//GEN-LAST:event_jButton8ActionPerformed
-
-    private void jButton9ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton9ActionPerformed
-        fifa.setSize(960, 605);
-        fifa.setVisible(true);
-        this.dispose();
-    }//GEN-LAST:event_jButton9ActionPerformed
-
-    private void jButton10ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton10ActionPerformed
-        need.setSize(960, 605);
-        need.setVisible(true);
-        this.dispose();
-    }//GEN-LAST:event_jButton10ActionPerformed
-
-    private void jButton11ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton11ActionPerformed
-        gtav.setSize(960, 605);
-        gtav.setVisible(true);
-        this.dispose();
-    }//GEN-LAST:event_jButton11ActionPerformed
-
-    private void jButton12ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton12ActionPerformed
-        maicra.setSize(960, 605);
-        maicra.setVisible(true);
-        this.dispose();
-    }//GEN-LAST:event_jButton12ActionPerformed
-
-    private void jButton13ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton13ActionPerformed
-        injustice.setSize(960, 605);
-        injustice.setVisible(true);
-        this.dispose();
-    }//GEN-LAST:event_jButton13ActionPerformed
-
     private void jButton15ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton15ActionPerformed
-        Biblioteca s = new Biblioteca();
+        BibliotecaJuegos s = new BibliotecaJuegos();
         s.show();
         this.dispose();
     }//GEN-LAST:event_jButton15ActionPerformed
 
+    private void jButton16ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton16ActionPerformed
+        BibliotecaJuegos s = new BibliotecaJuegos();
+        s.show();
+        this.dispose();
+    }//GEN-LAST:event_jButton16ActionPerformed
+
     private void jButton20ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton20ActionPerformed
-       Biblioteca s = new Biblioteca();
-       s.show();
-       this.dispose();
+        BibliotecaJuegos s = new BibliotecaJuegos();
+        s.show();
+        this.dispose();
     }//GEN-LAST:event_jButton20ActionPerformed
 
     private void jButton69ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton69ActionPerformed
-        Biblioteca s = new Biblioteca();
+        BibliotecaJuegos s = new BibliotecaJuegos();
         s.show();
         this.dispose();
     }//GEN-LAST:event_jButton69ActionPerformed
 
     private void jButton70ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton70ActionPerformed
-       Biblioteca s = new Biblioteca();
+        BibliotecaJuegos s = new BibliotecaJuegos();
         s.show();
         this.dispose();
     }//GEN-LAST:event_jButton70ActionPerformed
 
     private void jButton71ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton71ActionPerformed
-       Biblioteca s = new Biblioteca();
+        BibliotecaJuegos s = new BibliotecaJuegos();
         s.show();
         this.dispose();
     }//GEN-LAST:event_jButton71ActionPerformed
 
     private void jButton72ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton72ActionPerformed
-       Biblioteca s = new Biblioteca();
+        BibliotecaJuegos s = new BibliotecaJuegos();
         s.show();
         this.dispose();
     }//GEN-LAST:event_jButton72ActionPerformed
 
     private void jButton73ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton73ActionPerformed
-       Biblioteca s = new Biblioteca();
+        BibliotecaJuegos s = new BibliotecaJuegos();
         s.show();
         this.dispose();
     }//GEN-LAST:event_jButton73ActionPerformed
 
     private void jButton74ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton74ActionPerformed
-        Biblioteca s = new Biblioteca();
+        BibliotecaJuegos s = new BibliotecaJuegos();
         s.show();
         this.dispose();
     }//GEN-LAST:event_jButton74ActionPerformed
 
     private void jButton75ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton75ActionPerformed
-        Biblioteca s = new Biblioteca();
+        BibliotecaJuegos s = new BibliotecaJuegos();
         s.show();
         this.dispose();
     }//GEN-LAST:event_jButton75ActionPerformed
 
     private void jButton76ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton76ActionPerformed
-        Biblioteca s = new Biblioteca();
+        BibliotecaJuegos s = new BibliotecaJuegos();
         s.show();
         this.dispose();
     }//GEN-LAST:event_jButton76ActionPerformed
 
     private void jButton77ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton77ActionPerformed
-       Biblioteca s = new Biblioteca();
+        BibliotecaJuegos s = new BibliotecaJuegos();
         s.show();
         this.dispose();
     }//GEN-LAST:event_jButton77ActionPerformed
 
     private void jButton78ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton78ActionPerformed
-       Biblioteca s = new Biblioteca();
+        BibliotecaJuegos s = new BibliotecaJuegos();
         s.show();
         this.dispose();
     }//GEN-LAST:event_jButton78ActionPerformed
 
-    private void jButton14ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton14ActionPerformed
-        CJuegos s = new CJuegos();
+    private void jButton6ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton6ActionPerformed
+        ComprarHardware  s = new ComprarHardware();
         s.show();
         this.dispose();
-    }//GEN-LAST:event_jButton14ActionPerformed
+    }//GEN-LAST:event_jButton6ActionPerformed
 
     /**
      * @param args the command line arguments
@@ -2055,20 +1985,20 @@ public class Biblioteca extends javax.swing.JFrame {
                 }
             }
         } catch (ClassNotFoundException ex) {
-            java.util.logging.Logger.getLogger(Biblioteca.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(BHardaware.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         } catch (InstantiationException ex) {
-            java.util.logging.Logger.getLogger(Biblioteca.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(BHardaware.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         } catch (IllegalAccessException ex) {
-            java.util.logging.Logger.getLogger(Biblioteca.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(BHardaware.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         } catch (javax.swing.UnsupportedLookAndFeelException ex) {
-            java.util.logging.Logger.getLogger(Biblioteca.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(BHardaware.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         }
         //</editor-fold>
 
         /* Create and display the form */
         java.awt.EventQueue.invokeLater(new Runnable() {
             public void run() {
-                new Biblioteca().setVisible(true);
+                new BHardaware().setVisible(true);
             }
         });
     }
@@ -2088,11 +2018,8 @@ public class Biblioteca extends javax.swing.JFrame {
     private javax.swing.JDialog halocuatro;
     private javax.swing.JDialog halotres;
     private javax.swing.JDialog injustice;
-    private javax.swing.JButton jButton1;
     private javax.swing.JButton jButton10;
     private javax.swing.JButton jButton11;
-    private javax.swing.JButton jButton12;
-    private javax.swing.JButton jButton13;
     private javax.swing.JButton jButton14;
     private javax.swing.JButton jButton15;
     private javax.swing.JButton jButton16;
@@ -2116,7 +2043,6 @@ public class Biblioteca extends javax.swing.JFrame {
     private javax.swing.JButton jButton62;
     private javax.swing.JButton jButton66;
     private javax.swing.JButton jButton69;
-    private javax.swing.JButton jButton7;
     private javax.swing.JButton jButton70;
     private javax.swing.JButton jButton71;
     private javax.swing.JButton jButton72;

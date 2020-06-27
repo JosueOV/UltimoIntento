@@ -5,6 +5,8 @@
  */
 package Proyecto_Final;
 
+import javax.swing.ImageIcon;
+
 /**
  *
  * @author Ya Sabes Quien Soy =D
@@ -16,6 +18,8 @@ public class BiConsolas extends javax.swing.JFrame {
      */
     public BiConsolas() {
         initComponents();
+          setLocationRelativeTo(null);
+        setIconImage(new ImageIcon(getClass().getResource("/Imagenes/STEAMLOGO1.png")).getImage());
     }
 
     /**
@@ -27,21 +31,1923 @@ public class BiConsolas extends javax.swing.JFrame {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
-        setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+        Halo = new javax.swing.JDialog();
+        jPanel2 = new javax.swing.JPanel();
+        jLabel2 = new javax.swing.JLabel();
+        jLabel3 = new javax.swing.JLabel();
+        jLabel5 = new javax.swing.JLabel();
+        jScrollPane1 = new javax.swing.JScrollPane();
+        jTextArea1 = new javax.swing.JTextArea();
+        jScrollPane2 = new javax.swing.JScrollPane();
+        jTextPane1 = new javax.swing.JTextPane();
+        jScrollPane3 = new javax.swing.JScrollPane();
+        jTextArea2 = new javax.swing.JTextArea();
+        jButton18 = new javax.swing.JButton();
+        jLabel65 = new javax.swing.JLabel();
+        jLabel66 = new javax.swing.JLabel();
+        jLabel67 = new javax.swing.JLabel();
+        jLabel110 = new javax.swing.JLabel();
+        jLabel4 = new javax.swing.JLabel();
+        HaloDos = new javax.swing.JDialog();
+        jPanel3 = new javax.swing.JPanel();
+        jLabel7 = new javax.swing.JLabel();
+        jLabel8 = new javax.swing.JLabel();
+        jLabel9 = new javax.swing.JLabel();
+        jScrollPane4 = new javax.swing.JScrollPane();
+        jTextPane2 = new javax.swing.JTextPane();
+        jScrollPane5 = new javax.swing.JScrollPane();
+        jTextPane3 = new javax.swing.JTextPane();
+        jLabel10 = new javax.swing.JLabel();
+        jLabel69 = new javax.swing.JLabel();
+        jLabel70 = new javax.swing.JLabel();
+        jButton24 = new javax.swing.JButton();
+        jLabel71 = new javax.swing.JLabel();
+        jLabel111 = new javax.swing.JLabel();
+        jLabel6 = new javax.swing.JLabel();
+        halotres = new javax.swing.JDialog();
+        jPanel4 = new javax.swing.JPanel();
+        jLabel12 = new javax.swing.JLabel();
+        jLabel13 = new javax.swing.JLabel();
+        jLabel14 = new javax.swing.JLabel();
+        jScrollPane7 = new javax.swing.JScrollPane();
+        jTextArea4 = new javax.swing.JTextArea();
+        jLabel72 = new javax.swing.JLabel();
+        jButton26 = new javax.swing.JButton();
+        jLabel73 = new javax.swing.JLabel();
+        jLabel74 = new javax.swing.JLabel();
+        jLabel113 = new javax.swing.JLabel();
+        jLabel11 = new javax.swing.JLabel();
+        halocuatro = new javax.swing.JDialog();
+        jPanel5 = new javax.swing.JPanel();
+        jLabel16 = new javax.swing.JLabel();
+        jLabel17 = new javax.swing.JLabel();
+        jLabel18 = new javax.swing.JLabel();
+        jLabel19 = new javax.swing.JLabel();
+        jScrollPane8 = new javax.swing.JScrollPane();
+        jTextArea5 = new javax.swing.JTextArea();
+        jScrollPane17 = new javax.swing.JScrollPane();
+        jTextArea9 = new javax.swing.JTextArea();
+        jLabel75 = new javax.swing.JLabel();
+        jButton30 = new javax.swing.JButton();
+        jLabel76 = new javax.swing.JLabel();
+        jLabel77 = new javax.swing.JLabel();
+        jLabel114 = new javax.swing.JLabel();
+        jLabel15 = new javax.swing.JLabel();
+        halocinco = new javax.swing.JDialog();
+        jPanel6 = new javax.swing.JPanel();
+        jLabel21 = new javax.swing.JLabel();
+        jLabel22 = new javax.swing.JLabel();
+        jLabel23 = new javax.swing.JLabel();
+        jScrollPane9 = new javax.swing.JScrollPane();
+        jTextArea6 = new javax.swing.JTextArea();
+        jScrollPane10 = new javax.swing.JScrollPane();
+        jTextArea7 = new javax.swing.JTextArea();
+        jLabel78 = new javax.swing.JLabel();
+        jLabel79 = new javax.swing.JLabel();
+        jLabel80 = new javax.swing.JLabel();
+        jButton36 = new javax.swing.JButton();
+        jLabel115 = new javax.swing.JLabel();
+        jLabel20 = new javax.swing.JLabel();
+        rsix = new javax.swing.JDialog();
+        jPanel7 = new javax.swing.JPanel();
+        jLabel26 = new javax.swing.JLabel();
+        jLabel27 = new javax.swing.JLabel();
+        jLabel28 = new javax.swing.JLabel();
+        jScrollPane11 = new javax.swing.JScrollPane();
+        jTextPane4 = new javax.swing.JTextPane();
+        jScrollPane12 = new javax.swing.JScrollPane();
+        jTextPane5 = new javax.swing.JTextPane();
+        jScrollPane13 = new javax.swing.JScrollPane();
+        jTextPane6 = new javax.swing.JTextPane();
+        jLabel81 = new javax.swing.JLabel();
+        jLabel82 = new javax.swing.JLabel();
+        jLabel83 = new javax.swing.JLabel();
+        jButton40 = new javax.swing.JButton();
+        jLabel116 = new javax.swing.JLabel();
+        jLabel25 = new javax.swing.JLabel();
+        rocket = new javax.swing.JDialog();
+        jPanel8 = new javax.swing.JPanel();
+        jLabel30 = new javax.swing.JLabel();
+        jLabel31 = new javax.swing.JLabel();
+        jLabel32 = new javax.swing.JLabel();
+        jScrollPane14 = new javax.swing.JScrollPane();
+        jTextPane7 = new javax.swing.JTextPane();
+        jScrollPane15 = new javax.swing.JScrollPane();
+        jTextPane8 = new javax.swing.JTextPane();
+        jLabel33 = new javax.swing.JLabel();
+        jLabel84 = new javax.swing.JLabel();
+        jLabel85 = new javax.swing.JLabel();
+        jLabel86 = new javax.swing.JLabel();
+        jButton45 = new javax.swing.JButton();
+        jLabel117 = new javax.swing.JLabel();
+        jLabel29 = new javax.swing.JLabel();
+        last = new javax.swing.JDialog();
+        jPanel9 = new javax.swing.JPanel();
+        jLabel35 = new javax.swing.JLabel();
+        jLabel36 = new javax.swing.JLabel();
+        jLabel37 = new javax.swing.JLabel();
+        jScrollPane16 = new javax.swing.JScrollPane();
+        jTextArea8 = new javax.swing.JTextArea();
+        jLabel38 = new javax.swing.JLabel();
+        jLabel39 = new javax.swing.JLabel();
+        jLabel87 = new javax.swing.JLabel();
+        jButton46 = new javax.swing.JButton();
+        jLabel89 = new javax.swing.JLabel();
+        jLabel88 = new javax.swing.JLabel();
+        jLabel118 = new javax.swing.JLabel();
+        jLabel34 = new javax.swing.JLabel();
+        fifa = new javax.swing.JDialog();
+        jPanel10 = new javax.swing.JPanel();
+        jLabel43 = new javax.swing.JLabel();
+        jLabel44 = new javax.swing.JLabel();
+        jLabel45 = new javax.swing.JLabel();
+        jScrollPane18 = new javax.swing.JScrollPane();
+        jTextArea10 = new javax.swing.JTextArea();
+        jScrollPane19 = new javax.swing.JScrollPane();
+        jTextArea11 = new javax.swing.JTextArea();
+        jLabel46 = new javax.swing.JLabel();
+        jLabel90 = new javax.swing.JLabel();
+        jButton50 = new javax.swing.JButton();
+        jLabel91 = new javax.swing.JLabel();
+        jLabel92 = new javax.swing.JLabel();
+        jLabel119 = new javax.swing.JLabel();
+        jLabel42 = new javax.swing.JLabel();
+        need = new javax.swing.JDialog();
+        jPanel11 = new javax.swing.JPanel();
+        jLabel48 = new javax.swing.JLabel();
+        jLabel49 = new javax.swing.JLabel();
+        jLabel50 = new javax.swing.JLabel();
+        jScrollPane20 = new javax.swing.JScrollPane();
+        jTextArea12 = new javax.swing.JTextArea();
+        jLabel93 = new javax.swing.JLabel();
+        jButton54 = new javax.swing.JButton();
+        jLabel94 = new javax.swing.JLabel();
+        jLabel95 = new javax.swing.JLabel();
+        jLabel120 = new javax.swing.JLabel();
+        jLabel47 = new javax.swing.JLabel();
+        gtav = new javax.swing.JDialog();
+        jPanel12 = new javax.swing.JPanel();
+        jLabel52 = new javax.swing.JLabel();
+        jLabel53 = new javax.swing.JLabel();
+        jLabel54 = new javax.swing.JLabel();
+        jScrollPane21 = new javax.swing.JScrollPane();
+        jTextArea13 = new javax.swing.JTextArea();
+        jLabel96 = new javax.swing.JLabel();
+        jButton58 = new javax.swing.JButton();
+        jLabel97 = new javax.swing.JLabel();
+        jLabel98 = new javax.swing.JLabel();
+        jLabel121 = new javax.swing.JLabel();
+        jLabel51 = new javax.swing.JLabel();
+        maicra = new javax.swing.JDialog();
+        jPanel13 = new javax.swing.JPanel();
+        jLabel56 = new javax.swing.JLabel();
+        jLabel57 = new javax.swing.JLabel();
+        jLabel58 = new javax.swing.JLabel();
+        jScrollPane22 = new javax.swing.JScrollPane();
+        jTextArea14 = new javax.swing.JTextArea();
+        jScrollPane23 = new javax.swing.JScrollPane();
+        jTextArea15 = new javax.swing.JTextArea();
+        jScrollPane24 = new javax.swing.JScrollPane();
+        jTextPane9 = new javax.swing.JTextPane();
+        jLabel59 = new javax.swing.JLabel();
+        jLabel99 = new javax.swing.JLabel();
+        jButton62 = new javax.swing.JButton();
+        jLabel100 = new javax.swing.JLabel();
+        jLabel101 = new javax.swing.JLabel();
+        jLabel122 = new javax.swing.JLabel();
+        jLabel55 = new javax.swing.JLabel();
+        injustice = new javax.swing.JDialog();
+        jPanel14 = new javax.swing.JPanel();
+        jLabel61 = new javax.swing.JLabel();
+        jLabel62 = new javax.swing.JLabel();
+        jLabel63 = new javax.swing.JLabel();
+        jScrollPane25 = new javax.swing.JScrollPane();
+        jTextArea16 = new javax.swing.JTextArea();
+        jLabel102 = new javax.swing.JLabel();
+        jButton66 = new javax.swing.JButton();
+        jLabel103 = new javax.swing.JLabel();
+        jLabel104 = new javax.swing.JLabel();
+        jLabel123 = new javax.swing.JLabel();
+        jLabel60 = new javax.swing.JLabel();
+        uno = new javax.swing.JDialog();
+        jPanel16 = new javax.swing.JPanel();
+        jScrollPane26 = new javax.swing.JScrollPane();
+        jTextArea17 = new javax.swing.JTextArea();
+        jButton15 = new javax.swing.JButton();
+        jLabel64 = new javax.swing.JLabel();
+        dos = new javax.swing.JDialog();
+        jPanel15 = new javax.swing.JPanel();
+        jScrollPane6 = new javax.swing.JScrollPane();
+        jTextPane10 = new javax.swing.JTextPane();
+        jButton17 = new javax.swing.JButton();
+        jLabel24 = new javax.swing.JLabel();
+        tres = new javax.swing.JDialog();
+        jPanel17 = new javax.swing.JPanel();
+        jScrollPane27 = new javax.swing.JScrollPane();
+        jTextArea3 = new javax.swing.JTextArea();
+        jButton20 = new javax.swing.JButton();
+        jLabel40 = new javax.swing.JLabel();
+        cuatro = new javax.swing.JDialog();
+        jPanel18 = new javax.swing.JPanel();
+        jScrollPane28 = new javax.swing.JScrollPane();
+        jTextArea18 = new javax.swing.JTextArea();
+        jButton69 = new javax.swing.JButton();
+        jLabel41 = new javax.swing.JLabel();
+        cinco = new javax.swing.JDialog();
+        jPanel19 = new javax.swing.JPanel();
+        jScrollPane29 = new javax.swing.JScrollPane();
+        jTextPane11 = new javax.swing.JTextPane();
+        jButton70 = new javax.swing.JButton();
+        jLabel68 = new javax.swing.JLabel();
+        seis = new javax.swing.JDialog();
+        jPanel20 = new javax.swing.JPanel();
+        jScrollPane30 = new javax.swing.JScrollPane();
+        jTextArea19 = new javax.swing.JTextArea();
+        jButton71 = new javax.swing.JButton();
+        jLabel105 = new javax.swing.JLabel();
+        siete = new javax.swing.JDialog();
+        jPanel21 = new javax.swing.JPanel();
+        jScrollPane31 = new javax.swing.JScrollPane();
+        jTextPane12 = new javax.swing.JTextPane();
+        jButton72 = new javax.swing.JButton();
+        jLabel106 = new javax.swing.JLabel();
+        ocho = new javax.swing.JDialog();
+        jPanel22 = new javax.swing.JPanel();
+        jScrollPane32 = new javax.swing.JScrollPane();
+        jTextPane13 = new javax.swing.JTextPane();
+        jButton73 = new javax.swing.JButton();
+        jLabel107 = new javax.swing.JLabel();
+        nueve = new javax.swing.JDialog();
+        jPanel23 = new javax.swing.JPanel();
+        jScrollPane33 = new javax.swing.JScrollPane();
+        jTextArea20 = new javax.swing.JTextArea();
+        jButton74 = new javax.swing.JButton();
+        jLabel108 = new javax.swing.JLabel();
+        diez = new javax.swing.JDialog();
+        jPanel24 = new javax.swing.JPanel();
+        jScrollPane34 = new javax.swing.JScrollPane();
+        jTextPane14 = new javax.swing.JTextPane();
+        jButton75 = new javax.swing.JButton();
+        jLabel109 = new javax.swing.JLabel();
+        once = new javax.swing.JDialog();
+        jButton76 = new javax.swing.JButton();
+        doce = new javax.swing.JDialog();
+        jButton77 = new javax.swing.JButton();
+        trece = new javax.swing.JDialog();
+        jButton78 = new javax.swing.JButton();
+        jButton1 = new javax.swing.JButton();
+        jToolBar1 = new javax.swing.JToolBar();
+        Halo1 = new javax.swing.JButton();
+        jButton2 = new javax.swing.JButton();
+        jButton3 = new javax.swing.JButton();
+        jButton4 = new javax.swing.JButton();
+        jToolBar2 = new javax.swing.JToolBar();
+        jButton6 = new javax.swing.JButton();
+        Halo2 = new javax.swing.JButton();
+        jButton9 = new javax.swing.JButton();
+        jButton7 = new javax.swing.JButton();
+        jButton16 = new javax.swing.JButton();
+        jButton5 = new javax.swing.JButton();
+        jLabel1 = new javax.swing.JLabel();
 
-        javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
-        getContentPane().setLayout(layout);
-        layout.setHorizontalGroup(
-            layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 400, Short.MAX_VALUE)
+        Halo.setResizable(false);
+        Halo.getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        jPanel2.setBackground(new java.awt.Color(227, 26, 35));
+        jPanel2.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        jLabel2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/2.jpg"))); // NOI18N
+        jPanel2.add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(330, 20, 300, 170));
+
+        jLabel3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/1.png"))); // NOI18N
+        jPanel2.add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 20, 300, -1));
+
+        jLabel5.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/3.jpg"))); // NOI18N
+        jPanel2.add(jLabel5, new org.netbeans.lib.awtextra.AbsoluteConstraints(640, 20, 300, 170));
+
+        jTextArea1.setBackground(new java.awt.Color(0, 0, 0));
+        jTextArea1.setColumns(20);
+        jTextArea1.setForeground(new java.awt.Color(255, 255, 255));
+        jTextArea1.setRows(5);
+        jTextArea1.setText("\t                    ACERCA DE ESTE CONTENIDO\n------------------------------------------------------------------------------\nRevive la espectacular edición remasterizada de la campaña original de Halo,\nlanzada en el marco  de  la celebración  del  décimo aniversario de una de las \nfranquicias  más  aclamadas  de  la  historia  de los videojuegos. Luego de un\naterrizaje forzoso en un mundo  misterioso  conocido  como Halo,  Chief tiene\nla tarea  de  ayudar  a los humanos sobrevivientes a repeler las abrumadoras\nfuerzas  del  Covenant.  En medio  de  esta misión, Cortana y él descubren el\noscuro secreto de Halo y pelean por proteger toda la vida de la galaxia.");
+        jTextArea1.setDisabledTextColor(new java.awt.Color(255, 255, 255));
+        jTextArea1.setEnabled(false);
+        jTextArea1.setSelectedTextColor(new java.awt.Color(51, 51, 51));
+        jScrollPane1.setViewportView(jTextArea1);
+
+        jPanel2.add(jScrollPane1, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 210, 650, 190));
+
+        jTextPane1.setBackground(new java.awt.Color(0, 0, 0));
+        jTextPane1.setFont(new java.awt.Font("Monospaced", 0, 11)); // NOI18N
+        jTextPane1.setForeground(new java.awt.Color(255, 255, 255));
+        jTextPane1.setText("DESCRIPCIÓN DEL CONTENIDO PARA ADULTOS\nLos desarrolladores describen su contenido así:\n\nEste DLC puede incluir contenido no apto para \ntodas las edades o para verlo en el trabajo: contenido general para adultos");
+        jScrollPane2.setViewportView(jTextPane1);
+
+        jPanel2.add(jScrollPane2, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 420, 550, 120));
+
+        jTextArea2.setBackground(new java.awt.Color(0, 0, 0));
+        jTextArea2.setColumns(20);
+        jTextArea2.setForeground(new java.awt.Color(255, 255, 255));
+        jTextArea2.setRows(5);
+        jTextArea2.setText("Idiomas:\nInterfaz      Voces     Subtítulos\nEspañol ✔\t✔\t✔\nInglés\t✔\t✔\t✔\nFrancés\t ✔\t ✔\t ✔\nItaliano✔\t✔\t✔\nAlemán\t✔\t✔\t✔");
+        jScrollPane3.setViewportView(jTextArea2);
+
+        jPanel2.add(jScrollPane3, new org.netbeans.lib.awtextra.AbsoluteConstraints(670, 230, 280, 140));
+
+        jButton18.setFont(new java.awt.Font("Comic Sans MS", 0, 12)); // NOI18N
+        jButton18.setText("Requisitos Sistema");
+        jButton18.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton18ActionPerformed(evt);
+            }
+        });
+        jPanel2.add(jButton18, new org.netbeans.lib.awtextra.AbsoluteConstraints(810, 530, -1, -1));
+
+        jLabel65.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
+        jLabel65.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel65.setText("PlayStation");
+        jPanel2.add(jLabel65, new org.netbeans.lib.awtextra.AbsoluteConstraints(620, 520, -1, -1));
+
+        jLabel66.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
+        jLabel66.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel66.setText("PC");
+        jPanel2.add(jLabel66, new org.netbeans.lib.awtextra.AbsoluteConstraints(870, 490, -1, -1));
+
+        jLabel67.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
+        jLabel67.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel67.setText("XBOX");
+        jPanel2.add(jLabel67, new org.netbeans.lib.awtextra.AbsoluteConstraints(620, 480, -1, -1));
+
+        jLabel110.setFont(new java.awt.Font("Dialog", 1, 24)); // NOI18N
+        jLabel110.setText("Disponible para:");
+        jPanel2.add(jLabel110, new org.netbeans.lib.awtextra.AbsoluteConstraints(620, 430, -1, -1));
+
+        jLabel4.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/ROJO1B.jpg"))); // NOI18N
+        jPanel2.add(jLabel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(4, 4, 960, 580));
+
+        Halo.getContentPane().add(jPanel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 960, 580));
+
+        HaloDos.setResizable(false);
+        HaloDos.getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        jPanel3.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        jLabel7.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/a.jpg"))); // NOI18N
+        jPanel3.add(jLabel7, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 30, -1, -1));
+
+        jLabel8.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/b.jpg"))); // NOI18N
+        jPanel3.add(jLabel8, new org.netbeans.lib.awtextra.AbsoluteConstraints(330, 30, -1, -1));
+
+        jLabel9.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/c.jpg"))); // NOI18N
+        jPanel3.add(jLabel9, new org.netbeans.lib.awtextra.AbsoluteConstraints(640, 30, -1, -1));
+
+        jTextPane2.setEditable(false);
+        jTextPane2.setBackground(new java.awt.Color(0, 0, 0));
+        jTextPane2.setFont(new java.awt.Font("Monospaced", 0, 12)); // NOI18N
+        jTextPane2.setForeground(new java.awt.Color(255, 255, 255));
+        jTextPane2.setText("                              ACERCA DE ESTE CONTENIDO\n----------------------------------------------------------------------\nHalo 2: Tras la destrucción del Halo, la  humanidad  experimenta\nuna   victoria   efímera.  Ansiosos  por  vengarse,  el   Covenant\nemprende  un  ataque  sorpresa contra la Tierra, pero no  están\npreparados para derrotar a la flota del UNSC y se ven obligados\na  huir  al  desliespacio.  Cuando el Jefe Maestro persigue a  sus\nenemigos  extremistas,  la  armada  descubre  otro  anillo Halo y\nrevela  secretos  enterrados  mucho  tiempo atrás, entre los que\nse  encontrará  un insólito aliado que alterará dramáticamente el \ncurso del conflicto entre humanos y Covenant para siempre.");
+        jScrollPane4.setViewportView(jTextPane2);
+
+        jPanel3.add(jScrollPane4, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 220, 510, 200));
+
+        jTextPane3.setEditable(false);
+        jTextPane3.setBackground(new java.awt.Color(0, 0, 0));
+        jTextPane3.setFont(new java.awt.Font("Monospaced", 0, 12)); // NOI18N
+        jTextPane3.setForeground(new java.awt.Color(255, 255, 255));
+        jTextPane3.setText("Campaña: disfruta del siguiente capítulo de la saga de Halo y combate en 15 misiones inolvidables. Vive el conflicto entre humanos y Covenant de una forma totalmente distinta poniéndote en la piel de Spartan-117, el Jefe Maestro y, por primera vez, el Élite del Covenant conocido como El Inquisidor.");
+        jScrollPane5.setViewportView(jTextPane3);
+
+        jPanel3.add(jScrollPane5, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 430, 490, 110));
+
+        jLabel10.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/d.jpg"))); // NOI18N
+        jPanel3.add(jLabel10, new org.netbeans.lib.awtextra.AbsoluteConstraints(620, 220, 300, -1));
+
+        jLabel69.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
+        jLabel69.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel69.setText("PlayStation");
+        jPanel3.add(jLabel69, new org.netbeans.lib.awtextra.AbsoluteConstraints(570, 520, -1, -1));
+
+        jLabel70.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
+        jLabel70.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel70.setText("XBOX");
+        jPanel3.add(jLabel70, new org.netbeans.lib.awtextra.AbsoluteConstraints(570, 480, -1, -1));
+
+        jButton24.setFont(new java.awt.Font("Comic Sans MS", 0, 12)); // NOI18N
+        jButton24.setText("Requisitos Sistema");
+        jButton24.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton24ActionPerformed(evt);
+            }
+        });
+        jPanel3.add(jButton24, new org.netbeans.lib.awtextra.AbsoluteConstraints(800, 520, -1, -1));
+
+        jLabel71.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
+        jLabel71.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel71.setText("PC");
+        jPanel3.add(jLabel71, new org.netbeans.lib.awtextra.AbsoluteConstraints(850, 480, -1, -1));
+
+        jLabel111.setFont(new java.awt.Font("Dialog", 1, 24)); // NOI18N
+        jLabel111.setText("Disponible para:");
+        jPanel3.add(jLabel111, new org.netbeans.lib.awtextra.AbsoluteConstraints(570, 430, -1, -1));
+
+        jLabel6.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/ROJO1B.jpg"))); // NOI18N
+        jPanel3.add(jLabel6, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 960, 580));
+
+        HaloDos.getContentPane().add(jPanel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 960, 580));
+
+        halotres.setResizable(false);
+        halotres.getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        jPanel4.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        jLabel12.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/11.PNG"))); // NOI18N
+        jPanel4.add(jLabel12, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 30, -1, -1));
+
+        jLabel13.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/12.PNG"))); // NOI18N
+        jPanel4.add(jLabel13, new org.netbeans.lib.awtextra.AbsoluteConstraints(330, 30, -1, -1));
+
+        jLabel14.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/14.PNG"))); // NOI18N
+        jPanel4.add(jLabel14, new org.netbeans.lib.awtextra.AbsoluteConstraints(640, 30, -1, -1));
+
+        jTextArea4.setEditable(false);
+        jTextArea4.setBackground(new java.awt.Color(0, 0, 0));
+        jTextArea4.setColumns(20);
+        jTextArea4.setForeground(new java.awt.Color(255, 255, 255));
+        jTextArea4.setRows(5);
+        jTextArea4.setText("ACERCA DE ESTE CONTENIDO\n--------------------------------------------------------------------------------------------------------------\nHalo: Reach experimentar la historia heroica de Noble Team,  un grupo de espartanos, que a través de gran\nsacrificio  y  coraje, salvó  innumerables  vidas  frente  a probabilidades  imposibles. El  planeta Reach es la \núltima línea de defensa de la humanidad entre el Pacto invasor y su objetivo final, la destrucción de la Tierra.\nSi  cae, la humanidad  será empujada  al borde de la destrucción. Características del juego: Sr.N.O.N.B.T.B.,\nConfiguración/Optimizacióndes:  Halo:  Alcance ahora  está optimizado  para PC  y se ve  mejor que nunca a \nhasta  4k  UHD y al menos  60 FPS.***  Otros  ajustes nativos de PC incluyen soporte para mouse y teclado,\nsoporte  ultraancho,   soporte  de  sincronización   adaptable,  personalización  de   FOV y  más.  Campaña:\nExperimenta el primer capítulo de la saga Halo y lucha a tu manera como  Noble Six a través de  11 misiones\ninolvidables: Comienza tu carrera  espartana hoy  mismo con Halo:  Alcanza el icónico multijugador de Reach \ncon  un sistema  de progresión  revisado, personalización de jugadores que define la generación, más de 20 \nmapas inolvidables, así como modos de juego clásicos como Firefight e Invasion. Mientras Forge and Theater\nse entregará  más adelante en 2020,  disfruta del acceso  a millones  de mapas  creados  por la comunidad y \ntipos de juegos que se han migrado desde Halo: Alcance en Xbox 360 para su uso hoy en PC. Se requiere la\ncolección del jefe maestro para reproducir el Halo (solo digital): Alcance.");
+        jTextArea4.setToolTipText("");
+        jScrollPane7.setViewportView(jTextArea4);
+
+        jPanel4.add(jScrollPane7, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 220, 640, 310));
+
+        jLabel72.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
+        jLabel72.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel72.setText("PC");
+        jPanel4.add(jLabel72, new org.netbeans.lib.awtextra.AbsoluteConstraints(700, 510, -1, -1));
+
+        jButton26.setFont(new java.awt.Font("Comic Sans MS", 0, 12)); // NOI18N
+        jButton26.setText("Requisitos Sistema");
+        jButton26.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton26ActionPerformed(evt);
+            }
+        });
+        jPanel4.add(jButton26, new org.netbeans.lib.awtextra.AbsoluteConstraints(770, 500, -1, -1));
+
+        jLabel73.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
+        jLabel73.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel73.setText("XBOX");
+        jPanel4.add(jLabel73, new org.netbeans.lib.awtextra.AbsoluteConstraints(690, 420, -1, -1));
+
+        jLabel74.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
+        jLabel74.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel74.setText("PlayStation");
+        jPanel4.add(jLabel74, new org.netbeans.lib.awtextra.AbsoluteConstraints(690, 460, -1, -1));
+
+        jLabel113.setFont(new java.awt.Font("Dialog", 1, 24)); // NOI18N
+        jLabel113.setText("Disponible para:");
+        jPanel4.add(jLabel113, new org.netbeans.lib.awtextra.AbsoluteConstraints(680, 370, -1, -1));
+
+        jLabel11.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/ROJO1B.jpg"))); // NOI18N
+        jPanel4.add(jLabel11, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 960, 580));
+
+        halotres.getContentPane().add(jPanel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 960, 580));
+
+        halocuatro.setResizable(false);
+        halocuatro.getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        jPanel5.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        jLabel16.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/a1.jpg"))); // NOI18N
+        jPanel5.add(jLabel16, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 20, -1, -1));
+
+        jLabel17.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/a2.jpg"))); // NOI18N
+        jPanel5.add(jLabel17, new org.netbeans.lib.awtextra.AbsoluteConstraints(340, 20, -1, -1));
+
+        jLabel18.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/a3.jpg"))); // NOI18N
+        jPanel5.add(jLabel18, new org.netbeans.lib.awtextra.AbsoluteConstraints(650, 20, -1, -1));
+
+        jLabel19.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/a4.jpg"))); // NOI18N
+        jPanel5.add(jLabel19, new org.netbeans.lib.awtextra.AbsoluteConstraints(650, 200, -1, -1));
+
+        jScrollPane8.setBackground(new java.awt.Color(0, 0, 0));
+
+        jTextArea5.setBackground(new java.awt.Color(0, 0, 0));
+        jTextArea5.setColumns(20);
+        jTextArea5.setForeground(new java.awt.Color(255, 255, 255));
+        jTextArea5.setRows(5);
+        jTextArea5.setText("ACERCA DE ESTE CONTENIDO\n------------------------------------------------\nHalo 4 es el octavo juego de la Franquicia de Halo, y el primero de la Saga \ndel Reclamador,creada por 343 Industries. Este juego es el sucesor\ncronológico de Halo 3 y es el predecesor  de Halo 5: Guardians. Se \nsitúa cuatro años y medio después de los eventos sucedidos en Halo 3.\n Salió a la venta mundialmente el 6 de Noviembre de 2012.");
+        jTextArea5.setDisabledTextColor(new java.awt.Color(255, 255, 255));
+        jTextArea5.setEnabled(false);
+        jScrollPane8.setViewportView(jTextArea5);
+
+        jPanel5.add(jScrollPane8, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 210, 630, 150));
+
+        jTextArea9.setBackground(new java.awt.Color(0, 0, 0));
+        jTextArea9.setColumns(20);
+        jTextArea9.setForeground(new java.awt.Color(255, 255, 255));
+        jTextArea9.setRows(5);
+        jTextArea9.setText("Campaña\n--------------------------------------------------------------------------\nLa Campaña de Halo 4 consta solamente de ocho niveles donde se puede\n apreciar que cada nivel tiene una duración muy larga (mucho más que las\n entregas anteriores) lo que hace el juego mucho más interesante.");
+        jTextArea9.setDisabledTextColor(new java.awt.Color(255, 255, 255));
+        jTextArea9.setEnabled(false);
+        jScrollPane17.setViewportView(jTextArea9);
+
+        jPanel5.add(jScrollPane17, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 390, 620, 110));
+
+        jLabel75.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
+        jLabel75.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel75.setText("PC");
+        jPanel5.add(jLabel75, new org.netbeans.lib.awtextra.AbsoluteConstraints(670, 530, -1, -1));
+
+        jButton30.setFont(new java.awt.Font("Comic Sans MS", 0, 12)); // NOI18N
+        jButton30.setText("Requisitos Sistema");
+        jButton30.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton30ActionPerformed(evt);
+            }
+        });
+        jPanel5.add(jButton30, new org.netbeans.lib.awtextra.AbsoluteConstraints(780, 520, -1, -1));
+
+        jLabel76.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
+        jLabel76.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel76.setText("XBOX");
+        jPanel5.add(jLabel76, new org.netbeans.lib.awtextra.AbsoluteConstraints(670, 450, -1, -1));
+
+        jLabel77.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
+        jLabel77.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel77.setText("PlayStation");
+        jPanel5.add(jLabel77, new org.netbeans.lib.awtextra.AbsoluteConstraints(670, 490, -1, -1));
+
+        jLabel114.setFont(new java.awt.Font("Dialog", 1, 24)); // NOI18N
+        jLabel114.setText("Disponible para:");
+        jPanel5.add(jLabel114, new org.netbeans.lib.awtextra.AbsoluteConstraints(670, 400, -1, -1));
+
+        jLabel15.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/ROJO1B.jpg"))); // NOI18N
+        jLabel15.setText("jLabel15");
+        jPanel5.add(jLabel15, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 0, 960, 580));
+
+        halocuatro.getContentPane().add(jPanel5, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 960, 580));
+
+        halocinco.setResizable(false);
+        halocinco.getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        jPanel6.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        jLabel21.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/h1.jpg"))); // NOI18N
+        jPanel6.add(jLabel21, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 20, -1, -1));
+
+        jLabel22.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/h2.jpg"))); // NOI18N
+        jPanel6.add(jLabel22, new org.netbeans.lib.awtextra.AbsoluteConstraints(340, 20, -1, -1));
+
+        jLabel23.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/h3.jpg"))); // NOI18N
+        jPanel6.add(jLabel23, new org.netbeans.lib.awtextra.AbsoluteConstraints(650, 20, -1, -1));
+
+        jTextArea6.setBackground(new java.awt.Color(0, 0, 0));
+        jTextArea6.setColumns(20);
+        jTextArea6.setForeground(new java.awt.Color(255, 255, 255));
+        jTextArea6.setRows(5);
+        jTextArea6.setText("ACERCA DE ESTE CONTENIDO\n---------------------------------------------------------------------------------------------------\nHalo 5: Guardians es el segundo juego de la Saga del Reclamador y el undécimo de toda la franquicia. \nSe convierte en el sucesor cronológico de Halo 4 y sera el predecesor de Halo Infinite. La trama \ntrata sobre la deserción del Jefe Maestro y la caza del mismo por parte de la Oficina de Inteligencia\nNaval y una amenaza que se encuentra eliminando planetas. Se estrenó el 27 de Octubre de 2015,\n en exclusiva para la consola Xbox One.");
+        jTextArea6.setDisabledTextColor(new java.awt.Color(255, 255, 255));
+        jTextArea6.setEnabled(false);
+        jScrollPane9.setViewportView(jTextArea6);
+
+        jPanel6.add(jScrollPane9, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 210, 890, 150));
+
+        jTextArea7.setBackground(new java.awt.Color(0, 0, 0));
+        jTextArea7.setColumns(20);
+        jTextArea7.setForeground(new java.awt.Color(255, 255, 255));
+        jTextArea7.setRows(5);
+        jTextArea7.setText("Campaña\n\nLa Campaña cuenta con 15 misiones jugables, de las\n cuales solo tres misiones son con el Equipo Azul y las \n12 restantes se juegan con el Equipo Osiris.");
+        jTextArea7.setDisabledTextColor(new java.awt.Color(255, 255, 255));
+        jTextArea7.setEnabled(false);
+        jScrollPane10.setViewportView(jTextArea7);
+
+        jPanel6.add(jScrollPane10, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 380, 460, 120));
+
+        jLabel78.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
+        jLabel78.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel78.setText("PlayStation");
+        jPanel6.add(jLabel78, new org.netbeans.lib.awtextra.AbsoluteConstraints(550, 470, -1, -1));
+
+        jLabel79.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
+        jLabel79.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel79.setText("XBOX");
+        jPanel6.add(jLabel79, new org.netbeans.lib.awtextra.AbsoluteConstraints(550, 430, -1, -1));
+
+        jLabel80.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
+        jLabel80.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel80.setText("PC");
+        jPanel6.add(jLabel80, new org.netbeans.lib.awtextra.AbsoluteConstraints(550, 510, -1, -1));
+
+        jButton36.setFont(new java.awt.Font("Comic Sans MS", 0, 12)); // NOI18N
+        jButton36.setText("Requisitos Sistema");
+        jButton36.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton36ActionPerformed(evt);
+            }
+        });
+        jPanel6.add(jButton36, new org.netbeans.lib.awtextra.AbsoluteConstraints(640, 510, -1, -1));
+
+        jLabel115.setFont(new java.awt.Font("Dialog", 1, 24)); // NOI18N
+        jLabel115.setText("Disponible para:");
+        jPanel6.add(jLabel115, new org.netbeans.lib.awtextra.AbsoluteConstraints(550, 380, -1, -1));
+
+        jLabel20.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/ROJO1B.jpg"))); // NOI18N
+        jPanel6.add(jLabel20, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 960, 580));
+
+        halocinco.getContentPane().add(jPanel6, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 960, 580));
+
+        rsix.setResizable(false);
+        rsix.getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        jPanel7.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        jLabel26.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/rainbow-six-siege-gratis-descarga.jpg"))); // NOI18N
+        jPanel7.add(jLabel26, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 20, 300, 170));
+
+        jLabel27.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/thumb-1920-588453.jpg"))); // NOI18N
+        jPanel7.add(jLabel27, new org.netbeans.lib.awtextra.AbsoluteConstraints(330, 20, -1, -1));
+
+        jLabel28.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/15749288428071.jpg"))); // NOI18N
+        jPanel7.add(jLabel28, new org.netbeans.lib.awtextra.AbsoluteConstraints(640, 20, -1, -1));
+
+        jTextPane4.setBackground(new java.awt.Color(0, 0, 0));
+        jTextPane4.setFont(new java.awt.Font("Monospaced", 0, 12)); // NOI18N
+        jTextPane4.setForeground(new java.awt.Color(255, 255, 255));
+        jTextPane4.setText("Domina el arte de la destrucción y el uso de dispositivos en Tom Clancy's Rainbow Six Siege. Enfréntate a un combate intenso de rango cercano altamente letal, con decisiones tácticas, juego en equipo y una acción explosiva en todo momento. Vive un nuevo estilo de tiroteos y estrategia nacida en el seno del rico legado de los anteriores juegos Tom Clancy's Rainbow Six.");
+        jTextPane4.setDisabledTextColor(new java.awt.Color(255, 255, 255));
+        jTextPane4.setEnabled(false);
+        jScrollPane11.setViewportView(jTextPane4);
+
+        jPanel7.add(jScrollPane11, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 220, 310, 180));
+
+        jTextPane5.setBackground(new java.awt.Color(0, 0, 0));
+        jTextPane5.setFont(new java.awt.Font("Monospaced", 0, 12)); // NOI18N
+        jTextPane5.setForeground(new java.awt.Color(255, 255, 255));
+        jTextPane5.setText("Embárcate en un nuevo tipo de asalto usando un nivel de destrucción y unos dispositivos nunca vistos.\nEn defensa, coordina tus acciones con tu equipo para transformar tu entorno en una fortaleza. Pon trampas, refuerza lugares y crea sistemas de defensa para evitar que el enemigo abra brecha.\nEn ataque, lidera tu grupo a través de estrechos pasillos, pasos de puerta reforzados y paredes con barricadas. Combina mapas tácticos, drones de vigilancia, acciones de rápel y otros movimientos para planificar, atacar y dominar cualquier situación.");
+        jTextPane5.setDisabledTextColor(new java.awt.Color(255, 255, 255));
+        jTextPane5.setEnabled(false);
+        jScrollPane12.setViewportView(jTextPane5);
+
+        jPanel7.add(jScrollPane12, new org.netbeans.lib.awtextra.AbsoluteConstraints(360, 220, 580, 180));
+
+        jTextPane6.setBackground(new java.awt.Color(0, 0, 0));
+        jTextPane6.setFont(new java.awt.Font("Monospaced", 0, 12)); // NOI18N
+        jTextPane6.setForeground(new java.awt.Color(255, 255, 255));
+        jTextPane6.setText("Elige entre docenas de agentes altamente entrenados, provenientes de las mejores fuerzas especiales de todo el mundo. Usa la tecnología más avanzada para seguir los movimientos enemigos. Destroza paredes para abrir nuevas líneas de disparo. Rompe techos y suelos para crear nuevos puntos de acceso. Usa cada arma y cada dispositivo de tu arsenal para localizar, manipular y destruir a tus enemigos, y al escenario que los rodea.");
+        jTextPane6.setDisabledTextColor(new java.awt.Color(255, 255, 255));
+        jTextPane6.setEnabled(false);
+        jScrollPane13.setViewportView(jTextPane6);
+
+        jPanel7.add(jScrollPane13, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 410, 610, 140));
+
+        jLabel81.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
+        jLabel81.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel81.setText("PlayStation");
+        jPanel7.add(jLabel81, new org.netbeans.lib.awtextra.AbsoluteConstraints(660, 480, -1, -1));
+
+        jLabel82.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
+        jLabel82.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel82.setText("XBOX");
+        jPanel7.add(jLabel82, new org.netbeans.lib.awtextra.AbsoluteConstraints(660, 450, -1, -1));
+
+        jLabel83.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
+        jLabel83.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel83.setText("PC");
+        jPanel7.add(jLabel83, new org.netbeans.lib.awtextra.AbsoluteConstraints(660, 510, -1, -1));
+
+        jButton40.setFont(new java.awt.Font("Comic Sans MS", 0, 12)); // NOI18N
+        jButton40.setText("Requisitos Sistema");
+        jButton40.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton40ActionPerformed(evt);
+            }
+        });
+        jPanel7.add(jButton40, new org.netbeans.lib.awtextra.AbsoluteConstraints(750, 510, -1, -1));
+
+        jLabel116.setFont(new java.awt.Font("Dialog", 1, 24)); // NOI18N
+        jLabel116.setText("Disponible para:");
+        jPanel7.add(jLabel116, new org.netbeans.lib.awtextra.AbsoluteConstraints(640, 410, -1, -1));
+
+        jLabel25.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/ROJO1B.jpg"))); // NOI18N
+        jPanel7.add(jLabel25, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 960, 580));
+
+        rsix.getContentPane().add(jPanel7, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 960, 580));
+
+        rocket.setResizable(false);
+        rocket.getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        jPanel8.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        jLabel30.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/R1.jpg"))); // NOI18N
+        jPanel8.add(jLabel30, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 10, 300, 170));
+
+        jLabel31.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/R2.jpg"))); // NOI18N
+        jPanel8.add(jLabel31, new org.netbeans.lib.awtextra.AbsoluteConstraints(320, 10, -1, 170));
+
+        jLabel32.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/R3.jpg"))); // NOI18N
+        jPanel8.add(jLabel32, new org.netbeans.lib.awtextra.AbsoluteConstraints(640, 10, -1, 170));
+
+        jTextPane7.setBackground(new java.awt.Color(0, 0, 0));
+        jTextPane7.setFont(new java.awt.Font("Monospaced", 0, 12)); // NOI18N
+        jTextPane7.setForeground(new java.awt.Color(255, 255, 255));
+        jTextPane7.setText("ACERCA DE ESTE JUEGO\n-----------------------------------------------------------\n¡El fútbol se une a los coches una vez más en la esperada continuación basada en la física del querido juego clásico en arenas Supersonic Acrobatic Rocket-Powered Battle-Cars!\n\nJuego de acción y deportes futurista, en Rocket League® los jugadores se equiparán con vehículos potenciados al máximo que pueden chocar contra pelotas para lograr increíbles goles o paradas épicas en múltiples arenas ricas en detalles. Gracias a un avanzado sistema de física que emula interacciones realistas, Rocket League® se apoya en la masa y la inercia para dar a los jugadores una sensación completa de control intuitivo en esta versión de alto octanaje del fútbol.\n");
+        jTextPane7.setDisabledTextColor(new java.awt.Color(255, 255, 255));
+        jTextPane7.setEnabled(false);
+        jScrollPane14.setViewportView(jTextPane7);
+
+        jPanel8.add(jScrollPane14, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 230, 430, 300));
+
+        jTextPane8.setBackground(new java.awt.Color(0, 0, 0));
+        jTextPane8.setFont(new java.awt.Font("Monospaced", 0, 12)); // NOI18N
+        jTextPane8.setForeground(new java.awt.Color(255, 255, 255));
+        jTextPane8.setText("Entre sus increíbles características se incluyen:\n\nNuevo modo temporada que permite a los jugadores disfrutar de una experiencia completa para un solo jugador.\n\nExtensas personalizaciones de Battle-Cars con más de 10 000 millones de combinaciones posibles.\n\nJuego multiplataforma competitivo con usuarios de PlayStation®4, Xbox One y Nintendo Switch.");
+        jTextPane8.setDisabledTextColor(new java.awt.Color(255, 255, 255));
+        jTextPane8.setEnabled(false);
+        jScrollPane15.setViewportView(jTextPane8);
+
+        jPanel8.add(jScrollPane15, new org.netbeans.lib.awtextra.AbsoluteConstraints(460, 190, 460, 190));
+
+        jLabel33.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/R5.jpg"))); // NOI18N
+        jPanel8.add(jLabel33, new org.netbeans.lib.awtextra.AbsoluteConstraints(230, 390, 300, 140));
+
+        jLabel84.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
+        jLabel84.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel84.setText("PlayStation");
+        jPanel8.add(jLabel84, new org.netbeans.lib.awtextra.AbsoluteConstraints(590, 470, -1, -1));
+
+        jLabel85.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
+        jLabel85.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel85.setText("XBOX");
+        jPanel8.add(jLabel85, new org.netbeans.lib.awtextra.AbsoluteConstraints(590, 430, -1, -1));
+
+        jLabel86.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
+        jLabel86.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel86.setText("PC");
+        jPanel8.add(jLabel86, new org.netbeans.lib.awtextra.AbsoluteConstraints(590, 510, -1, -1));
+
+        jButton45.setFont(new java.awt.Font("Comic Sans MS", 0, 12)); // NOI18N
+        jButton45.setText("Requisitos Sistema");
+        jButton45.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton45ActionPerformed(evt);
+            }
+        });
+        jPanel8.add(jButton45, new org.netbeans.lib.awtextra.AbsoluteConstraints(690, 500, -1, -1));
+
+        jLabel117.setFont(new java.awt.Font("Dialog", 1, 24)); // NOI18N
+        jLabel117.setText("Disponible para:");
+        jPanel8.add(jLabel117, new org.netbeans.lib.awtextra.AbsoluteConstraints(570, 390, -1, -1));
+
+        jLabel29.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/ROJO1B.jpg"))); // NOI18N
+        jPanel8.add(jLabel29, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 960, 580));
+
+        rocket.getContentPane().add(jPanel8, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 960, 580));
+
+        last.setResizable(false);
+        last.getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        jPanel9.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        jLabel35.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/L1.jpg"))); // NOI18N
+        jPanel9.add(jLabel35, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 10, 300, 170));
+
+        jLabel36.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/L2.jpg"))); // NOI18N
+        jPanel9.add(jLabel36, new org.netbeans.lib.awtextra.AbsoluteConstraints(320, 10, -1, -1));
+
+        jLabel37.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/L3.jpeg"))); // NOI18N
+        jPanel9.add(jLabel37, new org.netbeans.lib.awtextra.AbsoluteConstraints(640, 10, -1, -1));
+
+        jTextArea8.setBackground(new java.awt.Color(0, 0, 0));
+        jTextArea8.setColumns(20);
+        jTextArea8.setForeground(new java.awt.Color(255, 255, 255));
+        jTextArea8.setRows(5);
+        jTextArea8.setText("The  Last  of  Us:  Parte  II  es  la  secuela  de  la  aventura  de acción  The Last of Us para\nPlayStation  4 a  cargo  de  Naughty  Dog  y  Sony  protagonizada  por  Joel  y  Ellie. \nCinco años después, nos espera una aventura intensa, dolorosa y cargada de emociones.\nEllie y Joel vuelven en un viaje épico en la secuela del aclamado juego de los creadores de\nUncharted.");
+        jTextArea8.setDisabledTextColor(new java.awt.Color(255, 255, 255));
+        jTextArea8.setEnabled(false);
+        jScrollPane16.setViewportView(jTextArea8);
+
+        jPanel9.add(jScrollPane16, new org.netbeans.lib.awtextra.AbsoluteConstraints(80, 200, 780, 110));
+
+        jLabel38.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/L4.jpg"))); // NOI18N
+        jPanel9.add(jLabel38, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 350, -1, -1));
+
+        jLabel39.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/L6.jpg"))); // NOI18N
+        jPanel9.add(jLabel39, new org.netbeans.lib.awtextra.AbsoluteConstraints(330, 350, -1, -1));
+
+        jLabel87.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
+        jLabel87.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel87.setText("PC");
+        jPanel9.add(jLabel87, new org.netbeans.lib.awtextra.AbsoluteConstraints(650, 500, -1, -1));
+
+        jButton46.setFont(new java.awt.Font("Comic Sans MS", 0, 12)); // NOI18N
+        jButton46.setText("Requisitos Sistema");
+        jButton46.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton46ActionPerformed(evt);
+            }
+        });
+        jPanel9.add(jButton46, new org.netbeans.lib.awtextra.AbsoluteConstraints(710, 490, -1, -1));
+
+        jLabel89.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
+        jLabel89.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel89.setText("PlayStation");
+        jPanel9.add(jLabel89, new org.netbeans.lib.awtextra.AbsoluteConstraints(650, 450, -1, -1));
+
+        jLabel88.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
+        jLabel88.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel88.setText("XBOX");
+        jPanel9.add(jLabel88, new org.netbeans.lib.awtextra.AbsoluteConstraints(650, 410, -1, -1));
+
+        jLabel118.setFont(new java.awt.Font("Dialog", 1, 24)); // NOI18N
+        jLabel118.setText("Disponible para:");
+        jPanel9.add(jLabel118, new org.netbeans.lib.awtextra.AbsoluteConstraints(640, 360, -1, -1));
+
+        jLabel34.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/ROJO1B.jpg"))); // NOI18N
+        jPanel9.add(jLabel34, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 960, 580));
+
+        last.getContentPane().add(jPanel9, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 960, 580));
+
+        fifa.setResizable(false);
+        fifa.getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        jPanel10.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        jLabel43.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/F1.jpg"))); // NOI18N
+        jPanel10.add(jLabel43, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 20, 300, 170));
+
+        jLabel44.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/F2.png"))); // NOI18N
+        jPanel10.add(jLabel44, new org.netbeans.lib.awtextra.AbsoluteConstraints(330, 20, -1, -1));
+
+        jLabel45.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/F4.jpg"))); // NOI18N
+        jPanel10.add(jLabel45, new org.netbeans.lib.awtextra.AbsoluteConstraints(650, 20, -1, -1));
+
+        jTextArea10.setBackground(new java.awt.Color(0, 0, 0));
+        jTextArea10.setColumns(20);
+        jTextArea10.setForeground(new java.awt.Color(255, 255, 255));
+        jTextArea10.setRows(5);
+        jTextArea10.setText("ACERCA DE ESTE JUEGO\n------------------------------------------------------------------\nVenced en equipo en EA SPORTS™ FIFA 20, con el motor Frostbite™.\n Tanto en las calles como en los estadios, FIFA 20 ofrece más formas \nde jugar que nunca, incluyendo la UEFA Champions League y la\n CONMEBOL Libertadores.\n\nNo os perdáis las próximas noticias.");
+        jTextArea10.setDisabledTextColor(new java.awt.Color(255, 255, 255));
+        jTextArea10.setEnabled(false);
+        jScrollPane18.setViewportView(jTextArea10);
+
+        jPanel10.add(jScrollPane18, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 220, 560, 170));
+
+        jTextArea11.setBackground(new java.awt.Color(0, 0, 0));
+        jTextArea11.setColumns(20);
+        jTextArea11.setForeground(new java.awt.Color(255, 255, 255));
+        jTextArea11.setRows(5);
+        jTextArea11.setText("Acceso anticipado de 3 días\n- Hasta 12 sobres Oro únicos (1 por semana durante 12 semanas)\n- Artículo de cesión de la estrella de la portada para 5 partidos de FUT\n- Talento local en el modo carrera,  promesa local con potencial de cm\n- Elección de jugador embajador de FUT, elige 1 de entre 3 artículos \n- Ediciones especiales de equipaciones de FUT y artículos de estadio");
+        jTextArea11.setDisabledTextColor(new java.awt.Color(255, 255, 255));
+        jTextArea11.setEnabled(false);
+        jScrollPane19.setViewportView(jTextArea11);
+
+        jPanel10.add(jScrollPane19, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 420, 590, 130));
+
+        jLabel46.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/F3.jpg"))); // NOI18N
+        jPanel10.add(jLabel46, new org.netbeans.lib.awtextra.AbsoluteConstraints(630, 220, -1, -1));
+
+        jLabel90.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
+        jLabel90.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel90.setText("PC");
+        jPanel10.add(jLabel90, new org.netbeans.lib.awtextra.AbsoluteConstraints(630, 520, -1, -1));
+
+        jButton50.setFont(new java.awt.Font("Comic Sans MS", 0, 12)); // NOI18N
+        jButton50.setText("Requisitos Sistema");
+        jButton50.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton50ActionPerformed(evt);
+            }
+        });
+        jPanel10.add(jButton50, new org.netbeans.lib.awtextra.AbsoluteConstraints(690, 520, -1, -1));
+
+        jLabel91.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
+        jLabel91.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel91.setText("XBOX");
+        jPanel10.add(jLabel91, new org.netbeans.lib.awtextra.AbsoluteConstraints(630, 460, -1, -1));
+
+        jLabel92.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
+        jLabel92.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel92.setText("PlayStation");
+        jPanel10.add(jLabel92, new org.netbeans.lib.awtextra.AbsoluteConstraints(630, 490, -1, -1));
+
+        jLabel119.setFont(new java.awt.Font("Dialog", 1, 24)); // NOI18N
+        jLabel119.setText("Disponible para:");
+        jPanel10.add(jLabel119, new org.netbeans.lib.awtextra.AbsoluteConstraints(620, 420, -1, -1));
+
+        jLabel42.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/ROJO1B.jpg"))); // NOI18N
+        jPanel10.add(jLabel42, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 960, 580));
+
+        fifa.getContentPane().add(jPanel10, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 960, 580));
+
+        need.setResizable(false);
+        need.getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        jPanel11.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        jLabel48.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/N1.jpg"))); // NOI18N
+        jPanel11.add(jLabel48, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 10, 280, -1));
+
+        jLabel49.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/N2.jpg"))); // NOI18N
+        jPanel11.add(jLabel49, new org.netbeans.lib.awtextra.AbsoluteConstraints(300, 10, 290, -1));
+
+        jLabel50.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/N3.jpg"))); // NOI18N
+        jPanel11.add(jLabel50, new org.netbeans.lib.awtextra.AbsoluteConstraints(600, 10, 280, -1));
+
+        jScrollPane20.setForeground(new java.awt.Color(255, 255, 255));
+
+        jTextArea12.setBackground(new java.awt.Color(0, 0, 0));
+        jTextArea12.setColumns(20);
+        jTextArea12.setForeground(new java.awt.Color(255, 255, 255));
+        jTextArea12.setRows(5);
+        jTextArea12.setText("ACERCA DE ESTE JUEGO\n--------------------------------------------------------\nUna experiencia de conducción al límite que te enfrenta a la\nfuerza policial corruptade la ciudad mientras intentas llegar\n a la élite de las carreras callejeras.\n\nLa Deluxe Edition incluye:\n1 coche inicial — El Mitsubishi Lancer Evolution X Edición K.S \ncomo coche inicial - Disponible desde el\nprincipio en el garaje\n3 coches Edición K.S desbloqueados con progreso\n4 artículos de ropa exclusivos -personalización de personajes,\nsirven para avatares\nmasculinos y femeninos.\nAumento de fondos y REP\n+5% en recompensas de REP\n+5% en recompensas de fondos");
+        jTextArea12.setDisabledTextColor(new java.awt.Color(255, 255, 255));
+        jTextArea12.setEnabled(false);
+        jScrollPane20.setViewportView(jTextArea12);
+
+        jPanel11.add(jScrollPane20, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 210, 520, 320));
+
+        jLabel93.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
+        jLabel93.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel93.setText("PC");
+        jPanel11.add(jLabel93, new org.netbeans.lib.awtextra.AbsoluteConstraints(590, 470, -1, -1));
+
+        jButton54.setFont(new java.awt.Font("Comic Sans MS", 0, 12)); // NOI18N
+        jButton54.setText("Requisitos Sistema");
+        jButton54.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton54ActionPerformed(evt);
+            }
+        });
+        jPanel11.add(jButton54, new org.netbeans.lib.awtextra.AbsoluteConstraints(650, 470, -1, -1));
+
+        jLabel94.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
+        jLabel94.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel94.setText("XBOX");
+        jPanel11.add(jLabel94, new org.netbeans.lib.awtextra.AbsoluteConstraints(590, 430, -1, -1));
+
+        jLabel95.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
+        jLabel95.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel95.setText("PlayStation");
+        jPanel11.add(jLabel95, new org.netbeans.lib.awtextra.AbsoluteConstraints(590, 390, -1, -1));
+
+        jLabel120.setFont(new java.awt.Font("Dialog", 1, 24)); // NOI18N
+        jLabel120.setText("Disponible para:");
+        jPanel11.add(jLabel120, new org.netbeans.lib.awtextra.AbsoluteConstraints(570, 350, -1, -1));
+
+        jLabel47.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/ROJO1B.jpg"))); // NOI18N
+        jPanel11.add(jLabel47, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 910, 580));
+
+        need.getContentPane().add(jPanel11, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 900, 580));
+
+        gtav.setResizable(false);
+        gtav.getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        jPanel12.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        jLabel52.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/G1.jpg"))); // NOI18N
+        jPanel12.add(jLabel52, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 10, -1, -1));
+
+        jLabel53.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/G4.jpg"))); // NOI18N
+        jPanel12.add(jLabel53, new org.netbeans.lib.awtextra.AbsoluteConstraints(320, 10, -1, -1));
+
+        jLabel54.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/G3.jpg"))); // NOI18N
+        jPanel12.add(jLabel54, new org.netbeans.lib.awtextra.AbsoluteConstraints(630, 10, -1, -1));
+
+        jTextArea13.setBackground(new java.awt.Color(0, 0, 0));
+        jTextArea13.setColumns(20);
+        jTextArea13.setForeground(new java.awt.Color(255, 255, 255));
+        jTextArea13.setRows(5);
+        jTextArea13.setText("ACERCA DE ESTE JUEGO\n---------------------------------------------------------------------------------------------------------\nCuando un joven estafador callejero, un ladrón de bancos retirado y un psicópata aterrador se ven involucrados\ncon lo peor y más desquiciado del mundo criminal, del gobierno de los EE. UU. y de la industria del espectáculo,\n tendrán que llevar a cabo una serie de peligrosos golpes para sobrevivir en una ciudad implacable en la que no \npueden confiar en nadie. Y mucho menos los unos en los otros.\n\nGrand Theft Auto V para PC ofrece a los jugadores la opción de explorar el galardonado mundo de Los Santos y \nel condado de Blaine con una resolución de 4K y disfrutar del juego a 60 fotogramas por segundo.\n");
+        jTextArea13.setDisabledTextColor(new java.awt.Color(255, 255, 255));
+        jTextArea13.setEnabled(false);
+        jScrollPane21.setViewportView(jTextArea13);
+
+        jPanel12.add(jScrollPane21, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 200, 930, 180));
+
+        jLabel96.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
+        jLabel96.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel96.setText("PC");
+        jPanel12.add(jLabel96, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 520, -1, -1));
+
+        jButton58.setFont(new java.awt.Font("Comic Sans MS", 0, 12)); // NOI18N
+        jButton58.setText("Requisitos Sistema");
+        jButton58.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton58ActionPerformed(evt);
+            }
+        });
+        jPanel12.add(jButton58, new org.netbeans.lib.awtextra.AbsoluteConstraints(90, 510, -1, -1));
+
+        jLabel97.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
+        jLabel97.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel97.setText("XBOX");
+        jPanel12.add(jLabel97, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 480, -1, -1));
+
+        jLabel98.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
+        jLabel98.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel98.setText("PlayStation");
+        jPanel12.add(jLabel98, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 440, -1, -1));
+
+        jLabel121.setFont(new java.awt.Font("Dialog", 1, 24)); // NOI18N
+        jLabel121.setText("Disponible para:");
+        jPanel12.add(jLabel121, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 400, -1, -1));
+
+        jLabel51.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/ROJO1B.jpg"))); // NOI18N
+        jPanel12.add(jLabel51, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 960, 580));
+
+        gtav.getContentPane().add(jPanel12, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 960, 580));
+
+        maicra.setResizable(false);
+        maicra.getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        jPanel13.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        jLabel56.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/M1.PNG"))); // NOI18N
+        jPanel13.add(jLabel56, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 10, 300, -1));
+
+        jLabel57.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/M2.PNG"))); // NOI18N
+        jPanel13.add(jLabel57, new org.netbeans.lib.awtextra.AbsoluteConstraints(320, 10, -1, -1));
+
+        jLabel58.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/M3.PNG"))); // NOI18N
+        jPanel13.add(jLabel58, new org.netbeans.lib.awtextra.AbsoluteConstraints(640, 10, -1, -1));
+
+        jTextArea14.setBackground(new java.awt.Color(0, 0, 0));
+        jTextArea14.setColumns(20);
+        jTextArea14.setForeground(new java.awt.Color(255, 255, 255));
+        jTextArea14.setRows(5);
+        jTextArea14.setText("EL MUNDO ES TUYO\n------------------------------------------------------\nPrepárate para una aventura de posibilidades ilimitadas mientras \nconstruyes, extraes, combates criaturas y exploras el cambiante\n paisaje de Minecraft.");
+        jTextArea14.setDisabledTextColor(new java.awt.Color(255, 255, 255));
+        jTextArea14.setEnabled(false);
+        jScrollPane22.setViewportView(jTextArea14);
+
+        jPanel13.add(jScrollPane22, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 200, 530, 120));
+
+        jTextArea15.setBackground(new java.awt.Color(0, 0, 0));
+        jTextArea15.setColumns(20);
+        jTextArea15.setForeground(new java.awt.Color(255, 255, 255));
+        jTextArea15.setRows(5);
+        jTextArea15.setText("NUEVAS ALDEAS\n-------------------------------------------------\n¡Descubre la actualización más aventurera hasta la fecha!\n Defiéndete de las nuevas amenazas, construye con nuevos\n bloques y disfruta de la vida en las nuevas aldeas.");
+        jTextArea15.setDisabledTextColor(new java.awt.Color(255, 255, 255));
+        jTextArea15.setEnabled(false);
+        jScrollPane23.setViewportView(jTextArea15);
+
+        jPanel13.add(jScrollPane23, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 330, 480, 110));
+
+        jTextPane9.setBackground(new java.awt.Color(0, 0, 0));
+        jTextPane9.setFont(new java.awt.Font("Monospaced", 0, 12)); // NOI18N
+        jTextPane9.setForeground(new java.awt.Color(255, 255, 255));
+        jTextPane9.setText("UNA NUEVA FORMA DE EXPERIMENTAR MINECRAFT\n------------------------------------------------------------------------\n¡La versión beta de RTX para Windows 10 aporta una nueva experiencia a Minecraft! Únete a esta versión para disfrutar de mundos creados por los jugadores con iluminación realista, colores vivos, agua con un reflejo muy natural y texturas radiantes que se iluminan.\n");
+        jTextPane9.setDisabledTextColor(new java.awt.Color(255, 255, 255));
+        jTextPane9.setEnabled(false);
+        jScrollPane24.setViewportView(jTextPane9);
+
+        jPanel13.add(jScrollPane24, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 450, 660, 120));
+
+        jLabel59.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/M4.PNG"))); // NOI18N
+        jPanel13.add(jLabel59, new org.netbeans.lib.awtextra.AbsoluteConstraints(630, 210, -1, -1));
+
+        jLabel99.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
+        jLabel99.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel99.setText("PC");
+        jPanel13.add(jLabel99, new org.netbeans.lib.awtextra.AbsoluteConstraints(720, 520, -1, -1));
+
+        jButton62.setFont(new java.awt.Font("Comic Sans MS", 0, 12)); // NOI18N
+        jButton62.setText("Requisitos Sistema");
+        jButton62.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton62ActionPerformed(evt);
+            }
+        });
+        jPanel13.add(jButton62, new org.netbeans.lib.awtextra.AbsoluteConstraints(800, 510, -1, -1));
+
+        jLabel100.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
+        jLabel100.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel100.setText("XBOX");
+        jPanel13.add(jLabel100, new org.netbeans.lib.awtextra.AbsoluteConstraints(720, 440, -1, -1));
+
+        jLabel101.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
+        jLabel101.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel101.setText("PlayStation");
+        jPanel13.add(jLabel101, new org.netbeans.lib.awtextra.AbsoluteConstraints(720, 480, -1, -1));
+
+        jLabel122.setFont(new java.awt.Font("Dialog", 1, 24)); // NOI18N
+        jLabel122.setText("Disponible para:");
+        jPanel13.add(jLabel122, new org.netbeans.lib.awtextra.AbsoluteConstraints(690, 400, -1, -1));
+
+        jLabel55.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/ROJO1B.jpg"))); // NOI18N
+        jPanel13.add(jLabel55, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 960, 580));
+
+        maicra.getContentPane().add(jPanel13, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 960, 580));
+
+        injustice.setResizable(false);
+        injustice.getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        jPanel14.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        jLabel61.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/J3.jpg"))); // NOI18N
+        jPanel14.add(jLabel61, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 10, -1, -1));
+
+        jLabel62.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/J2.jpeg"))); // NOI18N
+        jPanel14.add(jLabel62, new org.netbeans.lib.awtextra.AbsoluteConstraints(320, 10, -1, -1));
+
+        jLabel63.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/J4.jpg"))); // NOI18N
+        jPanel14.add(jLabel63, new org.netbeans.lib.awtextra.AbsoluteConstraints(640, 10, -1, -1));
+
+        jScrollPane25.setBackground(new java.awt.Color(0, 0, 0));
+        jScrollPane25.setForeground(new java.awt.Color(255, 255, 255));
+
+        jTextArea16.setBackground(new java.awt.Color(0, 0, 0));
+        jTextArea16.setColumns(20);
+        jTextArea16.setForeground(new java.awt.Color(255, 255, 255));
+        jTextArea16.setRows(5);
+        jTextArea16.setText("ACERCA DE ESTE JUEGO\n--------------------------------------------------------------------------------------\nConstruye y mejora la versión definitiva de tus leyendas favoritas de DC en INJUSTICE 2.\n•CADA COMBATE TE DEFINE: conseguirás equipo con cada combate y podrás personalizar \ny subir de nivel a tus personajes favoritos.\n•UNA NUEVA AMENAZA: continuando donde lo dejó Injustice, Batman lucha contra el\n régimen de Superman, mientras que una nueva \namenaza pondrá en riesgo la existencia de la Tierra.\n•LO MEJOR DE DC: escoge personajes del mayor elenco del Universo DC y lucha en batallas \népicas y lugares simbólicos.\n•CREADO POR NETHERREALM: los desarrolladores de la aclamada saga MORTAL KOMBAT,\n un éxito de ventas.");
+        jTextArea16.setDisabledTextColor(new java.awt.Color(255, 255, 255));
+        jTextArea16.setEnabled(false);
+        jScrollPane25.setViewportView(jTextArea16);
+
+        jPanel14.add(jScrollPane25, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 200, 720, 240));
+
+        jLabel102.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
+        jLabel102.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel102.setText("PC");
+        jPanel14.add(jLabel102, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 540, 40, 20));
+
+        jButton66.setFont(new java.awt.Font("Comic Sans MS", 0, 12)); // NOI18N
+        jButton66.setText("Requisitos Sistema");
+        jButton66.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton66ActionPerformed(evt);
+            }
+        });
+        jPanel14.add(jButton66, new org.netbeans.lib.awtextra.AbsoluteConstraints(80, 530, -1, -1));
+
+        jLabel103.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
+        jLabel103.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel103.setText("XBOX");
+        jPanel14.add(jLabel103, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 490, -1, -1));
+
+        jLabel104.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
+        jLabel104.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel104.setText("PlayStation");
+        jPanel14.add(jLabel104, new org.netbeans.lib.awtextra.AbsoluteConstraints(110, 490, -1, -1));
+
+        jLabel123.setFont(new java.awt.Font("Dialog", 1, 24)); // NOI18N
+        jLabel123.setText("Disponible para:");
+        jPanel14.add(jLabel123, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 450, -1, -1));
+
+        jLabel60.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/ROJO1B.jpg"))); // NOI18N
+        jPanel14.add(jLabel60, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 960, 580));
+
+        injustice.getContentPane().add(jPanel14, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 960, 580));
+
+        uno.getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        jPanel16.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        jTextArea17.setBackground(new java.awt.Color(0, 0, 0));
+        jTextArea17.setColumns(20);
+        jTextArea17.setForeground(new java.awt.Color(255, 255, 255));
+        jTextArea17.setRows(5);
+        jTextArea17.setText("REQUISITOS DEL SISTEMA\nMÍNIMO:\nSO: Windows 7\nProcesador: AMD Phenom II X4 960T ; Intel i3550\nGráficos: AMD HD 6850 ; NVIDIA GeForce GTS 450\nDirectX: Versión 11\nAlmacenamiento: 20 GB de espacio disponible\nNotas adicionales: Direct3D feature Level 11.1");
+        jTextArea17.setDisabledTextColor(new java.awt.Color(255, 255, 255));
+        jTextArea17.setEnabled(false);
+        jScrollPane26.setViewportView(jTextArea17);
+
+        jPanel16.add(jScrollPane26, new org.netbeans.lib.awtextra.AbsoluteConstraints(150, 40, 390, 160));
+
+        jButton15.setText("Regresar a la biblioteca");
+        jButton15.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton15ActionPerformed(evt);
+            }
+        });
+        jPanel16.add(jButton15, new org.netbeans.lib.awtextra.AbsoluteConstraints(260, 300, -1, -1));
+
+        jLabel64.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/requi.jpg"))); // NOI18N
+        jPanel16.add(jLabel64, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 710, 400));
+
+        uno.getContentPane().add(jPanel16, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 710, 400));
+
+        dos.getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        jPanel15.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        jTextPane10.setBackground(new java.awt.Color(0, 0, 0));
+        jTextPane10.setFont(new java.awt.Font("Monospaced", 0, 12)); // NOI18N
+        jTextPane10.setForeground(new java.awt.Color(255, 255, 255));
+        jTextPane10.setText("REQUISITOS DEL SISTEMA\nMÍNIMO:\nSO: Windows 7\nProcesador: AMD Phenom II X4 960T ; Intel i3550\nGráficos: AMD HD 6850 ; NVIDIA GeForce GTS 450\nDirectX: Versión 11\nRed: Conexión de banda ancha a Internet\nAlmacenamiento: 55 GB de espacio disponible\nNotas adicionales: Direct3D feature Level 11.1");
+        jScrollPane6.setViewportView(jTextPane10);
+
+        jPanel15.add(jScrollPane6, new org.netbeans.lib.awtextra.AbsoluteConstraints(160, 40, 360, 180));
+
+        jButton17.setBackground(new java.awt.Color(119, 150, 5));
+        jButton17.setFont(new java.awt.Font("Sitka Small", 0, 11)); // NOI18N
+        jButton17.setText("Regresar a Biblioteca");
+        jButton17.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton17ActionPerformed(evt);
+            }
+        });
+        jPanel15.add(jButton17, new org.netbeans.lib.awtextra.AbsoluteConstraints(260, 270, 180, 40));
+
+        jLabel24.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/requi.jpg"))); // NOI18N
+        jPanel15.add(jLabel24, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 710, 400));
+
+        dos.getContentPane().add(jPanel15, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 710, 400));
+
+        tres.getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        jPanel17.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        jTextArea3.setBackground(new java.awt.Color(0, 0, 0));
+        jTextArea3.setColumns(20);
+        jTextArea3.setForeground(new java.awt.Color(255, 255, 255));
+        jTextArea3.setRows(5);
+        jTextArea3.setText("REQUISITOS DEL SISTEMA\nMÍNIMO:\nSO: Windows 7\nProcesador: AMD Phenom II X4 960T ; Intel i3550\nMemoria: 8 GB de RAM\nGráficos: AMD HD 6850 ; NVIDIA GeForce GTS 450\nDirectX: Versión 11\nAlmacenamiento: 25 GB de espacio disponible\nNotas adicionales: Direct3D feature Level 11.1\n\nRECOMENDADO:\nSO: Windows 10\nProcesador: AMD FX-4100 ; Intel i7-870\nMemoria: 8 GB de RAM\nGráficos: AMD Radeon R7 360 ; NVIDIA GTX 560 TI\nDirectX: Versión 11\nAlmacenamiento: 25 GB de espacio disponible\nNotas adicionales: Direct3D feature Level 11.1");
+        jTextArea3.setDisabledTextColor(new java.awt.Color(255, 255, 255));
+        jTextArea3.setEnabled(false);
+        jScrollPane27.setViewportView(jTextArea3);
+
+        jPanel17.add(jScrollPane27, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 10, 420, 360));
+
+        jButton20.setBackground(new java.awt.Color(119, 150, 5));
+        jButton20.setFont(new java.awt.Font("Sitka Small", 0, 11)); // NOI18N
+        jButton20.setText("Regresar a Biblioteca");
+        jButton20.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton20ActionPerformed(evt);
+            }
+        });
+        jPanel17.add(jButton20, new org.netbeans.lib.awtextra.AbsoluteConstraints(480, 180, 180, 40));
+
+        jLabel40.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/requi.jpg"))); // NOI18N
+        jPanel17.add(jLabel40, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 710, 400));
+
+        tres.getContentPane().add(jPanel17, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 710, 400));
+
+        cuatro.getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        jPanel18.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        jTextArea18.setBackground(new java.awt.Color(0, 0, 0));
+        jTextArea18.setColumns(20);
+        jTextArea18.setForeground(new java.awt.Color(255, 255, 255));
+        jTextArea18.setRows(5);
+        jTextArea18.setText("REQUISITOS DEL SISTEMA\nMÍNIMO:\nSO: Windows 7, Windows 8.1, Windows 10 (64bit versions required)\nProcesador: Intel Core i3 560 @ 3.3 GHz or AMD Phenom II X4 945 @ 3.0 GHz\nMemoria: 6 GB de RAM\nGráficos: NVIDIA GeForce GTX 460 or AMD Radeon HD 5870\nRed: Conexión de banda ancha a Internet\nAlmacenamiento: 61 GB de espacio disponible\n\nRECOMENDADO:\nSO: Windows 7 SP1, Windows 8.1, Windows 10 (64bit versions required)\nProcesador: Intel Core i5-2500K @ 3.3 GHz or better or AMD FX-8120 @ 3.1 Ghz \nMemoria: 8 GB de RAM\nGráficos: NVIDIA GeForce GTX 670 or AMD Radeon HD 7970\nRed: Conexión de banda ancha a Internet\nAlmacenamiento: 61 GB de espacio disponible\n");
+        jScrollPane28.setViewportView(jTextArea18);
+
+        jPanel18.add(jScrollPane28, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 10, 690, 320));
+
+        jButton69.setBackground(new java.awt.Color(119, 150, 5));
+        jButton69.setFont(new java.awt.Font("Sitka Small", 0, 11)); // NOI18N
+        jButton69.setText("Regresar a Biblioteca");
+        jButton69.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton69ActionPerformed(evt);
+            }
+        });
+        jPanel18.add(jButton69, new org.netbeans.lib.awtextra.AbsoluteConstraints(250, 340, 180, 40));
+
+        jLabel41.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/requi.jpg"))); // NOI18N
+        jPanel18.add(jLabel41, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 710, 400));
+
+        cuatro.getContentPane().add(jPanel18, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 710, 400));
+
+        cinco.getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        jPanel19.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        jTextPane11.setBackground(new java.awt.Color(0, 0, 0));
+        jTextPane11.setFont(new java.awt.Font("Monospaced", 0, 12)); // NOI18N
+        jTextPane11.setForeground(new java.awt.Color(255, 255, 255));
+        jTextPane11.setText("REQUISITOS DEL SISTEMA\nMÍNIMO:\nSO: Windows 7 (64 bit) or Newer (64 bit) Windows OS\nProcesador: 2.5 GHz Dual core\nMemoria: 4 GB de RAM\nGráficos: NVIDIA GeForce 760, AMD Radeon R7 270X\nDirectX: Versión 11\nRed: Conexión de banda ancha a Internet\nAlmacenamiento: 20 GB de espacio disponible\n\nRECOMENDADO:\nSO: Windows 7 (64 bit) or Newer (64 bit) Windows OS\nProcesador: 3.0+ GHz Quad core\nMemoria: 8 GB de RAM\nGráficos: NVIDIA GeForce GTX 1060, AMD Radeon RX 470\nDirectX: Versión 11\nRed: Conexión de banda ancha a Internet\nAlmacenamiento: 20 GB de espacio disponible\n");
+        jTextPane11.setDisabledTextColor(new java.awt.Color(255, 255, 255));
+        jTextPane11.setEnabled(false);
+        jScrollPane29.setViewportView(jTextPane11);
+
+        jPanel19.add(jScrollPane29, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 20, 420, 340));
+
+        jButton70.setBackground(new java.awt.Color(119, 150, 5));
+        jButton70.setFont(new java.awt.Font("Sitka Small", 0, 11)); // NOI18N
+        jButton70.setText("Regresar a Biblioteca");
+        jButton70.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton70ActionPerformed(evt);
+            }
+        });
+        jPanel19.add(jButton70, new org.netbeans.lib.awtextra.AbsoluteConstraints(480, 200, 180, 40));
+
+        jLabel68.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/requi.jpg"))); // NOI18N
+        jPanel19.add(jLabel68, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 710, 400));
+
+        cinco.getContentPane().add(jPanel19, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 710, 400));
+
+        seis.getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        jPanel20.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        jTextArea19.setBackground(new java.awt.Color(0, 0, 0));
+        jTextArea19.setColumns(20);
+        jTextArea19.setFont(new java.awt.Font("Monospaced", 0, 12)); // NOI18N
+        jTextArea19.setForeground(new java.awt.Color(255, 255, 255));
+        jTextArea19.setRows(5);
+        jTextArea19.setText("REQUISITOS DEL SISTEMA\nMÍNIMO:\nRequiere un procesador y un sistema operativo de 64 bits\nSO: Windows 7/8.1/10 64-Bit\nProcesador: Athlon X4 880K @4GHz or better/Core i3-6100 @3.7GHz\nMemoria: 8 GB de RAM\nGráficos: Radeon HD 7850 or better/GeForce GTX 660 or better\nAlmacenamiento: 50 GB de espacio disponible\n\nRECOMENDADO:\nRequiere un procesador y un sistema operativo de 64 bits\nSO: Windows 10 64-Bit\nProcesador: FX 8150 @3.6GHz or better/Core i5-3550 @3.40GHz \nMemoria: 8 GB de RAM\nGráficos: Radeon R9 270x or better/GeForce GTX 670 or better\nRed: Conexión de banda ancha a Internet\nAlmacenamiento: 50 GB de espacio disponible");
+        jTextArea19.setDisabledTextColor(new java.awt.Color(255, 255, 255));
+        jTextArea19.setEnabled(false);
+        jScrollPane30.setViewportView(jTextArea19);
+
+        jPanel20.add(jScrollPane30, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 30, 460, 310));
+
+        jButton71.setBackground(new java.awt.Color(119, 150, 5));
+        jButton71.setFont(new java.awt.Font("Sitka Small", 0, 11)); // NOI18N
+        jButton71.setText("Regresar a Biblioteca");
+        jButton71.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton71ActionPerformed(evt);
+            }
+        });
+        jPanel20.add(jButton71, new org.netbeans.lib.awtextra.AbsoluteConstraints(500, 190, 180, 40));
+
+        jLabel105.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/requi.jpg"))); // NOI18N
+        jPanel20.add(jLabel105, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 700, 400));
+
+        seis.getContentPane().add(jPanel20, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 700, 400));
+
+        siete.getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        jPanel21.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        jTextPane12.setBackground(new java.awt.Color(0, 0, 0));
+        jTextPane12.setFont(new java.awt.Font("Monospaced", 0, 12)); // NOI18N
+        jTextPane12.setText("REQUISITOS DEL SISTEMA\nMÍNIMO:\nRequiere un procesador y un sistema operativo de 64 bits\nSO: Windows 10\nProcesador: FX-6350 or Equivalent; Core i5-3570 or Equivalent\nMemoria: 8 GB de RAM\nGráficos: AMD: Radeon 7970/Radeon R9 280x or Equivalent; NVIDIA: GeForce GTX 760 \nDirectX: Versión 11\nAlmacenamiento: 50 GB de espacio disponible\n\nRECOMENDADO:\nRequiere un procesador y un sistema operativo de 64 bits\nSO: Windows 10\nProcesador: Ryzen 3 1300X or Equivalent; Core i7-4790 or Equivalent\nMemoria: 16 GB de RAM\nGráficos: AMD: Radeon RX 480 or Equivalent; NVIDIA: GeForce GTX 1060 \nDirectX: Versión 11\nRed: Conexión de banda ancha a Internet\nAlmacenamiento: 50 GB de espacio disponible");
+        jTextPane12.setDisabledTextColor(new java.awt.Color(255, 255, 255));
+        jTextPane12.setEnabled(false);
+        jScrollPane31.setViewportView(jTextPane12);
+
+        jPanel21.add(jScrollPane31, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 10, 490, 370));
+
+        jButton72.setBackground(new java.awt.Color(119, 150, 5));
+        jButton72.setFont(new java.awt.Font("Sitka Small", 0, 11)); // NOI18N
+        jButton72.setText("Regresar a Biblioteca");
+        jButton72.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton72ActionPerformed(evt);
+            }
+        });
+        jPanel21.add(jButton72, new org.netbeans.lib.awtextra.AbsoluteConstraints(510, 190, 180, 40));
+
+        jLabel106.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/requi.jpg"))); // NOI18N
+        jLabel106.setToolTipText("");
+        jPanel21.add(jLabel106, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 710, 400));
+
+        siete.getContentPane().add(jPanel21, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 710, 400));
+
+        ocho.getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        jPanel22.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        jTextPane13.setBackground(new java.awt.Color(0, 0, 0));
+        jTextPane13.setFont(new java.awt.Font("Monospaced", 0, 12)); // NOI18N
+        jTextPane13.setText("REQUISITOS DEL SISTEMA\nMÍNIMO:\nRequiere un procesador y un sistema operativo de 64 bits\nSO: Windows 8.1 de 64 bits, Windows 8 de 64 bits, Windows 7 de 64 bits\nProcesador: Intel Core 2 Quad CPU Q6600 a 2,4 GHz (4 CPU)/AMD Phenom\n 9850 Quad-Core (4 CPU) a 2,5 GHz.\nMemoria: 4 GB de RAM\nGráficos: NVIDIA 9800 GT 1 GB/AMD HD 4870 1 GB (DX 10, 10.1, 11).\nAlmacenamiento: 72 GB de espacio disponible\n\nRECOMENDADO:\nRequiere un procesador y un sistema operativo de 64 bits\nSO: Windows 8.1 de 64 bits, Windows 8 de 64 bits, Windows 7 de 64 bits\nProcesador: Intel Core i5 3470 a 3,2 GHz (4 CPU)/AMD X8 FX-8350 a 4 GHz (8 CPU).\nMemoria: 8 GB de RAM\nGráficos: NVIDIA GTX 660 2 GB/AMD HD7870 2 GB.\nAlmacenamiento: 72 GB de espacio disponible");
+        jTextPane13.setDisabledTextColor(new java.awt.Color(255, 255, 255));
+        jTextPane13.setEnabled(false);
+        jScrollPane32.setViewportView(jTextPane13);
+
+        jPanel22.add(jScrollPane32, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 10, 490, 370));
+
+        jButton73.setBackground(new java.awt.Color(119, 150, 5));
+        jButton73.setFont(new java.awt.Font("Sitka Small", 0, 11)); // NOI18N
+        jButton73.setText("Regresar a Biblioteca");
+        jButton73.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton73ActionPerformed(evt);
+            }
+        });
+        jPanel22.add(jButton73, new org.netbeans.lib.awtextra.AbsoluteConstraints(510, 190, 180, 40));
+
+        jLabel107.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/requi.jpg"))); // NOI18N
+        jPanel22.add(jLabel107, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 710, 400));
+
+        ocho.getContentPane().add(jPanel22, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 710, 400));
+
+        nueve.getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        jPanel23.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        jScrollPane33.setBackground(new java.awt.Color(0, 0, 0));
+
+        jTextArea20.setBackground(new java.awt.Color(0, 0, 0));
+        jTextArea20.setColumns(20);
+        jTextArea20.setFont(new java.awt.Font("Monospaced", 0, 12)); // NOI18N
+        jTextArea20.setRows(5);
+        jTextArea20.setText("Requisitos Mínimos\nCPU: Intel Pentium D ó AMD Athlon 64 (K8) 2.6 GHz\nRAM: 2GB\nGPU (Integrada): Intel HD Graphics ó AMD (antes ATI)\n Radeon HD con OpenGL 2.1\nTarjeta gráfica: Nvidia GeForce 9600 GT ó AMD Radeon\n HD 2400 con OpenGL 3.1\nDisco duro: Al menos 200 MB libres\nJava: Java 6 Release 45\n\nRequisitos Recomendados\nCPU: Intel Core i3 ó AMD Athlon II (K10) 2.8 GHz\nRAM: 4GB\nTarjeta gráfica: GeForce 2xx Series ó AMD Radeon HD \n Series con OpenGL 3.3\nDisco duro: 1GB\nJava: Java 7");
+        jTextArea20.setDisabledTextColor(new java.awt.Color(255, 255, 255));
+        jTextArea20.setEnabled(false);
+        jScrollPane33.setViewportView(jTextArea20);
+
+        jPanel23.add(jScrollPane33, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 30, 390, 330));
+
+        jButton74.setBackground(new java.awt.Color(119, 150, 5));
+        jButton74.setFont(new java.awt.Font("Sitka Small", 0, 11)); // NOI18N
+        jButton74.setText("Regresar a Biblioteca");
+        jButton74.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton74ActionPerformed(evt);
+            }
+        });
+        jPanel23.add(jButton74, new org.netbeans.lib.awtextra.AbsoluteConstraints(490, 190, 180, 40));
+
+        jLabel108.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/requi.jpg"))); // NOI18N
+        jPanel23.add(jLabel108, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 710, 400));
+
+        nueve.getContentPane().add(jPanel23, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 710, 400));
+
+        diez.getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        jPanel24.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        jTextPane14.setBackground(new java.awt.Color(0, 0, 0));
+        jTextPane14.setFont(new java.awt.Font("Monospaced", 0, 12)); // NOI18N
+        jTextPane14.setText("REQUISITOS DEL SISTEMA\nMÍNIMO:\nRequiere un procesador y un sistema operativo de 64 bits\nProcesador: Intel Core i5-750, 2.66 GHz / AMD Phenom II X4 965, \n3.4 GHz or AMD Ryzen™ 3 1200, 3.1 GHz\nMemoria: 4 GB de RAM\nGráficos: NVIDIA® GeForce™ GTX 670 or NVIDIA® GeForce™ \nGTX 1050 / AMD® Radeon™ HD 7950 or AMD® Radeon™ R9 270\nRed: Conexión de banda ancha a Internet\nAlmacenamiento: 52 GB de espacio disponible\n\nRECOMENDADO:\nRequiere un procesador y un sistema operativo de 64 bits\nProcesador: Intel Core i3-2100, 3.10 GHz / AMD FX-6300,\n 3.5 GHz or AMD Ryzen™ 5 1400, 3.2 GHz\nMemoria: 8 GB de RAM\nGráficos: NVIDIA® GeForce™ GTX 780 or NVIDIA® GeForce™ \nGTX 1060-6GB / AMD® Radeon™ R9 290 or RX 570\nRed: Conexión de banda ancha a Internet\nAlmacenamiento: 60 GB de espacio disponible");
+        jTextPane14.setDisabledTextColor(new java.awt.Color(255, 255, 255));
+        jTextPane14.setEnabled(false);
+        jScrollPane34.setViewportView(jTextPane14);
+
+        jPanel24.add(jScrollPane34, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 10, 430, 370));
+
+        jButton75.setBackground(new java.awt.Color(119, 150, 5));
+        jButton75.setFont(new java.awt.Font("Sitka Small", 0, 11)); // NOI18N
+        jButton75.setText("Regresar a Biblioteca");
+        jButton75.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton75ActionPerformed(evt);
+            }
+        });
+        jPanel24.add(jButton75, new org.netbeans.lib.awtextra.AbsoluteConstraints(480, 190, 180, 40));
+
+        jLabel109.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/requi.jpg"))); // NOI18N
+        jPanel24.add(jLabel109, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 710, 400));
+
+        diez.getContentPane().add(jPanel24, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 710, 400));
+
+        jButton76.setBackground(new java.awt.Color(119, 150, 5));
+        jButton76.setFont(new java.awt.Font("Sitka Small", 0, 11)); // NOI18N
+        jButton76.setText("Regresar a Biblioteca");
+        jButton76.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton76ActionPerformed(evt);
+            }
+        });
+
+        javax.swing.GroupLayout onceLayout = new javax.swing.GroupLayout(once.getContentPane());
+        once.getContentPane().setLayout(onceLayout);
+        onceLayout.setHorizontalGroup(
+            onceLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, onceLayout.createSequentialGroup()
+                .addContainerGap(221, Short.MAX_VALUE)
+                .addComponent(jButton76)
+                .addGap(32, 32, 32))
         );
-        layout.setVerticalGroup(
-            layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 300, Short.MAX_VALUE)
+        onceLayout.setVerticalGroup(
+            onceLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, onceLayout.createSequentialGroup()
+                .addContainerGap(208, Short.MAX_VALUE)
+                .addComponent(jButton76)
+                .addGap(62, 62, 62))
         );
+
+        jButton77.setBackground(new java.awt.Color(119, 150, 5));
+        jButton77.setFont(new java.awt.Font("Sitka Small", 0, 11)); // NOI18N
+        jButton77.setText("Regresar a Biblioteca");
+        jButton77.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton77ActionPerformed(evt);
+            }
+        });
+
+        javax.swing.GroupLayout doceLayout = new javax.swing.GroupLayout(doce.getContentPane());
+        doce.getContentPane().setLayout(doceLayout);
+        doceLayout.setHorizontalGroup(
+            doceLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, doceLayout.createSequentialGroup()
+                .addContainerGap(219, Short.MAX_VALUE)
+                .addComponent(jButton77)
+                .addGap(34, 34, 34))
+        );
+        doceLayout.setVerticalGroup(
+            doceLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, doceLayout.createSequentialGroup()
+                .addContainerGap(208, Short.MAX_VALUE)
+                .addComponent(jButton77)
+                .addGap(62, 62, 62))
+        );
+
+        jButton78.setBackground(new java.awt.Color(119, 150, 5));
+        jButton78.setFont(new java.awt.Font("Sitka Small", 0, 11)); // NOI18N
+        jButton78.setText("Regresar a Biblioteca");
+        jButton78.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton78ActionPerformed(evt);
+            }
+        });
+
+        javax.swing.GroupLayout treceLayout = new javax.swing.GroupLayout(trece.getContentPane());
+        trece.getContentPane().setLayout(treceLayout);
+        treceLayout.setHorizontalGroup(
+            treceLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, treceLayout.createSequentialGroup()
+                .addContainerGap(226, Short.MAX_VALUE)
+                .addComponent(jButton78)
+                .addGap(27, 27, 27))
+        );
+        treceLayout.setVerticalGroup(
+            treceLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, treceLayout.createSequentialGroup()
+                .addContainerGap(239, Short.MAX_VALUE)
+                .addComponent(jButton78)
+                .addGap(31, 31, 31))
+        );
+
+        setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+        setTitle("STEAM");
+        getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        jButton1.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton1ActionPerformed(evt);
+            }
+        });
+        getContentPane().add(jButton1, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 180, -1, 10));
+
+        jToolBar1.setBorder(null);
+        jToolBar1.setRollover(true);
+
+        Halo1.setBackground(new java.awt.Color(0, 0, 0));
+        Halo1.setFont(new java.awt.Font("Comic Sans MS", 3, 12)); // NOI18N
+        Halo1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/consola.png"))); // NOI18N
+        Halo1.setText("XBOX ONE X");
+        Halo1.setFocusable(false);
+        Halo1.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
+        Halo1.setVerticalTextPosition(javax.swing.SwingConstants.BOTTOM);
+        Halo1.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                Halo1ActionPerformed(evt);
+            }
+        });
+        jToolBar1.add(Halo1);
+
+        jButton2.setBackground(new java.awt.Color(0, 0, 0));
+        jButton2.setFont(new java.awt.Font("Comic Sans MS", 3, 12)); // NOI18N
+        jButton2.setForeground(new java.awt.Color(255, 255, 255));
+        jButton2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/consola2.png"))); // NOI18N
+        jButton2.setText("XBOX ONE S 500 GB");
+        jButton2.setFocusable(false);
+        jButton2.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
+        jButton2.setVerticalTextPosition(javax.swing.SwingConstants.BOTTOM);
+        jButton2.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton2ActionPerformed(evt);
+            }
+        });
+        jToolBar1.add(jButton2);
+
+        jButton3.setBackground(new java.awt.Color(0, 0, 0));
+        jButton3.setFont(new java.awt.Font("Comic Sans MS", 3, 12)); // NOI18N
+        jButton3.setForeground(new java.awt.Color(255, 255, 255));
+        jButton3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/consola3.png"))); // NOI18N
+        jButton3.setText("XBOX ONE S 1TB");
+        jButton3.setFocusable(false);
+        jButton3.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
+        jButton3.setVerticalTextPosition(javax.swing.SwingConstants.BOTTOM);
+        jButton3.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton3ActionPerformed(evt);
+            }
+        });
+        jToolBar1.add(jButton3);
+
+        jButton4.setBackground(new java.awt.Color(0, 0, 0));
+        jButton4.setFont(new java.awt.Font("Comic Sans MS", 3, 12)); // NOI18N
+        jButton4.setForeground(new java.awt.Color(255, 255, 255));
+        jButton4.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/consola4.png"))); // NOI18N
+        jButton4.setText("XBOX ONE S 1 TB + JUEGO");
+        jButton4.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
+        jButton4.setVerticalTextPosition(javax.swing.SwingConstants.BOTTOM);
+        jButton4.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton4ActionPerformed(evt);
+            }
+        });
+        jToolBar1.add(jButton4);
+
+        getContentPane().add(jToolBar1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 760, 170));
+
+        jToolBar2.setBackground(new java.awt.Color(0, 0, 0));
+        jToolBar2.setRollover(true);
+
+        jButton6.setFont(new java.awt.Font("Comic Sans MS", 3, 12)); // NOI18N
+        jButton6.setForeground(new java.awt.Color(255, 255, 255));
+        jButton6.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/play2.png"))); // NOI18N
+        jButton6.setText("PLAYSTATION EDICION");
+        jButton6.setFocusable(false);
+        jButton6.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
+        jButton6.setVerticalTextPosition(javax.swing.SwingConstants.BOTTOM);
+        jButton6.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton6ActionPerformed(evt);
+            }
+        });
+        jToolBar2.add(jButton6);
+
+        Halo2.setBackground(new java.awt.Color(0, 0, 0));
+        Halo2.setFont(new java.awt.Font("Comic Sans MS", 3, 12)); // NOI18N
+        Halo2.setForeground(new java.awt.Color(255, 255, 255));
+        Halo2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/play 4.png"))); // NOI18N
+        Halo2.setText("PLAYSTATION 4 ");
+        Halo2.setFocusable(false);
+        Halo2.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
+        Halo2.setVerticalTextPosition(javax.swing.SwingConstants.BOTTOM);
+        Halo2.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                Halo2ActionPerformed(evt);
+            }
+        });
+        jToolBar2.add(Halo2);
+
+        jButton9.setBackground(new java.awt.Color(0, 0, 0));
+        jButton9.setFont(new java.awt.Font("Comic Sans MS", 3, 12)); // NOI18N
+        jButton9.setForeground(new java.awt.Color(255, 255, 255));
+        jButton9.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/PLAY.png"))); // NOI18N
+        jButton9.setText("PLAYSTATION 4 SLIM");
+        jButton9.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
+        jButton9.setVerticalTextPosition(javax.swing.SwingConstants.BOTTOM);
+        jButton9.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton9ActionPerformed(evt);
+            }
+        });
+        jToolBar2.add(jButton9);
+
+        jButton7.setBackground(new java.awt.Color(0, 0, 0));
+        jButton7.setFont(new java.awt.Font("Comic Sans MS", 3, 12)); // NOI18N
+        jButton7.setForeground(new java.awt.Color(255, 255, 255));
+        jButton7.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/q.png"))); // NOI18N
+        jButton7.setText("PLAYSTATION 4 SLIM + JUEGO");
+        jButton7.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
+        jButton7.setVerticalTextPosition(javax.swing.SwingConstants.BOTTOM);
+        jButton7.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton7ActionPerformed(evt);
+            }
+        });
+        jToolBar2.add(jButton7);
+
+        getContentPane().add(jToolBar2, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 300, -1, 180));
+
+        jButton16.setBackground(new java.awt.Color(0, 0, 0));
+        jButton16.setFont(new java.awt.Font("Segoe UI", 0, 18)); // NOI18N
+        jButton16.setForeground(new java.awt.Color(210, 126, 229));
+        jButton16.setText("Tienda");
+        jButton16.setBorder(javax.swing.BorderFactory.createMatteBorder(1, 1, 1, 1, new java.awt.Color(210, 126, 229)));
+        jButton16.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
+        jButton16.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton16ActionPerformed(evt);
+            }
+        });
+        getContentPane().add(jButton16, new org.netbeans.lib.awtextra.AbsoluteConstraints(150, 210, 90, 40));
+
+        jButton5.setBackground(new java.awt.Color(0, 0, 0));
+        jButton5.setFont(new java.awt.Font("Segoe UI", 0, 18)); // NOI18N
+        jButton5.setForeground(new java.awt.Color(210, 126, 229));
+        jButton5.setText("Regresar a Steam");
+        jButton5.setBorder(javax.swing.BorderFactory.createMatteBorder(1, 1, 1, 1, new java.awt.Color(210, 126, 229)));
+        jButton5.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
+        jButton5.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton5ActionPerformed(evt);
+            }
+        });
+        getContentPane().add(jButton5, new org.netbeans.lib.awtextra.AbsoluteConstraints(480, 210, 160, 40));
+
+        jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/695356.png"))); // NOI18N
+        getContentPane().add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 760, -1));
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
+
+    private void Halo1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Halo1ActionPerformed
+        Halo.setSize(960, 605);
+        Halo.setVisible(true);
+        this.dispose();
+    }//GEN-LAST:event_Halo1ActionPerformed
+
+    private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2ActionPerformed
+        HaloDos.setSize(960, 605);
+        HaloDos.setVisible(true);
+        this.dispose();
+    }//GEN-LAST:event_jButton2ActionPerformed
+
+    private void jButton3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton3ActionPerformed
+        halotres.setSize(960,605);
+        halotres.setVisible(true);
+        this.dispose();
+    }//GEN-LAST:event_jButton3ActionPerformed
+
+    private void jButton4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton4ActionPerformed
+        halocuatro.setSize(960, 605);
+        halocuatro.setVisible(true);
+        this.dispose();
+    }//GEN-LAST:event_jButton4ActionPerformed
+
+    private void Halo2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Halo2ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_Halo2ActionPerformed
+
+    private void jButton6ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton6ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jButton6ActionPerformed
+
+    private void jButton9ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton9ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jButton9ActionPerformed
+
+    private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jButton1ActionPerformed
+
+    private void jButton5ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton5ActionPerformed
+        CJuegos s = new CJuegos();
+        s.show();
+        this.dispose();
+    }//GEN-LAST:event_jButton5ActionPerformed
+
+    private void jButton7ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton7ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jButton7ActionPerformed
+
+    private void jButton18ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton18ActionPerformed
+        uno.setSize(710, 400);
+        uno.setVisible(true);
+        this.dispose();
+    }//GEN-LAST:event_jButton18ActionPerformed
+
+    private void jButton24ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton24ActionPerformed
+        dos.setSize(710, 400);
+        dos.setVisible(true);
+        this.dispose();
+    }//GEN-LAST:event_jButton24ActionPerformed
+
+    private void jButton26ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton26ActionPerformed
+        tres.setSize(710, 400);
+        tres.setVisible(true);
+        this.dispose();
+    }//GEN-LAST:event_jButton26ActionPerformed
+
+    private void jButton30ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton30ActionPerformed
+        cuatro.setSize(710, 400);
+        cuatro.setVisible(true);
+        this.dispose();
+    }//GEN-LAST:event_jButton30ActionPerformed
+
+    private void jButton36ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton36ActionPerformed
+        cinco.setSize(710, 400);
+        cinco.setVisible(true);
+        this.dispose();
+    }//GEN-LAST:event_jButton36ActionPerformed
+
+    private void jButton40ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton40ActionPerformed
+        seis.setSize(710, 400);
+        seis.setVisible(true);
+        this.dispose();
+    }//GEN-LAST:event_jButton40ActionPerformed
+
+    private void jButton45ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton45ActionPerformed
+        siete.setSize(710, 400);
+        siete.setVisible(true);
+        this.dispose();
+    }//GEN-LAST:event_jButton45ActionPerformed
+
+    private void jButton46ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton46ActionPerformed
+        ocho.setSize(710, 400);
+        ocho.setVisible(true);
+        this.dispose();
+    }//GEN-LAST:event_jButton46ActionPerformed
+
+    private void jButton50ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton50ActionPerformed
+        nueve.setSize(710, 400);
+        nueve.setVisible(true);
+        this.dispose();
+    }//GEN-LAST:event_jButton50ActionPerformed
+
+    private void jButton54ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton54ActionPerformed
+        diez.setSize(710, 400);
+        diez.setVisible(true);
+        this.dispose();
+    }//GEN-LAST:event_jButton54ActionPerformed
+
+    private void jButton58ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton58ActionPerformed
+        once.setSize(710, 400);
+        once.setVisible(true);
+        this.dispose();
+    }//GEN-LAST:event_jButton58ActionPerformed
+
+    private void jButton62ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton62ActionPerformed
+        doce.setSize(710, 400);
+        doce.setVisible(true);
+        this.dispose();
+    }//GEN-LAST:event_jButton62ActionPerformed
+
+    private void jButton66ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton66ActionPerformed
+        trece.setSize(710, 400);
+        trece.setVisible(true);
+        this.dispose();
+    }//GEN-LAST:event_jButton66ActionPerformed
+
+    private void jButton15ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton15ActionPerformed
+        BibliotecaJuegos s = new BibliotecaJuegos();
+        s.show();
+        this.dispose();
+    }//GEN-LAST:event_jButton15ActionPerformed
+
+    private void jButton17ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton17ActionPerformed
+        BibliotecaJuegos s = new BibliotecaJuegos();
+        s.show();
+        this.dispose();
+    }//GEN-LAST:event_jButton17ActionPerformed
+
+    private void jButton20ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton20ActionPerformed
+        BibliotecaJuegos s = new BibliotecaJuegos();
+        s.show();
+        this.dispose();
+    }//GEN-LAST:event_jButton20ActionPerformed
+
+    private void jButton69ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton69ActionPerformed
+        BibliotecaJuegos s = new BibliotecaJuegos();
+        s.show();
+        this.dispose();
+    }//GEN-LAST:event_jButton69ActionPerformed
+
+    private void jButton70ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton70ActionPerformed
+        BibliotecaJuegos s = new BibliotecaJuegos();
+        s.show();
+        this.dispose();
+    }//GEN-LAST:event_jButton70ActionPerformed
+
+    private void jButton71ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton71ActionPerformed
+        BibliotecaJuegos s = new BibliotecaJuegos();
+        s.show();
+        this.dispose();
+    }//GEN-LAST:event_jButton71ActionPerformed
+
+    private void jButton72ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton72ActionPerformed
+        BibliotecaJuegos s = new BibliotecaJuegos();
+        s.show();
+        this.dispose();
+    }//GEN-LAST:event_jButton72ActionPerformed
+
+    private void jButton73ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton73ActionPerformed
+        BibliotecaJuegos s = new BibliotecaJuegos();
+        s.show();
+        this.dispose();
+    }//GEN-LAST:event_jButton73ActionPerformed
+
+    private void jButton74ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton74ActionPerformed
+        BibliotecaJuegos s = new BibliotecaJuegos();
+        s.show();
+        this.dispose();
+    }//GEN-LAST:event_jButton74ActionPerformed
+
+    private void jButton75ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton75ActionPerformed
+        BibliotecaJuegos s = new BibliotecaJuegos();
+        s.show();
+        this.dispose();
+    }//GEN-LAST:event_jButton75ActionPerformed
+
+    private void jButton76ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton76ActionPerformed
+        BibliotecaJuegos s = new BibliotecaJuegos();
+        s.show();
+        this.dispose();
+    }//GEN-LAST:event_jButton76ActionPerformed
+
+    private void jButton77ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton77ActionPerformed
+        BibliotecaJuegos s = new BibliotecaJuegos();
+        s.show();
+        this.dispose();
+    }//GEN-LAST:event_jButton77ActionPerformed
+
+    private void jButton78ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton78ActionPerformed
+        BibliotecaJuegos s = new BibliotecaJuegos();
+        s.show();
+        this.dispose();
+    }//GEN-LAST:event_jButton78ActionPerformed
+
+    private void jButton16ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton16ActionPerformed
+        Comprar s = new Comprar();
+        s.show();
+        this.dispose();
+    }//GEN-LAST:event_jButton16ActionPerformed
 
     /**
      * @param args the command line arguments
@@ -79,5 +1985,283 @@ public class BiConsolas extends javax.swing.JFrame {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
+    private javax.swing.JDialog Halo;
+    private javax.swing.JButton Halo1;
+    private javax.swing.JButton Halo2;
+    private javax.swing.JDialog HaloDos;
+    private javax.swing.JDialog cinco;
+    private javax.swing.JDialog cuatro;
+    private javax.swing.JDialog diez;
+    private javax.swing.JDialog doce;
+    private javax.swing.JDialog dos;
+    private javax.swing.JDialog fifa;
+    private javax.swing.JDialog gtav;
+    private javax.swing.JDialog halocinco;
+    private javax.swing.JDialog halocuatro;
+    private javax.swing.JDialog halotres;
+    private javax.swing.JDialog injustice;
+    private javax.swing.JButton jButton1;
+    private javax.swing.JButton jButton15;
+    private javax.swing.JButton jButton16;
+    private javax.swing.JButton jButton17;
+    private javax.swing.JButton jButton18;
+    private javax.swing.JButton jButton2;
+    private javax.swing.JButton jButton20;
+    private javax.swing.JButton jButton24;
+    private javax.swing.JButton jButton26;
+    private javax.swing.JButton jButton3;
+    private javax.swing.JButton jButton30;
+    private javax.swing.JButton jButton36;
+    private javax.swing.JButton jButton4;
+    private javax.swing.JButton jButton40;
+    private javax.swing.JButton jButton45;
+    private javax.swing.JButton jButton46;
+    private javax.swing.JButton jButton5;
+    private javax.swing.JButton jButton50;
+    private javax.swing.JButton jButton54;
+    private javax.swing.JButton jButton58;
+    private javax.swing.JButton jButton6;
+    private javax.swing.JButton jButton62;
+    private javax.swing.JButton jButton66;
+    private javax.swing.JButton jButton69;
+    private javax.swing.JButton jButton7;
+    private javax.swing.JButton jButton70;
+    private javax.swing.JButton jButton71;
+    private javax.swing.JButton jButton72;
+    private javax.swing.JButton jButton73;
+    private javax.swing.JButton jButton74;
+    private javax.swing.JButton jButton75;
+    private javax.swing.JButton jButton76;
+    private javax.swing.JButton jButton77;
+    private javax.swing.JButton jButton78;
+    private javax.swing.JButton jButton9;
+    private javax.swing.JLabel jLabel1;
+    private javax.swing.JLabel jLabel10;
+    private javax.swing.JLabel jLabel100;
+    private javax.swing.JLabel jLabel101;
+    private javax.swing.JLabel jLabel102;
+    private javax.swing.JLabel jLabel103;
+    private javax.swing.JLabel jLabel104;
+    private javax.swing.JLabel jLabel105;
+    private javax.swing.JLabel jLabel106;
+    private javax.swing.JLabel jLabel107;
+    private javax.swing.JLabel jLabel108;
+    private javax.swing.JLabel jLabel109;
+    private javax.swing.JLabel jLabel11;
+    private javax.swing.JLabel jLabel110;
+    private javax.swing.JLabel jLabel111;
+    private javax.swing.JLabel jLabel113;
+    private javax.swing.JLabel jLabel114;
+    private javax.swing.JLabel jLabel115;
+    private javax.swing.JLabel jLabel116;
+    private javax.swing.JLabel jLabel117;
+    private javax.swing.JLabel jLabel118;
+    private javax.swing.JLabel jLabel119;
+    private javax.swing.JLabel jLabel12;
+    private javax.swing.JLabel jLabel120;
+    private javax.swing.JLabel jLabel121;
+    private javax.swing.JLabel jLabel122;
+    private javax.swing.JLabel jLabel123;
+    private javax.swing.JLabel jLabel13;
+    private javax.swing.JLabel jLabel14;
+    private javax.swing.JLabel jLabel15;
+    private javax.swing.JLabel jLabel16;
+    private javax.swing.JLabel jLabel17;
+    private javax.swing.JLabel jLabel18;
+    private javax.swing.JLabel jLabel19;
+    private javax.swing.JLabel jLabel2;
+    private javax.swing.JLabel jLabel20;
+    private javax.swing.JLabel jLabel21;
+    private javax.swing.JLabel jLabel22;
+    private javax.swing.JLabel jLabel23;
+    private javax.swing.JLabel jLabel24;
+    private javax.swing.JLabel jLabel25;
+    private javax.swing.JLabel jLabel26;
+    private javax.swing.JLabel jLabel27;
+    private javax.swing.JLabel jLabel28;
+    private javax.swing.JLabel jLabel29;
+    private javax.swing.JLabel jLabel3;
+    private javax.swing.JLabel jLabel30;
+    private javax.swing.JLabel jLabel31;
+    private javax.swing.JLabel jLabel32;
+    private javax.swing.JLabel jLabel33;
+    private javax.swing.JLabel jLabel34;
+    private javax.swing.JLabel jLabel35;
+    private javax.swing.JLabel jLabel36;
+    private javax.swing.JLabel jLabel37;
+    private javax.swing.JLabel jLabel38;
+    private javax.swing.JLabel jLabel39;
+    private javax.swing.JLabel jLabel4;
+    private javax.swing.JLabel jLabel40;
+    private javax.swing.JLabel jLabel41;
+    private javax.swing.JLabel jLabel42;
+    private javax.swing.JLabel jLabel43;
+    private javax.swing.JLabel jLabel44;
+    private javax.swing.JLabel jLabel45;
+    private javax.swing.JLabel jLabel46;
+    private javax.swing.JLabel jLabel47;
+    private javax.swing.JLabel jLabel48;
+    private javax.swing.JLabel jLabel49;
+    private javax.swing.JLabel jLabel5;
+    private javax.swing.JLabel jLabel50;
+    private javax.swing.JLabel jLabel51;
+    private javax.swing.JLabel jLabel52;
+    private javax.swing.JLabel jLabel53;
+    private javax.swing.JLabel jLabel54;
+    private javax.swing.JLabel jLabel55;
+    private javax.swing.JLabel jLabel56;
+    private javax.swing.JLabel jLabel57;
+    private javax.swing.JLabel jLabel58;
+    private javax.swing.JLabel jLabel59;
+    private javax.swing.JLabel jLabel6;
+    private javax.swing.JLabel jLabel60;
+    private javax.swing.JLabel jLabel61;
+    private javax.swing.JLabel jLabel62;
+    private javax.swing.JLabel jLabel63;
+    private javax.swing.JLabel jLabel64;
+    private javax.swing.JLabel jLabel65;
+    private javax.swing.JLabel jLabel66;
+    private javax.swing.JLabel jLabel67;
+    private javax.swing.JLabel jLabel68;
+    private javax.swing.JLabel jLabel69;
+    private javax.swing.JLabel jLabel7;
+    private javax.swing.JLabel jLabel70;
+    private javax.swing.JLabel jLabel71;
+    private javax.swing.JLabel jLabel72;
+    private javax.swing.JLabel jLabel73;
+    private javax.swing.JLabel jLabel74;
+    private javax.swing.JLabel jLabel75;
+    private javax.swing.JLabel jLabel76;
+    private javax.swing.JLabel jLabel77;
+    private javax.swing.JLabel jLabel78;
+    private javax.swing.JLabel jLabel79;
+    private javax.swing.JLabel jLabel8;
+    private javax.swing.JLabel jLabel80;
+    private javax.swing.JLabel jLabel81;
+    private javax.swing.JLabel jLabel82;
+    private javax.swing.JLabel jLabel83;
+    private javax.swing.JLabel jLabel84;
+    private javax.swing.JLabel jLabel85;
+    private javax.swing.JLabel jLabel86;
+    private javax.swing.JLabel jLabel87;
+    private javax.swing.JLabel jLabel88;
+    private javax.swing.JLabel jLabel89;
+    private javax.swing.JLabel jLabel9;
+    private javax.swing.JLabel jLabel90;
+    private javax.swing.JLabel jLabel91;
+    private javax.swing.JLabel jLabel92;
+    private javax.swing.JLabel jLabel93;
+    private javax.swing.JLabel jLabel94;
+    private javax.swing.JLabel jLabel95;
+    private javax.swing.JLabel jLabel96;
+    private javax.swing.JLabel jLabel97;
+    private javax.swing.JLabel jLabel98;
+    private javax.swing.JLabel jLabel99;
+    private javax.swing.JPanel jPanel10;
+    private javax.swing.JPanel jPanel11;
+    private javax.swing.JPanel jPanel12;
+    private javax.swing.JPanel jPanel13;
+    private javax.swing.JPanel jPanel14;
+    private javax.swing.JPanel jPanel15;
+    private javax.swing.JPanel jPanel16;
+    private javax.swing.JPanel jPanel17;
+    private javax.swing.JPanel jPanel18;
+    private javax.swing.JPanel jPanel19;
+    private javax.swing.JPanel jPanel2;
+    private javax.swing.JPanel jPanel20;
+    private javax.swing.JPanel jPanel21;
+    private javax.swing.JPanel jPanel22;
+    private javax.swing.JPanel jPanel23;
+    private javax.swing.JPanel jPanel24;
+    private javax.swing.JPanel jPanel3;
+    private javax.swing.JPanel jPanel4;
+    private javax.swing.JPanel jPanel5;
+    private javax.swing.JPanel jPanel6;
+    private javax.swing.JPanel jPanel7;
+    private javax.swing.JPanel jPanel8;
+    private javax.swing.JPanel jPanel9;
+    private javax.swing.JScrollPane jScrollPane1;
+    private javax.swing.JScrollPane jScrollPane10;
+    private javax.swing.JScrollPane jScrollPane11;
+    private javax.swing.JScrollPane jScrollPane12;
+    private javax.swing.JScrollPane jScrollPane13;
+    private javax.swing.JScrollPane jScrollPane14;
+    private javax.swing.JScrollPane jScrollPane15;
+    private javax.swing.JScrollPane jScrollPane16;
+    private javax.swing.JScrollPane jScrollPane17;
+    private javax.swing.JScrollPane jScrollPane18;
+    private javax.swing.JScrollPane jScrollPane19;
+    private javax.swing.JScrollPane jScrollPane2;
+    private javax.swing.JScrollPane jScrollPane20;
+    private javax.swing.JScrollPane jScrollPane21;
+    private javax.swing.JScrollPane jScrollPane22;
+    private javax.swing.JScrollPane jScrollPane23;
+    private javax.swing.JScrollPane jScrollPane24;
+    private javax.swing.JScrollPane jScrollPane25;
+    private javax.swing.JScrollPane jScrollPane26;
+    private javax.swing.JScrollPane jScrollPane27;
+    private javax.swing.JScrollPane jScrollPane28;
+    private javax.swing.JScrollPane jScrollPane29;
+    private javax.swing.JScrollPane jScrollPane3;
+    private javax.swing.JScrollPane jScrollPane30;
+    private javax.swing.JScrollPane jScrollPane31;
+    private javax.swing.JScrollPane jScrollPane32;
+    private javax.swing.JScrollPane jScrollPane33;
+    private javax.swing.JScrollPane jScrollPane34;
+    private javax.swing.JScrollPane jScrollPane4;
+    private javax.swing.JScrollPane jScrollPane5;
+    private javax.swing.JScrollPane jScrollPane6;
+    private javax.swing.JScrollPane jScrollPane7;
+    private javax.swing.JScrollPane jScrollPane8;
+    private javax.swing.JScrollPane jScrollPane9;
+    private javax.swing.JTextArea jTextArea1;
+    private javax.swing.JTextArea jTextArea10;
+    private javax.swing.JTextArea jTextArea11;
+    private javax.swing.JTextArea jTextArea12;
+    private javax.swing.JTextArea jTextArea13;
+    private javax.swing.JTextArea jTextArea14;
+    private javax.swing.JTextArea jTextArea15;
+    private javax.swing.JTextArea jTextArea16;
+    private javax.swing.JTextArea jTextArea17;
+    private javax.swing.JTextArea jTextArea18;
+    private javax.swing.JTextArea jTextArea19;
+    private javax.swing.JTextArea jTextArea2;
+    private javax.swing.JTextArea jTextArea20;
+    private javax.swing.JTextArea jTextArea3;
+    private javax.swing.JTextArea jTextArea4;
+    private javax.swing.JTextArea jTextArea5;
+    private javax.swing.JTextArea jTextArea6;
+    private javax.swing.JTextArea jTextArea7;
+    private javax.swing.JTextArea jTextArea8;
+    private javax.swing.JTextArea jTextArea9;
+    private javax.swing.JTextPane jTextPane1;
+    private javax.swing.JTextPane jTextPane10;
+    private javax.swing.JTextPane jTextPane11;
+    private javax.swing.JTextPane jTextPane12;
+    private javax.swing.JTextPane jTextPane13;
+    private javax.swing.JTextPane jTextPane14;
+    private javax.swing.JTextPane jTextPane2;
+    private javax.swing.JTextPane jTextPane3;
+    private javax.swing.JTextPane jTextPane4;
+    private javax.swing.JTextPane jTextPane5;
+    private javax.swing.JTextPane jTextPane6;
+    private javax.swing.JTextPane jTextPane7;
+    private javax.swing.JTextPane jTextPane8;
+    private javax.swing.JTextPane jTextPane9;
+    private javax.swing.JToolBar jToolBar1;
+    private javax.swing.JToolBar jToolBar2;
+    private javax.swing.JDialog last;
+    private javax.swing.JDialog maicra;
+    private javax.swing.JDialog need;
+    private javax.swing.JDialog nueve;
+    private javax.swing.JDialog ocho;
+    private javax.swing.JDialog once;
+    private javax.swing.JDialog rocket;
+    private javax.swing.JDialog rsix;
+    private javax.swing.JDialog seis;
+    private javax.swing.JDialog siete;
+    private javax.swing.JDialog trece;
+    private javax.swing.JDialog tres;
+    private javax.swing.JDialog uno;
     // End of variables declaration//GEN-END:variables
 }
